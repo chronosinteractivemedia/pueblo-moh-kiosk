@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "name": "pueblo-moh-kiosk",
+  "description": "Pueblo Medal of Honor Kiosk",
+  "version": "1.0.0",
+  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "safesync": "git reset --hard && npm run check:connection && npm run fullsync || npm run launch:win",
+    "fullsync": "npm run check:connection && npm run update && npm install && npm run grab:media && npm run build:win64 && npm run wait && npm run launch:win",
+    "launch:win": "START ./dist/win-unpacked/PBLMOHKIOS.exe",
+    "update": "git pull origin master",
+    "wait": "node ./automation/wait.js",
+    "grab:media": "node ./automation/grab-media.js",
+    "check:connection": "node ./automation/check-connection.js",
+    "build": "nextron build",
+    "build:all": "nextron build --all",
+    "build:win32": "nextron build --win --ia32",
+    "build:win64": "nextron build --win --x64",
+    "build:mac": "nextron build --mac --x64",
+    "build:linux": "nextron build --linux",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^7.0.2",
+    "hammerjs": "^2.0.8",
+    "lodash": "^4.17.21",
+    "next-plugin-preval": "^1.2.1",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.2.4",
+    "react-markdown": "^6.0.2",
+    "react-player": "^2.9.0",
+    "react-qr-code": "^2.0.0",
+    "react-shave": "^1.0.1",
+    "react-simple-keyboard": "^3.2.47",
+    "react-text-truncate": "^0.17.0",
+    "react-use-gesture": "^9.1.3",
+    "sass": "^1.35.2",
+    "simple-keyboard": "^3.2.35"
+  },
+  "devDependencies": {
+    "electron": "^12.0.16",
+    "electron-builder": "^22.10.5",
+    "next": "^10.1.3",
+    "nextron": "^6.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

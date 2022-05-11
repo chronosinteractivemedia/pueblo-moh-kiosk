@@ -1,0 +1,32 @@
+@import '../../styles/include.scss';
+@keyframes fade{
+    0%{
+        opacity: 0;
+        transform: translate3d(50px, 0, 0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.component{
+	width:100%;
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 40px;
+    animation: fade 600ms $ease-out-quint both;
+}
+.code{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.desc{
+	display: inline-block;
+	padding: 0 1vw 0 40px;
+	font-size: 14px;
+	line-height: 135%;
+	text-align: left;
+	font-weight: normal;
+}
