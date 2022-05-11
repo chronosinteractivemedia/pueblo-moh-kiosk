@@ -1,2 +1,2 @@
-export const apiUrl = 'https://csu-tg-cms.onrender.com';
+export const apiUrl = 'https://pbl-moh-kiosk.herokuapp.com';
 export const imgUrl = '';

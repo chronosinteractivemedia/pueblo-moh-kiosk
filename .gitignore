@@ -4,5 +4,6 @@ node_modules
 app
 dist
 out
+.history
 renderer/public/uploads/*
 !renderer/public/uploads/.gitkeep
