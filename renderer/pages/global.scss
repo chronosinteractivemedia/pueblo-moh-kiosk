@@ -25,8 +25,15 @@ body{
     box-sizing: border-box;
 }
 
-.page-flex-row{
+.page-flex{
     display: flex;
-    flex-direction: row;
+    &-row, &-column{
+        @extend .page-flex;
+    }
+    &-row{
+        flex-direction: row;
+    }
+    &-column{
+        flex-direction: column;
+    }
 }
-

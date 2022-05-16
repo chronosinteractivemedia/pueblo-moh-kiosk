@@ -23,7 +23,6 @@ function IntroBox ({dataIndex}) {
         </p>      
     })
   }
-
   
   return(
     <div className={style.wrapper}>
