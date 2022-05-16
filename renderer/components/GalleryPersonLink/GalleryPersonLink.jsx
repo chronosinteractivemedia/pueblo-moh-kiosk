@@ -44,52 +44,80 @@ const peopleDatabase =[
 function GalleryPersonLink ({layout, person}){
   if (layout == 'person-link' && person == 'all'){
     return (
-      <div className={style.wrapper_row}>
-        {peopleDatabase.map(function(personDatabase){
-          return (
-            <Link 
-            href={personDatabase.link}
-            >
-              <div className={style.wrapper_card}>
-                <div className={style.wrapper_image}>
-                  <Image 
-                    src={personDatabase.image}
-                    width='380'
-                    height='390'
-                    position='relative'
-                  />
-                </div>
-                <div className={style.banner}>
-                  <h2>{personDatabase.name}</h2>
-                  <div className={style.playbutton}></div>
-                </div>
-              </div>
-            </Link>
-          )
-        })}
-      </div>        
+      <div className={style.wrapper_right}> 
+        <div className={style.inner_right}>
+          <div className={style.wrapper_row}>
+            {peopleDatabase.map(function(personDatabase){
+              return (
+                <Link 
+                href={personDatabase.link}
+                >
+                  <div className={style.wrapper_card}>
+                    <div className={style.wrapper_image}>
+                      <Image 
+                        src={personDatabase.image}
+                        width='380'
+                        height='390'
+                        position='relative'
+                      />
+                    </div>
+                    <div className={style.banner}>
+                      <h2>{personDatabase.name}</h2>
+                      <div className={style.playbutton}></div>
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>    
+        </div>
+      </div> 
     )
   } else if(layout == 'hall-of-fame' && person !== '' && (peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`) !== -1)){
     return(
-      <div className={style.wrapper_column_hallfame}>
-        <div className={style.wrapper_column}>
-          <Image 
-            src={peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].hallfame_image}
-            width='543'
-            height='508'
-            position='relative'
-          />
-          <p>{peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].hallfame_image_caption}</p>
+      <div className="page-flex-row">
+        <div className={style.wrapper_left}>
+          <Link href='/page1/main'>
+            <div className={style.navlink}>&lt;&nbsp;Back</div>
+          </Link>
+          <div className={style.content}>
+            <Image 
+              src={peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].image}
+              width='178'
+              height='247'
+              position='relative'
+            />
+            <div className={style.bio}>
+              <h2>{peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].name}</h2>
+              <div className={style.bio_outline}></div>
+              <p>{peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].bio}</p>
+              <p>See the&nbsp;<Link href="#">Medal of Honor Recipients section</Link>&nbsp;for the full citation.</p>
+            </div>
+          </div>          
         </div>
-        <div className={style.wrapper_sideway}>
-          <AudioPlayer />
-          <QrDisplay 
-            url= "#"
-            description= "Scan QR code to learn more"
-          />
-          
+        <div className={style.wrapper_right}> 
+          <div className={style.inner_right}>      
+            <div className={style.wrapper_column_hallfame}>
+              <div className={style.wrapper_column}>
+                <Image 
+                  src={peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].hallfame_image}
+                  width='543'
+                  height='508'
+                  position='relative'
+                />
+                <p>{peopleDatabase[peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)].hallfame_image_caption}</p>
+              </div>
+              <div className={style.wrapper_sideway}>
+                <AudioPlayer />
+                <QrDisplay 
+                  url= "#"
+                  description= "Scan QR code to learn more"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </div>       
     )
   } else {
     return (
