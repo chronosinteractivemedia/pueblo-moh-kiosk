@@ -77,7 +77,7 @@ function GalleryPersonLink ({layout, person}){
     return(
       <div className="page-flex-row">
         <div className={style.wrapper_left}>
-          <Link href='/page1/main'>
+          <Link href='/page1'>
             <div className={style.navlink}>&lt;&nbsp;Back</div>
           </Link>
           <div className={style.content}>
