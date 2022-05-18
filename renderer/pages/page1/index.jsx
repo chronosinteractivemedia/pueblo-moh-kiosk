@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import GalleryPersonLink from "../../components/GalleryPersonLink/GalleryPersonLink.jsx"
 import IntroBox from "../../components/IntroBox/IntroBox.jsx"
 
@@ -15,4 +15,5 @@ function pageOne () {
     </div>
   )
 }
+
 export default pageOne
