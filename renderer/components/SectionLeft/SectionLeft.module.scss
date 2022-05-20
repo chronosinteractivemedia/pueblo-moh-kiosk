@@ -1,0 +1,14 @@
+@import '../../styles/include.scss';
+
+.wrapper{
+  width: 100%;
+  position: relative;
+  &::before{
+    content: "";
+    width: 32px;
+    height: 100%;
+    left: 100%;
+    background-color: #3E6CB3;
+    position: absolute;
+  }    
+}

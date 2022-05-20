@@ -4,6 +4,7 @@ import Image from '../Image/Image.jsx';
 import Link from 'next/link';
 import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
 import QrDisplay from "../../components/QrDisplay/QrDisplay"
+import database from "../../../database.json"
 
 
 const peopleDatabase =[
@@ -47,10 +48,10 @@ function GalleryPersonLink ({layout, person}){
       <div className={style.wrapper_right}> 
         <div className={style.inner_right}>
           <div className={style.wrapper_row}>
-            {peopleDatabase.map(function(personDatabase){
+            { database.peopleDatabase.map(function(personDatabase){
               return (
                 <Link 
-                href={personDatabase.link}
+                  href= "#"
                 >
                   <div className={style.wrapper_card}>
                     <div className={style.wrapper_image}>
