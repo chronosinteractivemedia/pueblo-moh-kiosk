@@ -19,7 +19,14 @@
       "hallfame_image": "",
       "hallfame_desc": "",
       "bio":"",
-      "summary":["Rank", "Conflict/Era:", "Unit/Command:", "Service Branch:", "MOH Action Date:", "MOH Action Place:", "Presentation Date:", "Born:", "Died:", "Buried:"],
+      "summary": [
+        { "name": "rank", "value": "" },
+        { "name": "rank", "value": "" },
+        { "name": "rank", "value": "" },
+        { "name": "rank", "value": "" },
+        { "name": "rank", "value": "" },
+        { "name": "rank", "value": "" }
+      ],
       "Rank": "",
       "Conflict/Era:": "",
       "Unit/Command:": "",

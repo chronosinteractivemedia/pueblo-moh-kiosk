@@ -3,27 +3,12 @@ import style from "../SectionLeft/SectionLeft.module.scss"
 import Introbox from "../IntroBox/IntroBox"
 import GalleryPerson from "../GalleryPerson/GalleryPerson";
 
-function SectionLeft({category}) {
-  if (category=="intro"){
-    return(
-      <div className={style.wrapper}>
-        <Introbox 
-          dataIndex={0}
-        />
-      </div>
-    )
-  } else if (category=="person"){
-    return (
-      <div className={style.wrapper}>
-        <GalleryPerson
-          person="Carl L. Sitter"
-        />
-        {/* This Galleryperson will take the onclick from section right and pass data to argument name in <GalleryPerson /> it should also pass the category as "person" */}
-      </div>
-    )
-  } else {
-    return false
-  }
+function SectionLeft({children, width}) {
+  return <div className={style.component} data-size={width}>
+    <div className={styles.wrapper}>
+      {children}
+    </div>
+  </div>
 }
 
 export default SectionLeft
