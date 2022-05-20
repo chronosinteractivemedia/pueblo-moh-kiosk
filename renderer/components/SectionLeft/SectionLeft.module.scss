@@ -3,7 +3,8 @@
 .wrapper{
   width: 100%;
   position: relative;
-  //make this the white background component
+  background-color: #FFF;
+  margin-left: 147px;
   &::before{
     content: "";
     width: 32px;
@@ -12,10 +13,12 @@
     background-color: #3E6CB3;
     position: absolute;
   }
-  &[data-width="wide"]{
-    //wide width
-  }
   &[data-width="narrow"]{
     //wide width
+    width: 641px;
+  }
+  &[data-width="wide"]{
+    //wide width
+    width: 919px;
   }
 }

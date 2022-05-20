@@ -3,10 +3,9 @@
 .wrapper{
   display: flex;
   flex-direction: row;
-  max-width: 641px;
+  width: 100%;
   min-height: 1080px;
-  background-color: white;
-  margin-left: 147px;
+  background-color: unset;
 }
 
 .content{
