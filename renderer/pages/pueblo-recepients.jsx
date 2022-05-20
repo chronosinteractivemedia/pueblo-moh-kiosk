@@ -7,12 +7,6 @@ import GallerySlideShow from "../components/GallerySlideShow/GallerySlideShow.js
 import IntroBox from "../components/IntroBox/IntroBox";
 import database from "../../database.json"
 
-function fetchDatabase (person) {
-  return(
-    database.peopleDatabase[database.peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)]
-  )
-}
-
 function pageOne () {
   const [currentRecipient, setCurrentRecipient] = useState(null);
   return(
