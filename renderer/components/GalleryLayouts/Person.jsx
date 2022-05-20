@@ -2,8 +2,8 @@ import react from "react";
 import style from "../GalleryLayouts/GalleryLayouts.module.scss"
 import database from "../../../database.json"
 import Image from '../Image/Image.jsx';
-import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
-import QrDisplay from "../../components/QrDisplay/QrDisplay"
+import AudioPlayer from "../AudioPlayer/AudioPlayer";
+import QrDisplay from "../QrDisplay/QrDisplay"
 
 function fetchDatabase (person) {
   return(

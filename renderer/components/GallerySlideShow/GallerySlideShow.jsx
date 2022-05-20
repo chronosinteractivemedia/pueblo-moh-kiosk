@@ -1,17 +1,17 @@
 import react from "react";
 import style from "../GallerySlideShow/GallerySlideShow.module.scss"
-import Thumbnails from "../GalleryLayouts/Thumbnails"
+import Frame from "../GalleryLayouts/Frame"
 import Person from "../GalleryLayouts/Person"
 
 
-function GallerySlideShow ({layout}) {
+function GallerySlideShow ({layout, person, children}) {
   return (
     <div className={style.wrapper}>
       {
-        layout == "thumbnails" ?  <Thumbnails /> : ''
+        layout == "thumbnails" ?  <Frame>{children}</Frame> : ''
       }
       {
-        layout == "person" ?  <Person person="Carl L. Sitter"/> : ''
+        layout == "person" ?  <Person person={person}/> : ''
       }
       {
         layout == "Three" ?  <div>Three</div> : ''

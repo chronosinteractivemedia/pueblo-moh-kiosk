@@ -1,26 +1,32 @@
 import React, {useState, useEffect} from "react"
 import SectionLeft from "../components/SectionLeft/SectionLeft.jsx"
+import SectionRight from "../components/SectionRight/SectionRight.jsx"
 import GalleryPerson from "../components/GalleryPerson/GalleryPerson";
+import PersonThumbnail from "../components/GalleryLayouts/PersonThumbnail.jsx";
+import GallerySlideShow from "../components/GallerySlideShow/GallerySlideShow.jsx";
 import IntroBox from "../components/IntroBox/IntroBox";
+import database from "../../database.json"
+
+function fetchDatabase (person) {
+  return(
+    database.peopleDatabase[database.peopleDatabase.findIndex( personDatabase => personDatabase.name === `${person}`)]
+  )
+}
 
 function pageOne () {
   const [currentRecipient, setCurrentRecipient] = useState(null);
   return(
     <div className="page-flex-row">
-      <SectionLeft width={!!currentRecipient ? "wide" : "narrow"}> //children of this are always 100%
-        {!!currentRecipient ?
-          <GalleryPerson person={currentRecipient} />
-          :
-          <IntroBox />
-        }
+      <SectionLeft width={!!currentRecipient ? "wide":"narrow"}>
+        { !!currentRecipient ? <GalleryPerson person={currentRecipient} onClick={()=> setCurrentRecipient(null)}/> : <IntroBox dataIndex={0} />}
       </SectionLeft>
-      <SectionRight width={!!currentRecipient ? "narrow" : "wide"}> //children of this are always 100% width
-        {!!currentRecipient ?
-          <GalleryPersonRightDetails person={currentRecipient} />
-          :
-          <GalleryPersonSelection setCurrentRecepient={setCurrentRecipient} />
-          //inside the above component, when a thumbnail is clicked, the entire json object for that person is passed to setCurrentRecipient
-        }
+      <SectionRight>
+        {!!currentRecipient ? <GallerySlideShow layout="person" person={currentRecipient} /> : 
+        <GallerySlideShow layout="thumbnails" >
+          {database.peopleDatabase.map(person => {
+            return(<PersonThumbnail person={person.name} onClick={()=> setCurrentRecipient(person.name)}/>)
+          })}
+        </GallerySlideShow>}
       </SectionRight>
     </div>
   )
@@ -28,9 +34,4 @@ function pageOne () {
 
 export default pageOne
 
-
-//to get object keys
-for(let key in jsonOnject){
-  console.log(key); //print out each key in object
-}
 

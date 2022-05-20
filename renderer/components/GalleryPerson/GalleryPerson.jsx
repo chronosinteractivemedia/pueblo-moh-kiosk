@@ -10,10 +10,10 @@ function fetchDatabase (person) {
   )
 }
 
-function GalleryPerson ({person}){
+function GalleryPerson ({person, onClick}){
   return (
     <div className={style.wrapper}>
-      <div className={style.navlink}>&lt;&nbsp;Back</div>
+      <div className={style.navlink} onClick={onClick}>&lt;&nbsp;Back</div>
       <div className={style.content}>
         <Image 
           src={fetchDatabase(person).image}
