@@ -26,9 +26,11 @@ function IntroBox ({dataIndex}) {
               {paragraph (dataIndex)}
           </Scroller>
         </div>
+        {database.introPages[dataIndex].link !== "" ? 
         <div className={style.link}>
           <a>{database.introPages[dataIndex].link}</a>
-        </div>
+        </div>        
+        : "" }
       </div>
     </div>
   )

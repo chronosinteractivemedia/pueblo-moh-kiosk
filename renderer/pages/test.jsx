@@ -13,14 +13,14 @@ function Test (){
         width="narrow"
       >
         <IntroBox 
-          dataIndex={1}
+          dataIndex={2}
         />
       </SectionLeft>
       
       <SectionRight>
         <GallerySlideShow 
           layout ="two"
-          pageTitle="Medal of Honor Memorial"
+          pageTitle="home of heroes"
         />
       </SectionRight>
     </div>

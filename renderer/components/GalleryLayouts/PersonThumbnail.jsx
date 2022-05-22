@@ -10,7 +10,6 @@ function fetchDatabase (person) {
 }
 
 function PersonThumbnail ({person, onClick}){
-  const [currentRecipient, setCurrentRecipient] = useState(null);
   return (
     <a onClick={onClick}>
       <div className={style.wrapper_card}>
@@ -19,7 +18,7 @@ function PersonThumbnail ({person, onClick}){
             src={fetchDatabase (person).image}
             width='380'
             height='390'
-            position='relative' onClick={() => alert(fetchDatabase (person).name)}
+            position='relative'
           />
         </div>
         <div className={style.banner}>
