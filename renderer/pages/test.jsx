@@ -10,17 +10,17 @@ function Test (){
   return(
     <div className="page-flex-row">
       <SectionLeft
-        width="wide"
+        width="narrow"
       >
-        {/* <IntroBox 
-          dataIndex={0}
-        /> */}
-        <GalleryPerson person="Carl L. Sitter" />
+        <IntroBox 
+          dataIndex={1}
+        />
       </SectionLeft>
+      
       <SectionRight>
-
         <GallerySlideShow 
-          layout ="person"
+          layout ="two"
+          pageTitle="Medal of Honor Memorial"
         />
       </SectionRight>
     </div>

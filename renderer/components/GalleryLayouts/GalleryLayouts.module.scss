@@ -38,6 +38,15 @@
         color: #FFFFFF;
       }
     }
+    &_two{
+      @extend .wrapper_column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 1100px;
+      max-width: 1100px;
+      height: 100%;
+      max-height: 1080px ;
+    }
   }
   &_card{
     display: flex;
@@ -76,6 +85,95 @@
   padding: 80px 0 0 115px;
   color: aliceblue;
 }
+
+// This section is for the media player
+
+.media{
+  position: relative;
+  width: 890px;
+  max-width: 890px;
+  height: 422px;
+  max-height: 422px;
+  border: 16px solid #3E6CB3;
+  color: #FFFFFF;
+  overflow: hidden;
+}
+
+.gallery{
+  &_control{
+    &_background{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      padding: 93px 55px 0 55px;
+      width: 305px;
+      height: 390px;
+      &::after{
+        content:"";
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 305px;
+        height: 390px;
+        background: #1F1F1F;
+        opacity: 0.8;
+        z-index: -1;
+      }
+      h3{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 152%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #C09B57;
+      }
+    }
+    &_title{
+      font-family: 'Lustria';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 1.20;
+      color: #C09B57;
+      &::after{
+        content: "";
+        display: block;
+        width: 92px;
+        height: 1px;
+        margin: 10px 0 20px 0;
+        background-color: #FFFFFF;
+      }
+    }
+    &_video{
+      content: "";
+      display: block;
+      width: 57px;
+      height: 57px;
+      background-image: url("data:image/svg+xml,%3Csvg width='58' height='57' viewBox='0 0 58 57' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29 0C12.9837 0 0 12.7599 0 28.5C0 44.2401 12.9837 57 29 57C45.0163 57 58 44.2401 58 28.5C58 12.7599 45.0163 0 29 0ZM21.0763 40.8958V16.1042L42.9232 28.5L21.0763 40.8958Z' fill='white'/%3E%3C/svg%3E");
+    }
+    &_gallery{
+      display: block;
+      padding: 15px;
+      background: #3E6CB3;
+      border-radius: 7px;
+      font-family: 'Lustria';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+}
+
+// This section is for a person
 
 .navlink{
   font-family: 'Lato';

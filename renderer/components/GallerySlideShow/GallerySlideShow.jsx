@@ -2,9 +2,10 @@ import react from "react";
 import style from "../GallerySlideShow/GallerySlideShow.module.scss"
 import Frame from "../GalleryLayouts/Frame"
 import Person from "../GalleryLayouts/Person"
+import Two from "../GalleryLayouts/Two";
 
 
-function GallerySlideShow ({layout, person, children}) {
+function GallerySlideShow ({layout, person, children, pageTitle}) {
   return (
     <div className={style.wrapper}>
       {
@@ -14,13 +15,13 @@ function GallerySlideShow ({layout, person, children}) {
         layout == "person" ?  <Person person={person}/> : ''
       }
       {
-        layout == "Three" ?  <div>Three</div> : ''
+        layout == "three" ?  <div>Three</div> : ''
       }
             {
-        layout == "Two" ?  <div>Two</div> : ''
+        layout == "two" ?  <Two pageTitle={pageTitle} /> : ''
       }
             {
-        layout == "One" ?  <div>One</div> : ''
+        layout == "one" ?  <div>One</div> : ''
       }
     </div>
   )
