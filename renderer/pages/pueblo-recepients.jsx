@@ -12,7 +12,7 @@ function pageOne () {
   return(
     <div className="page-flex-row">
       <SectionLeft width={!!currentRecipient ? "wide":"narrow"}>
-        { !!currentRecipient ? <GalleryPerson person={currentRecipient} onClick={()=> setCurrentRecipient(null)}/> : <IntroBox dataIndex={0} />}
+        { !!currentRecipient ? <GalleryPerson person={currentRecipient} onBack={()=> setCurrentRecipient(null)}/> : <IntroBox dataIndex={0} />}
       </SectionLeft>
       <SectionRight>
         {!!currentRecipient ? <GallerySlideShow layout="person" person={currentRecipient} /> : 

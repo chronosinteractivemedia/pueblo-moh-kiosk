@@ -17,6 +17,7 @@ function Two({pageTitle}){
         <div className={style.gallery_control_background}>
           <div className={style.gallery_control_title}>{findMediaIndex(pageTitle).galleries[0].title}</div>
           <h3>{findMediaIndex(pageTitle).galleries[0].type}</h3>
+          <h3>This </h3>
           {findMediaIndex(pageTitle).galleries[0].type.toLowerCase() === "video"? <a  className={style.gallery_control_video}></a> : ''}
           {findMediaIndex(pageTitle).galleries[0].type.toLowerCase() === "gallery"? <a  className={style.gallery_control_gallery}>Enter Gallery</a> : ''}
         </div>

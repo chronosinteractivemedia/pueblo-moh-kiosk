@@ -17,7 +17,7 @@ function GallerySlideShow ({layout, person, children, pageTitle}) {
       {
         layout == "two" ? <Two pageTitle={pageTitle} /> : ''
       }
-            {
+      {
         layout == "one" ? <One pageTitle={pageTitle} /> : ''
       }
     </div>

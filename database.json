@@ -44,8 +44,7 @@
       "link": "",
       "button": "",
       "qrcode":""
-    }
-          
+    }     
   ],
 
   "peopleDatabase":[
@@ -68,7 +67,6 @@
         { "name": "Died", "value": "" },
         { "name": "Buried", "value": "" }
       ]
-
     },
     {
       "id": "2",
