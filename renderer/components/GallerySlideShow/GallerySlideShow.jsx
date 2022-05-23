@@ -9,19 +9,16 @@ function GallerySlideShow ({layout, person, children, pageTitle}) {
   return (
     <div className={style.wrapper}>
       {
-        layout == "thumbnails" ?  <Frame>{children}</Frame> : ''
+        layout == "thumbnails" ? <Frame>{children}</Frame> : ''
       }
       {
-        layout == "person" ?  <Person person={person}/> : ''
+        layout == "person" ? <Person person={person}/> : ''
       }
       {
-        layout == "three" ?  <div>Three</div> : ''
+        layout == "two" ? <Two pageTitle={pageTitle} /> : ''
       }
             {
-        layout == "two" ?  <Two pageTitle={pageTitle} /> : ''
-      }
-            {
-        layout == "one" ?  <div>One</div> : ''
+        layout == "one" ? <One pageTitle={pageTitle} /> : ''
       }
     </div>
   )
