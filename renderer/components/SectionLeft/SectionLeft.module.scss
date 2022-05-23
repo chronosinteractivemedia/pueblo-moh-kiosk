@@ -1,0 +1,24 @@
+@import '../../styles/include.scss';
+
+.wrapper{
+  width: 100%;
+  position: relative;
+  background-color: #FFF;
+  margin-left: 147px;
+  &::before{
+    content: "";
+    width: 32px;
+    height: 100%;
+    left: 100%;
+    background-color: #3E6CB3;
+    position: absolute;
+  }
+  &[data-width="narrow"]{
+    //wide width
+    width: 641px;
+  }
+  &[data-width="wide"]{
+    //wide width
+    width: 919px;
+  }
+}

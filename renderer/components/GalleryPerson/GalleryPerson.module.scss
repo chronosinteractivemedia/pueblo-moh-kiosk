@@ -1,0 +1,112 @@
+@import '../../styles/include.scss';
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 1080px;
+  background-color: unset;
+  padding: 50px 0 0 31px;
+}
+
+
+.navlink{
+  display: flex;
+  width: fit-content;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #967A46;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  margin-top: 50px;
+}
+
+.bio{
+  display: flex;
+  flex-direction: column;
+  max-width: 632px;
+  width: 100%;
+  margin-left: 25px;
+  &_outline{
+    width: 100px;
+    height: 1px;
+    content: "";
+    background: #967A46;
+    margin: 25px 0;
+  }
+  &_table{
+    display: flex;
+    flex-direction: column;
+    max-width: 730px;
+    margin-left: 54px;
+    list-style: none;
+    padding: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.06;
+    color: #403D3D;
+
+    li:first-child{
+      border-top: none;
+    }
+    li{
+      display: flex;
+      flex-direction: row;
+      align-items: center;      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.06;
+      color: #403D3D;
+
+    }
+    &_title{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 170px;
+      max-width: 200px;
+      min-height: 35px;
+      margin: 0 20px 0 0;
+    }
+  }
+  h2{
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 132%;
+    text-transform: uppercase;
+    color: #967A46;
+  }
+  p{
+    margin: 0 0 16px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 152%;
+    color: #403D3D;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 152%;
+    color:#3E6CB3
+  }
+}
