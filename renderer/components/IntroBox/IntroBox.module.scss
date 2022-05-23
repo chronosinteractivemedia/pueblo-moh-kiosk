@@ -6,10 +6,6 @@
   width: 100%;
   min-height: 1080px;
   background-color: unset;
-}
-
-.content{
-  padding: 142px 88px 0 53px;
   h2{
     margin-top: 0;
     margin-bottom: 50px;
@@ -35,6 +31,18 @@
     text-transform: uppercase;
     color: #967A46;
   }
+}
+
+.content{
+  padding: 142px 88px 0 53px;
+  &_logo{
+    padding: 112px 88px 0 53px;
+  }
+}
+
+.logo{
+  display: block;
+  margin-bottom: 40px;
 }
 
 .description{

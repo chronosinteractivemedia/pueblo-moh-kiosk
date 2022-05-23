@@ -13,7 +13,7 @@ function Test (){
         width="narrow"
       >
         <IntroBox 
-          dataIndex={2}
+          dataIndex={3}
         />
       </SectionLeft>
       

@@ -26,7 +26,17 @@
       "link": "",
       "button": "",
       "qrcode":""
-    }      
+    },
+    {
+      "logo": "../../images/history-medal/Logo.png",
+      "city": "",
+      "title" : "History of the Medal of Honor",
+      "description": ["The Medal of Honor is the United States' highest award for military valor in action. And, while over 150 years have passed since its inception, the meaning behind the Medal has never tarnished. Etched within the Medal are the very values that each Recipient displayed in the moments that mattered—bravery, courage, sacrifice, integrity and a deep love of country plus a desire to always do what is right at the risk of one’s life."],
+      "link": "",
+      "button": "",
+      "qrcode":""
+    }
+          
   ],
 
   "peopleDatabase":[
@@ -126,6 +136,13 @@
       "galleries": [
         {"title":"Tom Brokaw", "type":"Video", "thumbnail":"../../images/home-of-hero/Tom_Brokaw.jpg"},
         {"title":"Home of Heroes", "type":"Gallery", "thumbnail":"../../images/home-of-hero/Home_Hero.jpg"}
+      ]
+    },
+    {
+      "pageTitle": "History of the Medal of Honor",
+      "galleries": [
+        {"title":"Short History of the Medal of Honor", "type":"Video", "thumbnail":"../../images/history-medal/medal-design.jpg"},
+        {"title":"Photos of the Medal of Honor", "type":"Gallery", "thumbnail":"../../images/history-medal/MedalHonor.jpg"}
       ]
     }
   ]
