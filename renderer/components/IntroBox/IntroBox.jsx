@@ -35,11 +35,11 @@ function IntroBox ({dataIndex, onButton}) {
         <h2>{database.introPages[dataIndex].title}</h2>
         <div className={style.outline}></div>
 
-        {/* <div className={style.description}> */}
+        <div className={style.description}>
           <Scroller>
               {paragraph (dataIndex)}
           </Scroller>
-        {/* </div> */}
+        </div>
         
         {database.introPages[dataIndex].button !== "" ? 
         <div className={style.buttonLink}>{database.introPages[dataIndex].button.title}</div> : 
