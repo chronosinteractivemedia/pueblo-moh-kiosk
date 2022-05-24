@@ -3,6 +3,7 @@ import style from "../GallerySlideShow/GallerySlideShow.module.scss"
 import Frame from "../GalleryLayouts/Frame"
 import Person from "../GalleryLayouts/Person"
 import Two from "../GalleryLayouts/Two";
+import One from "../GalleryLayouts/One";
 
 
 function GallerySlideShow ({layout, person, children, pageTitle}) {

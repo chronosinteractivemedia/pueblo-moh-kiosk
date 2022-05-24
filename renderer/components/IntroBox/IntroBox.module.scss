@@ -34,9 +34,9 @@
 }
 
 .content{
-  padding: 142px 88px 0 53px;
+  padding: 142px 88px 75px 53px;
   &_logo{
-    padding: 112px 88px 0 53px;
+    padding: 112px 88px 75px 53px;
   }
 }
 
@@ -98,3 +98,24 @@
   }
 }
 
+.buttonLink{
+  width: 246px;
+  height: 78px;
+  background: #967A46;
+  border-radius: 10px;
+  font-family: 'Lustria';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.mediaLink{
+  position: absolute;
+  bottom: calc(0% + 75px);
+}

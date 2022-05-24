@@ -97,6 +97,13 @@
   border: 16px solid #3E6CB3;
   color: #FFFFFF;
   overflow: hidden;
+  &_one{
+    @extend .media;
+    width: 932px;
+    max-width: 932px;
+    height: 621px;
+    max-height: 621px;
+  }
 }
 
 .gallery{
@@ -106,9 +113,8 @@
       top: 0px;
       left: 0px;
       z-index: 1;
-      padding: 93px 55px 0 55px;
       width: 305px;
-      height: 390px;
+      height: 100%;
       &::after{
         content:"";
         display: block;
@@ -116,7 +122,7 @@
         top: 0px;
         left: 0px;
         width: 305px;
-        height: 390px;
+        height: 100%;
         background: #1F1F1F;
         opacity: 0.8;
         z-index: -1;
@@ -131,7 +137,16 @@
         align-items: center;
         text-transform: uppercase;
         color: #C09B57;
+        margin: 0 0 50px 0;
       }
+    }
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 0px 55px;
+      justify-content: center;
     }
     &_title{
       font-family: 'Lustria';
@@ -154,7 +169,7 @@
       display: block;
       width: 57px;
       height: 57px;
-      background-image: url("data:image/svg+xml,%3Csvg width='58' height='57' viewBox='0 0 58 57' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29 0C12.9837 0 0 12.7599 0 28.5C0 44.2401 12.9837 57 29 57C45.0163 57 58 44.2401 58 28.5C58 12.7599 45.0163 0 29 0ZM21.0763 40.8958V16.1042L42.9232 28.5L21.0763 40.8958Z' fill='white'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg width='57' height='57' viewBox='0 0 58 57' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29 0C12.9837 0 0 12.7599 0 28.5C0 44.2401 12.9837 57 29 57C45.0163 57 58 44.2401 58 28.5C58 12.7599 45.0163 0 29 0ZM21.0763 40.8958V16.1042L42.9232 28.5L21.0763 40.8958Z' fill='white'/%3E%3C/svg%3E");
     }
     &_gallery{
       display: block;
@@ -241,4 +256,17 @@
   width: 18px;
   height: 22px;
   background-image: url("data:image/svg+xml,%3Csvg width='18' height='22' viewBox='0 0 18 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 11L0.750001 21.3923L0.750002 0.607695L18 11Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.warning{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  h2{
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
 }
