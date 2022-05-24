@@ -1,0 +1,46 @@
+@import '../../styles/include';
+.component{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  position: relative;
+  padding: 30px;
+  background-color: #fff;
+  > *{
+    position: relative;
+    z-index: 5;
+  }
+}
+.close{
+  position: absolute;
+  z-index:10;
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+  color: $black;
+  svg{
+    width: 38px;
+    height: 38px;
+  }
+}
+.component[data-transparent=true]{
+  .wrapper{
+    background-color: transparent;
+    position: static;
+  }
+  .close{
+    color: $white;
+    svg{
+      width: 48px;
+      height: 48px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/include.scss';
+
+.component{
+  width: 1456px;
+  height: 920px;
+  display: flex;
+}
+.left{
+  width: 750px;
+  h2{
+    @extend %big-gold-header;
+    margin-top: 80px;
+  }
+}
+.right{
+  padding-left: 80px;
+  width: calc(100% - 750px)
+}

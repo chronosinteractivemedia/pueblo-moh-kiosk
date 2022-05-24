@@ -10,16 +10,16 @@
 .prev,.next{
 	position: absolute;
 	z-index:2;
-	width: 8vw;
-	height: 8vw;
-	background-color: transparentize($white, 0.5);
-	top:calc(50% - 4vw);
+	width: 16vw;
+	height: 10vw;
+	top:calc(50% - 5vw);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 	svg{
-		color: $green;
-		font-size: 42px;
+		color: $gold;
+		font-size: 96px;
 	}
 }
 .prev{
@@ -40,15 +40,113 @@
 	visibility: hidden;
 	opacity:0;
 	transition: all 600ms $ease-out-quint;
-	&.isActive{visibility: visible; opacity: 1;}
-}
-.desc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
 	width: 100%;
-	background-color: rgba(0,0,0,0.7);
-	color: $white;
-	text-align: center;
-	padding:1.5vh;
-	bottom:0;
+	height: 100%;
+	top: 0;
 	left: 0;
+	&.isActive{visibility: visible; opacity: 1;}
+	img{
+		max-width: 1200px;
+		max-height: 750px;
+		min-height: 400px;
+		width: auto;
+		height: auto;
+		border: 3px solid $white;
+	}
+}
+.counter{
+	margin-top: 40px;
+	width: 1080px;
+	text-align: left;
+	color: $gold;
+	font-size: 20px;
+	font-family: Lustria, serif;
+}
+.desc{
+	color: $white;
+	width: 1080px;
+	font-size: 16px;
+	line-height: 26px;
+	&:before{
+		content: '';
+		height: 1px;
+		width: 200px;
+		display:block;
+		background-color: $white;
+		margin: 20px 0;
+	}
+}
+
+
+.videoPlayer{
+	position: relative;
+	box-sizing: border-box;
+	width: 1200px;
+	height: 672px;
+	border: 2px solid $white;
+	padding: 0;
+	overflow: hidden;
+	background-size: cover;
+	video{
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	&:not(.videoStarted), &.videoPaused{
+		.playIcon{
+			display: flex;
+		}
+	}
+	&.videoStarted:not(.videoPaused){
+		.pauseIcon{
+			display: flex;
+		}
+	}
+	&.videoStarted{
+		background-color: $black;
+		background-image: none !important;
+		video{
+			display: block;
+		}
+	}
+}
+
+.slider[data-length='1'] .videoPlayer{
+	width: 1600px;
+	height: 896px;
+}
+
+
+.playIcon, .pauseIcon{
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	align-items: center;
+	justify-content: center;
+	svg{
+		font-size: 96px;
+		color: $white;
+		filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+	}
+}
+.pauseIcon{
+	padding: 40px;
+	align-items: flex-end;
+	justify-content: flex-end;
+	svg{
+		font-size: 72px;
+	}
 }

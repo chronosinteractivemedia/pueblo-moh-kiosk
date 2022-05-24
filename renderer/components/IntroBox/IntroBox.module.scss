@@ -7,29 +7,10 @@
   min-height: 1080px;
   background-color: unset;
   h2{
-    margin-top: 0;
-    margin-bottom: 50px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 46px;
-    line-height: 132%;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #967A46;
+    @extend %big-gold-header;
   }
   h3{
-    margin: 0;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 132%;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #967A46;
+    @extend %small-gold-header;
   }
 }
 
