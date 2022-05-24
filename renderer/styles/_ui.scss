@@ -1,1 +1,26 @@
 %paragraph-small{  }
+%big-gold-header {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 132%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #967A46;
+}
+%small-gold-header {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 132%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #967A46;
+}
