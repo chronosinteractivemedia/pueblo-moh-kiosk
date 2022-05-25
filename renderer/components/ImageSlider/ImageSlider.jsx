@@ -16,7 +16,6 @@ export default function ImageSlider({slides}) {
     } else if (currentSlide >= slides.length) {
       newSlide = 0;
     }
-    console.log(newSlide);
     if (newSlide !== currentSlide) {
       setCurrentSlide(newSlide);
       setVideoPaused(false);
@@ -33,9 +32,14 @@ export default function ImageSlider({slides}) {
           videoRef.current.pause();
         }
       }
-
     }
   }, [videoStarted, videoPaused, videoRef])
+
+  useEffect(() => {
+    if(videoRef.current && slides[currentSlide].autoplay){
+      setVideoStarted(true);
+    }
+  }, [videoRef, currentSlide]);
 
   function toggleVideoPlay(){
     if(videoStarted){
