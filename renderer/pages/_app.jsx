@@ -18,7 +18,7 @@ export default function MyApp({Component, pageProps, menuItems}){
     document.addEventListener('touchstart', window.interruptResetTimer);
   }, []);
   return <>
-    {/* <Nav items={menuItems} /> */}
+    <Nav items={{}} /> 
     <Component {...pageProps} />
   </>
 }

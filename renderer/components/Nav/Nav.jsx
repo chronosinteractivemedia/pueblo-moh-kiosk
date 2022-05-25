@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
+import Image from "../Image/Image";
 import styles from "./Nav.module.scss";
 
 export default function Nav({ items = [] }) {
@@ -12,10 +14,75 @@ export default function Nav({ items = [] }) {
       setIsOpen(false);
     });
   }, []);
-
   return (
     <>
-
+      <div className={styles.navToggle} onClick={() => setIsOpen(!isOpen)}>
+        {!isOpen ? (
+          <>
+            <FiMenu />
+            <span>MENU</span>
+          </>
+        ) : (
+          <FiX />
+        )}
+      </div>
+      {!!isOpen && (
+        <div className={styles.nav}>
+          <h1>MENU</h1>
+          <ul className={styles.links}>
+            <Link href="/pueblo-recipients">
+              <li data-active={router.asPath === "/pueblo-recipients"}>
+                Pueblo Medal of Honor Recipients <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/0">
+              <li data-active={router.asPath === "/0"}>
+                Pueblo Medal of Honor Memorial <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/1">
+              <li data-active={router.asPath === "/1"}>
+                Pueblo: Home of Heroes <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/2">
+              <li data-active={router.asPath === "/2"}>
+                History of the Medal of Honor <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/">
+              <li data-active={router.asPath === ""}>
+                Congressional Medal of Honor Recipients <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/3">
+              <li data-active={router.asPath === "/3"}>
+                Veterans Bridge <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/">
+              <li data-active={router.asPath === ""}>
+                Pueblo Attractions <FiArrowRight />
+              </li>
+            </Link>
+          </ul>
+          <div className={styles.medal}>
+            <Image width={1100} height={780} src="/images/moh-medal_1.png" />
+          </div>
+          <div className={styles.sponsorSection}>
+            <h2>Sponsored By:</h2>
+            <ul className={styles.sponsors}>
+              <li>Pueblo Home of Heroes Association</li>
+              <li>El Pomar Foundation</li>
+              <li>Pueblo City Governmen</li>
+              <li>Robert Hoag Rawlings Foundation</li>
+              <li>Pueblo County Government</li>
+              <li>Pueblo Urban Renewal Authority</li>
+            </ul>
+            <Link href="/"><a>Acknowledgements</a></Link>
+          </div>
+        </div>
+      )}
     </>
   );
 }

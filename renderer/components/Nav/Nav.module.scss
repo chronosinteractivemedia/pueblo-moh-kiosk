@@ -1,69 +1,199 @@
 @import '../../styles/include.scss';
-.component{
-	height:176px;	
-	position: absolute;
-	left: 0;
-	bottom: 23vh;
-	z-index:300;
-	display: flex;
-	filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.3));
-	transition: all 600ms $ease-out-quint;
-	transform: translate3d(-75vw,0,0);
-	&.isOpen{
-		transform: translate3d(0,0,0);
-	}
+@keyframes toggle-in{
+  0%{
+    opacity:0;
+    transform: rotateZ(90deg);
+  }
+  100%{
+    opacity:1;
+    transform: rotateZ(0deg);
+  }
 }
-.cover{
-	position: fixed;
-	top: 0vh;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	z-index:299;
-	background-color: rgba(0,0,0,0.25);
+@keyframes toggle-sub-in{
+  0%{
+    opacity:0;
+    transform: translate3d(0, 60px, 0);
+  }
+  100%{
+    opacity:1;
+    transform: translate3d(0, 0, 0);
+  }
 }
-.head{
-	height: 100%;
-	width: 163px;
-	background-size: auto 100%;
-	background-position: right center;
-	background-repeat: no-repeat;
-	cursor: pointer;
-	position: relative;
-	z-index: 302;
-}
-.body{
-	width:75vw;
-	height:100%;
-	background-color: $white;
-	// border: 2.5px solid transparentize(#59595B, 0.66);
-	border-right: 0;
-	border-left: 0;
-	padding: 0 4vw;
-	display: flex;
-	align-items: center;
-	position: relative;
-	z-index: 302;
-}
-
-.items{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	list-style-type: none;
-	li{
-		margin: 0;
-		padding: 10px 8px;
-		// width:25%;
-		margin-right: 25px;
-	}
-	a{
-		font-size: 25px;
-		font-family: 'Roboto Slab';
-		font-weight: 100;
-		color: $orange;
-		text-decoration: none;
-	}
+.navToggle{
+  position: fixed;
+  z-index: 99999;
+  top: 42px;
+  left: 42px;
+  width: 60px;
+  height: 58px;
+  svg{
+    width: 100%;
+    height: auto;
+    color: $gold;
+    animation: toggle-in 400ms $ease-out-quint both;
+  }
+  span{
+    color: $gold;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    top: -5px;
+    left: 4px;
+    display: inline-block;
+    animation: toggle-sub-in 400ms $ease-out-quint both;
+  }
 }
 
+@keyframes header-in{
+  0%{
+    opacity:0;
+    transform: translate3d(0, -60px, 0);
+  }
+  100%{
+    opacity:1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.nav{
+  position: fixed;
+  z-index:88888;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  padding: 80px 200px;
+  background-image: url('/images/GrungyFlag.jpg');
+  h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 132%;
+    color: #C09B57;
+    margin-bottom: 15px;
+    animation: header-in 600ms $ease-out-quint both;
+  }
+}
+
+
+@keyframes medal-in{
+  0%{
+    opacity:0;
+    transform: rotateY(90deg);
+  }
+  100%{
+    opacity:1;
+    transform: rotateY(0deg);
+  }
+}
+
+.medal{
+  @include setup-perspective(1000px);
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  width: 1100px;
+  height: 780px;
+  :global(.image){
+    animation: medal-in 1200ms $ease-out-quint both;
+  }
+}
+
+@keyframes link-in{
+  0%{
+    opacity:0;
+    transform: translate3d(40px, 0, 0);
+  }
+  100%{
+    opacity:1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.links{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 600px;
+  li{
+    color: $white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 23px 0;
+    border-bottom: 1px solid $white;
+    display: flex;
+    align-items: center;
+    animation: link-in 1200ms $ease-out-quint both;
+    @include animation-sequence(60ms, 20);
+    &:last-child{
+      border-bottom: 0;
+    }
+    svg{
+      margin-left: auto;
+      font-size: 54px;
+      color: #C09B57;
+    }
+    &[data-active="true"]{
+      color: #C09B57;
+      svg{
+        color: $white;
+        transform: rotateZ(180deg);
+      }
+    }
+  }
+}
+.sponsorSection{
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  left: 0;
+  bottom: 0;
+  color: $white;
+  background-color: #1F1F1F;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 90px;
+  align-items: flex-start;
+  padding-top: 40px;
+  h2{
+    color: #C09B57;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    width: 310px;
+    margin: 0;
+  }
+  a{
+    padding-left:40px;
+    color: #C09B57;
+  }
+}
+.sponsors{
+  width: 1100px;
+  list-style-type: none;
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  li{
+    width:33%;
+    margin-bottom: 10px;
+    height: auto;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
