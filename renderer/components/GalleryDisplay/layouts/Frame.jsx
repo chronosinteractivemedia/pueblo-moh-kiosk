@@ -1,7 +1,5 @@
-import react from "react"
-import style from "../GalleryLayouts/GalleryLayouts.module.scss"
-import Image from "../Image/Image"
-import database from "../../../database.json"
+import React from "react"
+import style from "./layouts.module.scss"
 
 function Thumbnails ({children}){
   return(
