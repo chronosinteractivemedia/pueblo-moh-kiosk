@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    padding-top: 65px;
+    padding-bottom: 60px;
     h1{
       font-family: 'Lato';
       font-style: normal;
@@ -15,11 +17,21 @@
       align-items: center;
       text-transform: uppercase;
       color: #C09B57;
+      margin: 0
     }
   }
   &_qr{
     position: absolute;
     top: 36px;
     right: 62px;
+  }
+}
+
+.searchBar{
+  &_wrapper{
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    background: #3E6CB3;
   }
 }

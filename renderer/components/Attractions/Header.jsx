@@ -11,6 +11,7 @@ function Header () {
           url = "http://www.google.com"
           description= "Scan QR code to learn more"
           isWhite={true}
+          size={85}
         />
       </div>
     </div>
