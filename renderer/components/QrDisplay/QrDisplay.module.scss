@@ -34,4 +34,9 @@
 	line-height: 135%;
 	text-align: left;
 	font-weight: normal;
+	color: #000;
+	&_white{
+		@extend .desc;
+		color: #fff;
+	}
 }
