@@ -15,8 +15,8 @@ if (isProd) {
   await app.whenReady();
 
   const mainWindow = createWindow('main', {
-    width: 1080,
-    height: 1920,
+    width: 1920,
+    height: 1080,
     kiosk: false,
     frame: true
   });
@@ -25,10 +25,10 @@ if (isProd) {
 
   if (isProd) {
     await mainWindow.loadURL('app://./lighting-test.html');
+    mainWindow.webContents.openDevTools();
   } else {
     const port = process.argv[2];
     await mainWindow.loadURL(`http://localhost:${port}/home`);
-    mainWindow.webContents.openDevTools();
   }
 })();
 
@@ -40,13 +40,17 @@ ipcMain.on('close-me', (event, arg) => {
   app.quit();
 })
 
+let serialport;
+(async () => {
+	const ports = await SerialPort.list();
+	const port = ports[0];
+      	serialport = new SerialPort({ path: port.path, baudRate: 9600 });
+})();
 
 ipcMain.on('send-serial-command', (event, code) => {
   async function sendSerialCommand(code){
-    const ports = await SerialPort.list();
-    const port = ports[0];
-    if(port){
-      const serialport = new SerialPort({ path: port.path, baudRate: 9600 });
+    console.log('sending code: ', code);
+    if(serialport){
       serialport.write(code, err => {
         if(err) console.error(err);
         else console.log('message send successful');
