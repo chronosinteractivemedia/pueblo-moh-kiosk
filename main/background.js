@@ -38,3 +38,7 @@ app.on('window-all-closed', () => {
 ipcMain.on('close-me', (event, arg) => {
   app.quit();
 })
+
+ipcMain.on('send-serial-command', (event, arg) => {
+  app.quit();
+})
