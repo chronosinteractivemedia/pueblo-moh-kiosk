@@ -23,7 +23,7 @@ if (isProd) {
   mainWindow.removeMenu();
 
   if (isProd) {
-    await mainWindow.loadURL('app://./home.html');
+    await mainWindow.loadURL('app://./lighting-test.html');
   } else {
     const port = process.argv[2];
     await mainWindow.loadURL(`http://localhost:${port}/home`);
@@ -36,9 +36,5 @@ app.on('window-all-closed', () => {
 });
 
 ipcMain.on('close-me', (event, arg) => {
-  app.quit();
-})
-
-ipcMain.on('send-serial-command', (event, arg) => {
   app.quit();
 })
