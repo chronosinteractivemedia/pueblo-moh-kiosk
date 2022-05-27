@@ -3,6 +3,7 @@ import serve from 'electron-serve';
 import { createWindow } from './helpers';
 const { ipcMain } = require('electron')
 const isProd = process.env.NODE_ENV === 'production';
+import { SerialPort } from 'serialport';
 
 if (isProd) {
   serve({ directory: 'app' });
@@ -37,4 +38,20 @@ app.on('window-all-closed', () => {
 
 ipcMain.on('close-me', (event, arg) => {
   app.quit();
+})
+
+
+ipcMain.on('send-serial-command', (event, code) => {
+  async function sendSerialCommand(code){
+    const ports = await SerialPort.list();
+    const port = ports[0];
+    if(port){
+      const serialport = new SerialPort({ path: port.path, baudRate: 9600 });
+      serialport.write(code, err => {
+        if(err) console.error(err);
+        else console.log('message send successful');
+      });
+    }
+  }
+  sendSerialCommand(code);
 })

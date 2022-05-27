@@ -1,18 +1,10 @@
 import React from "react";
 import styles from  './lighttest.module.scss';
-import { SerialPort } from 'serialport';
+import {ipcRenderer} from 'electron';
 
 export default function LightingTest(){
-  async function sendSerialCommand(code){
-    const ports = await SerialPort.list();
-    const port = ports[0];
-    if(port){
-      const serialport = new SerialPort({ path: port.path, baudRate: 9600 });
-      serialport.write(code, err => {
-        if(err) console.error(err);
-        else console.log('message send successful');
-      });
-    }
+  function sendSerialCommand(code){
+    ipcRenderer.send('send-serial-command', code);
   }
   return <div className={styles.component}>
     <button onClick={() => sendSerialCommand('X0401')}>Standbye</button> 
@@ -38,8 +30,4 @@ When “X0404” is received, the iPlayer3 will send a response “Y0404”
 When “X0405” is received, the iPlayer3 will send a response “Y0405”
 
 */
-
-(async () => {
-
-})();
 
