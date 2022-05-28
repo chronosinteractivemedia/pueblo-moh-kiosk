@@ -418,6 +418,102 @@
     }
   ],
   "attractions": [
-
+    {
+      "name": "Center for American Values",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": true,
+      "photos": ["../../images/attractions/american-value.jpg","",""]
+    },
+    {
+      "name": "Weisbrod Aircraft Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": true,
+      "photos": ["../../images/attractions/weisbroad-museum.jpg","",""]
+    },    {
+      "name": "Historic Arkansas River Walk",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": true,
+      "photos": ["../../images/attractions/arkansas-river-walk.jpg","",""]
+    },
+    {
+      "name": "Sangre de Cristo Art Center",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": true,
+      "photos": ["../../images/attractions/sangre-art-center.jpg","",""]
+    },
+    {
+      "name": "El Pueblo History Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": true,
+      "photos": ["../../images/attractions/el-pueblo-history-museum.jpg","",""]
+    },
+    {
+      "name": "Pueblo Heritage Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": true,
+      "photos": ["../../images/attractions/pueblo-heritage-museum.jpg","",""]
+    },
+    {
+      "name": "Attraction Name Feature",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": true,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Chronos Center",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": true,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": false,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": false,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": false,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": true,
+      "featured": false,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": false,
+      "photos": ["","",""]
+    },
+    {
+      "name": "Attraction Name Feature",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "walkable": false,
+      "featured": true,
+      "photos": ["","",""]
+    }
   ]
 }
