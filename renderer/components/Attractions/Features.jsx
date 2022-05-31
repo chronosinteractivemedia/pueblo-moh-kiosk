@@ -14,7 +14,7 @@ function Features () {
           <div className={style.features_cards_each}>
             <div className={style.features_cards_each_desc}>{filteredItem.name}</div>
             <Image 
-              src={filteredItem.photos[0]}
+              src={filteredItem.slides[0].image}
               width={230}
               height={250}
               position="relative"
