@@ -21,9 +21,11 @@
     "build:win64": "nextron build --win --x64",
     "build:mac": "nextron build --mac --x64",
     "build:linux": "nextron build --linux",
-    "postinstall": "electron-builder install-app-deps"
+    "postinstall": "electron-builder install-app-deps",
+    "listports": "serialport-list -f jsonline"
   },
   "dependencies": {
+    "@serialport/list": "^10.4.0",
     "axios": "^0.21.1",
     "electron-serve": "^1.1.0",
     "electron-store": "^7.0.2",
