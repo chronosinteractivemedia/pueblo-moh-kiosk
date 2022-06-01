@@ -43,8 +43,9 @@ ipcMain.on('close-me', (event, arg) => {
 let serialport;
 (async () => {
 	const ports = await SerialPort.list();
-	const port = ports[0];
-      	serialport = new SerialPort({ path: port.path, baudRate: 9600 });
+  console.log(ports);
+	const port = ports[1];
+  serialport = new SerialPort({ path: port.path, baudRate: 9600 });
 })();
 
 ipcMain.on('send-serial-command', (event, code) => {
