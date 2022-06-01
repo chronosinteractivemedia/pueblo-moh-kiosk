@@ -5,7 +5,7 @@ import Features from "../components/Attractions/Features"
 import List from "../components/Attractions/List"
 import DetailPopup from "../components/DetailPopup/DetailPopup"
 
-function AreaAttractions () {
+function AreaAttractions ({areaAttraction}) {
   return(
     <div>
       <div>
@@ -19,5 +19,12 @@ function AreaAttractions () {
     </div>
   )
 }
+
+
+export async function getStaticProps({params}) {
+  const areaAttraction = database.attractions;
+  return { props: { areaAttraction } }
+}
+
 
 export default AreaAttractions

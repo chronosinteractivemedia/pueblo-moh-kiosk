@@ -8,9 +8,11 @@ import database from "../../../database.json"
 function AttractionPopup ({attractionId}){
   return (
     <div>
-      <DetailPopup>
-        
-      </DetailPopup>
+      <Modal  transparent={false} index={0} onClose={() => setShowSlides(null)}>
+        {/* <DetailPopup>
+          // set width and height here
+        </DetailPopup> */}
+      </Modal>
     </div>
   )
 }
