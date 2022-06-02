@@ -59,7 +59,7 @@
         ],
         "media": {
           "type": "video",
-          "file": "../../video/Bill-Crawford-The-Fighter.mp4"
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Bill-Crawford-The-Fighter.mp4"
         }
       },
       {
@@ -116,7 +116,7 @@
         ],
         "media": {
           "type": "video",
-          "file": ""
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Carl-Sitter-The-Captain.mp4"
         }
       },
       {
@@ -173,7 +173,7 @@
         ],
         "media": {
           "type": "video",
-          "file": ""
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Jerry-Murphy-The-Lieutenant.mp4"
         }
       },
       {
@@ -222,7 +222,7 @@
         ],
         "media": {
           "type": "video",
-          "file": ""
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Drew-Dix-The-Green-Beret.mp4"
         }
       }
     ]
