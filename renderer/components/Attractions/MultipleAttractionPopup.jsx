@@ -29,28 +29,32 @@ export default function MultipleAttractionPopup ({attraction}){
               />              
             </div>
           </div>
-            <div className={style.popup_image_wrapper}>
-              <div className={style.popup_video}>
-                {/* <h2>{attraction.videos[0].title}</h2> */}
-                <Image 
-                  src={attraction.videos[0].thumbnail}
-                  width={190}
-                  height={200}
-                  position="relative"
-                />
-              </div>
-              <div className={style.popup_smimage}>
-                <div className={style.popup_smimage_linkarea}>
-                  <a>Enter Gallery</a>
+            <div className={style.popup_media}>
+              <div className={style.popup_media_wrapper}>
+                {attraction.videos.map(item => (
+                  <div className={style.popup_video}>
+                    <a className={style.popup_video_playbutton}></a>
+                    <Image 
+                    src={item.thumbnail}
+                    width={190}
+                    height={200}
+                    position="relative"
+                    />
+                  </div>
+                ))}
+                <div className={style.popup_smimage}>
+                  <div className={style.popup_smimage_linkarea}>
+                    <a>Enter Gallery</a>
+                  </div>
+                  <Image 
+                    src={attraction.slides[0].image}
+                    width={405}
+                    height={200}
+                    position="relative"
+                  />
                 </div>
-                <Image 
-                  src={attraction.slides[0].image}
-                  width={390}
-                  height={200}
-                  position="relative"
-                />
               </div>
-            </div>
+          </div>
         </div>
       </Modal>
     </div>
