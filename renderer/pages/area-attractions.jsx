@@ -4,15 +4,21 @@ import SearchBar from "../components/Attractions/SearchBar"
 import Features from "../components/Attractions/Features"
 import List from "../components/Attractions/List"
 import AttractionPopup from "../components/Attractions/AttractionPopup"
+import MultipleAttractionPopup from "../components/Attractions/MultipleAttractionPopup"
 import database from "../../database.json"
 
 function AreaAttractions ({areaAttractions}) {
   console.log("Hi there")
   return(
     <div>
-      <div style={{position:"absolute"}}>
+      {/* <div style={{position:"absolute"}}>
         <AttractionPopup 
           attraction={areaAttractions[0]}
+        />
+      </div> */}
+      <div style={{position:"absolute"}}>
+        <MultipleAttractionPopup 
+          attraction={areaAttractions[1]}
         />
       </div>
       <div>

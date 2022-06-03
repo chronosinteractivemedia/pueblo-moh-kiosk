@@ -459,6 +459,50 @@
       "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": true,
+      "videos": [
+        {
+          "id": 0,
+          "title": "Beyond the Medal of Honor",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=1",
+          "file": ""
+        },
+        {
+          "id": 1,
+          "title": "Civil War Medal of Honor Display",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=2",
+          "file": ""
+        },
+        {
+          "id": 2,
+          "title": "Educational Trips",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=3",
+          "file": ""
+        },
+        {
+          "id": 3,
+          "title": "Our Values Speaker Series",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=4",
+          "file": ""
+        },
+        {
+          "id": 4,
+          "title": "Portraits of Valor Exhibit",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=5",
+          "file": ""
+        },
+        {
+          "id": 5,
+          "title": "Medal of Honor Quotes Book",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=6",
+          "file": ""
+        },
+        {
+          "id": 6,
+          "title": "World Trade Center Steel Memorial",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=7",
+          "file": ""
+        }
+      ],
       "slides": [
         {
           "id": 0,

@@ -7,8 +7,12 @@ import database from "../../../database.json"
 import QrDisplay from "../QrDisplay/QrDisplay";
 import { Modal } from "../Modal/Modal";
 
-export default function AttractionPopup ({attraction}){
+export default function MultipleAttractionPopup ({attraction}){
   console.log(attraction)
+  // to prevent the error in case data doesn't exist
+  if (!attraction){
+    return null
+  }
   return (
     <div>
       <Modal  transparent={false} index={1} onClose={() => console.log('close')}>
@@ -26,14 +30,23 @@ export default function AttractionPopup ({attraction}){
             </div>
           </div>
             <div className={style.popup_image_wrapper}>
-              <div className={style.popup_image}>
-                <div className={style.popup_image_linkarea}>
+              <div className={style.popup_video}>
+                {/* <h2>{attraction.videos[0].title}</h2> */}
+                <Image 
+                  src={attraction.videos[0].thumbnail}
+                  width={190}
+                  height={200}
+                  position="relative"
+                />
+              </div>
+              <div className={style.popup_smimage}>
+                <div className={style.popup_smimage_linkarea}>
                   <a>Enter Gallery</a>
                 </div>
                 <Image 
                   src={attraction.slides[0].image}
-                  width={498}
-                  height={627}
+                  width={390}
+                  height={200}
                   position="relative"
                 />
               </div>
