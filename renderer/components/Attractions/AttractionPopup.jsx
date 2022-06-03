@@ -1,17 +1,50 @@
-import React from "react";
+import React, {useState} from "react";
 import style from "../Attractions/Attractions.module.scss";
 import Image from "../Image/Image";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import DetailPopup from "../DetailPopup/DetailPopup";
 import database from "../../../database.json"
+import QrDisplay from "../QrDisplay/QrDisplay";
+import { Modal } from "../Modal/Modal";
 
-function AttractionPopup ({attractionId}){
+function AttractionSlides ({medias, setShowSlides}) {
+  return (
+    <div>{medias[setShowSlides]}</div>
+  )
+}
+
+export default function AttractionPopup ({attraction}){
+  console.log(attraction)
   return (
     <div>
-      <Modal  transparent={false} index={0} onClose={() => setShowSlides(null)}>
-        {/* <DetailPopup>
-          // set width and height here
-        </DetailPopup> */}
+      <Modal  transparent={false} index={1} onClose={() => console.log('close')}>
+        <div className={style.popup_wrapper}>
+          <div className={style.popup_detail}>
+            <h1>{attraction.name}</h1>
+            <p>{attraction.detail}</p>
+            <div className={style.popup_qr}>
+              <QrDisplay 
+                url={"http://www.google.com"}
+                description={"Scan QR code for map location"}
+                isWhite={false}
+                size={87}
+              />              
+            </div>
+          </div>
+            <div className={style.popup_image_wrapper}>
+              <div className={style.popup_image}>
+                <div className={style.popup_image_linkarea}>
+                  <a>Enter Gallery</a>
+                </div>
+                <Image 
+                  src={attraction.slides[0].image}
+                  width={498}
+                  height={627}
+                  position="relative"
+                />
+              </div>
+            </div>
+        </div>
       </Modal>
     </div>
   )

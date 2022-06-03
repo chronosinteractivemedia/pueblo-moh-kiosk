@@ -426,6 +426,7 @@
       "id": 0, 
       "name": "Center for American Values",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": true,
       "slides": [
@@ -455,6 +456,7 @@
       "id": 1, 
       "name": "Weisbrod Aircraft Museum",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": true,
       "slides": [
@@ -484,6 +486,7 @@
       "id": 2, 
       "name": "Historic Arkansas River Walk",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": true,
       "slides": [
@@ -513,6 +516,7 @@
       "id": 3, 
       "name": "Sangre de Cristo Art Center",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": true,
       "slides": [
@@ -542,6 +546,7 @@
       "id": 4, 
       "name": "El Pueblo History Museum",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": true,
       "slides": [
@@ -571,6 +576,7 @@
       "id": 5, 
       "name": "Pueblo Heritage Museum",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": true,
       "slides": [
@@ -600,6 +606,7 @@
       "id": 6, 
       "name": "Attraction Name Feature",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": true,
       "slides": [
@@ -629,6 +636,7 @@
       "id": 7, 
       "name": "Chronos Center",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": true,
       "slides": [
@@ -658,6 +666,7 @@
       "id": 8, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": false,
       "slides": [
@@ -687,6 +696,7 @@
       "id": 9, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": false,
       "slides": [
@@ -716,6 +726,7 @@
       "id": 10, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": false,
       "slides": [
@@ -745,6 +756,7 @@
       "id": 11, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": true,
       "featured": false,
       "slides": [
@@ -774,6 +786,7 @@
       "id": 12, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": false,
       "slides": [
@@ -803,6 +816,7 @@
       "id": 13, 
       "name": "Attraction Name",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": false,
       "slides": [
@@ -832,6 +846,7 @@
       "id": 14, 
       "name": "Attraction Name Feature",
       "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "walkable": false,
       "featured": true,
       "slides": [
