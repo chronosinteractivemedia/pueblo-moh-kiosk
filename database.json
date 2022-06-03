@@ -389,7 +389,7 @@
       "city": "Pueblo",
       "title": "Home of Heroes",
       "description": "<p>Pueblo, Colorado is proud to claim four Medal of Honor recipients as having grown up in our community and in the late 1990’s we were the only city in the U.S. to have four living recipients out of the approximately 150 living at the time. This rare distinction, along with the fact that we have more veteran’s per capita than any city in Colorado, led to Pueblo being called the Home of Heroes.</p>",
-      "audio": null,
+      "audio": "../../audio/home_of_heroes.mp3",
       "button": null,
       "media": [
         {
@@ -437,10 +437,10 @@
       "id": 2,
       "logo": "/images/history-medal/Logo.png",
       "city": null,
-      "title": "History of the<br>Medal of Honor",
+      "title": "<p>History of the <br> Medal of Honor</p>",
       "description": "<p>The Medal of Honor is the United States' highest award for military valor in action. And, while over 150 years have passed since its inception, the meaning behind the Medal has never tarnished. Etched within the Medal are the very values that each Recipient displayed in the moments that mattered—bravery, courage, sacrifice, integrity and a deep love of country plus a desire to always do what is right at the risk of one’s life.</p>",
+      "audio": "../../audio/history_of_the_medal_of_honor",
       "button": null,
-      "audio": null,
       "media": [
         {
           "title": "Short History of the Medal of Honor",
