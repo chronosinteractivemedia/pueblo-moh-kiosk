@@ -39,11 +39,18 @@
   width: 100%;
   margin-left: 25px;
   &_outline{
-    width: 100px;
-    height: 1px;
-    content: "";
-    background: #967A46;
+    width: 100%;
+    border: 1px solid #967A46;
+    border-left: none;
+    border-right: none;
     margin: 25px 0;
+    padding: 22px 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 152%;
+    color: #403D3D;
   }
   &_table{
     display: flex;
@@ -65,20 +72,21 @@
     li{
       display: flex;
       flex-direction: row;
-      align-items: center;      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      align-items: center;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
       font-family: 'Lato';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 1.06;
       color: #403D3D;
-
+      padding: 5px 0;
     }
     &_title{
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 170px;
+      min-width: 170px;
       max-width: 200px;
       min-height: 35px;
       margin: 0 20px 0 0;
