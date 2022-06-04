@@ -34,6 +34,9 @@ export default function MultipleAttractionPopup ({attraction}){
                 {attraction.videos.map(item => (
                   <div className={style.popup_video}>
                     <a className={style.popup_video_playbutton}></a>
+                    <div className={style.popup_video_linkarea}>
+                      <a>{item.title}</a>
+                    </div>
                     <Image 
                     src={item.thumbnail}
                     width={190}
