@@ -3,7 +3,7 @@
   "name": "pueblo-moh-kiosk",
   "description": "Pueblo Medal of Honor Kiosk",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "Chronos Interactive",
   "main": "app/background.js",
   "scripts": {
     "dev": "cd ./renderer && next",
@@ -27,6 +27,7 @@
     "axios": "^0.21.1",
     "electron-serve": "^1.1.0",
     "electron-store": "^7.0.2",
+    "fuse.js": "^6.6.2",
     "hammerjs": "^2.0.8",
     "lodash": "^4.17.21",
     "next-plugin-preval": "^1.2.1",
