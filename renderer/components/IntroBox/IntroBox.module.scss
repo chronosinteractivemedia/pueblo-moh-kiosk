@@ -112,6 +112,9 @@
   text-align: center;
   justify-content: center;
   color: #FFFFFF;
+  &, a{
+    text-decoration: none;
+  }
 }
 
 .mediaLink{
