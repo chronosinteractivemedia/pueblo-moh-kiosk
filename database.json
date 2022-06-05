@@ -501,6 +501,7 @@
           "title": "Veteran’s Bridge",
           "type": "gallery",
           "thumbnail": "/images/vet-bridge/Veterans_Bridge_Christopher_Pherosorio.jpg",
+          "thumbnail_caption":"",
           "slides": [
             {
               "id": 0,

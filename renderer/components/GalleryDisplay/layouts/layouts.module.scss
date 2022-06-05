@@ -99,12 +99,28 @@
   border: 16px solid #3E6CB3;
   color: #FFFFFF;
   overflow: hidden;
+  &_wrapper{
+    position: relative;
+  }
   &_one{
     @extend .media;
     width: 932px;
     max-width: 932px;
     height: 621px;
     max-height: 621px;
+  }
+  &_thumbnail_caption{
+    margin-left: 5px;
+    margin-top: 5px;
+    max-width: 890px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: left;
   }
 }
 
