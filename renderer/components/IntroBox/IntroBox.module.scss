@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: 1080px;
+  height: 1080px;
+  max-height: 1080px;
   background-color: unset;
   h2{
     margin-top: 0;
