@@ -415,7 +415,7 @@
             {
               "id": 0,
               "image": "/images/home-of-hero/gallery/323-e-2017-recipients-landing-optimized.jpg",
-              "caption": "<p>Congressional Medal of Honor Society Convention - Pueblo, Colorado - September 12-16, 2017</br>Top Row: Florent Groberg, H.C. Barney Barnum, Ty Carter, Ed Byers, Sammy Davis, Walter 'Joe' Marm</br>Third Row: Michael Thornton, Thomas Norris, Don Jenkins, Charles Hagemeister, Brian Thacker, Robert Foley, John Baca, Bruce Crandell, Gary Littrell, Tom Kelley, Leroy Petry, Donald Ballard</br>Middle Row: Charles Kettles, Paul Bucha, Robert Patterson, Gordon Roberts, James McCloughan, Pat Brady, Michael Fitzmaurice, Drew Dix, Hershel Williams, Jay Vargas, Harold Fritz, Robert Modrzejewski, James Taylor, Bennie Adkins</br>Lower Row seated: Ronald Rosser, Joe Jackson, Roger Donlon, Hiroshi Miyamura, Clint Romesha, Jack Jacobs</br></br>Of the 41 Medal of Honor recipients attending the 2017 Convention Robert O'Malley, William Swenson and Sal Giunta were not available at the time this photo was taken</p>"
+              "caption": "<p>Congressional Medal of Honor Society Convention - Pueblo, Colorado - September 12-16, 2017<br/>Top Row: Florent Groberg, H.C. Barney Barnum, Ty Carter, Ed Byers, Sammy Davis, Walter 'Joe' Marm<br/>Third Row: Michael Thornton, Thomas Norris, Don Jenkins, Charles Hagemeister, Brian Thacker, Robert Foley, John Baca, Bruce Crandell, Gary Littrell, Tom Kelley, Leroy Petry, Donald Ballard<br/>Middle Row: Charles Kettles, Paul Bucha, Robert Patterson, Gordon Roberts, James McCloughan, Pat Brady, Michael Fitzmaurice, Drew Dix, Hershel Williams, Jay Vargas, Harold Fritz, Robert Modrzejewski, James Taylor, Bennie Adkins<br/>Lower Row seated: Ronald Rosser, Joe Jackson, Roger Donlon, Hiroshi Miyamura, Clint Romesha, Jack Jacob <br/>Of the 41 Medal of Honor recipients attending the 2017 Convention Robert O'Malley, William Swenson and Sal Giunta were not available at the time this photo was taken</p>"
             },
             {
               "id": 1,
@@ -430,7 +430,7 @@
             {
               "id": 3,
               "image": "/images/home-of-hero/gallery/301A-2000-in-Attendance-optimized.jpg",
-              "caption": "<p>Congressional Medal of Honor Society Convention - Pueblo, Colorado - September 19-23, 2000</p><p>Note: Not all who attended the 2000 Convention were here at the time of this photo which was taken at the Sangre de Cristo Arts & Conference Center</p>"
+              "caption": "<p>Congressional Medal of Honor Society Convention - Pueblo, Colorado - September 19-23, 2000 <br/>Note: Not all who attended the 2000 Convention were here at the time of this photo which was taken at the Sangre de Cristo Arts & Conference Center</p>"
             },
             {
               "id": 4,
@@ -638,39 +638,30 @@
         {
           "title": "Short History of the Medal of Honor",
           "type": "video",
-          "thumbnail": "/images/history-medal/medal-design.jpg",
+          "thumbnail": "/images/history-medal/history-of-moh-video-landing-optimized.jpg",
           "slides": [
             {
               "id": 1,
-              "image": "https://picsum.photos/1200/800.jpg?random=2",
-              "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+              "image": "",
+              "video": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/medal-of-honor-history.mp4",
+              "autoplay": true
             }
           ]
         },
         {
-          "title": "Photos of the Medal of Honor",
+          "title": "Medal of Honor",
           "type": "gallery",
-          "thumbnail": "/images/history-medal/MedalHonor.jpg",
+          "thumbnail": "/images/history-medal/history-of-moh-gallery-landing-optimized.jpg",
           "slides": [
             {
               "id": 0,
-              "image": "https://picsum.photos/1200/1800.jpg?random=1",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+              "image": "/images/history-medal/gallery/Medals-from-landing-flag-bknd.jpg",
+              "caption": "The Medal of Honor is the highest award for valor in action against an enemy force that can be bestowed upon an individual serving in the armed forces of the United States It is generally presented to its recipient  by the President of the United States in the name of Congress."
             },
             {
               "id": 1,
-              "image": "https://picsum.photos/1200/800.jpg?random=2",
-              "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-            },
-            {
-              "id": 2,
-              "image": "https://picsum.photos/1800/800.jpg?random=3"
-            },
-            {
-              "id": 3,
-              "image": "https://picsum.photos/1200/800.jpg?random=4",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+              "image": "/images/history-medal/gallery/CMOHS-foundation-logo.jpg",
+              "caption": "The Congressional Medal of Honor Society of the United States of America is perhaps the most exclusive organization in our country. It is certainly one of the most unique. Its small membership includes men of all races, social classes, and economic levels. No amount of money, power, or influence can buy one's rite of passage into this circle and, unlike almost any other organization, this group's members hope that there will be no more inductees. Beyond the attitude towards recruitment, about all they have in common is a passionate love for the United States of America and the distinct honor of wearing the nation's highest award for military valor the medal of Honor."
             }
           ]
         }
@@ -689,7 +680,7 @@
       },
       "media": [
         {
-          "title": "Veteran’s Bridge",
+          "title": "Veteran's Bridge",
           "type": "gallery",
           "thumbnail": "/images/vet-bridge/Veterans_Bridge_Christopher_Pherosorio.jpg",
           "slides": [
