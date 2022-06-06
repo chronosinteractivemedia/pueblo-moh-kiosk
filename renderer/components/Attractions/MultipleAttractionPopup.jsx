@@ -7,15 +7,17 @@ import database from "../../../database.json"
 import QrDisplay from "../QrDisplay/QrDisplay";
 import { Modal } from "../Modal/Modal";
 
-export default function MultipleAttractionPopup ({attraction}){
-  console.log(attraction)
+export default function MultipleAttractionPopup ({attraction, onClose}){
+  const [galleryOpen, setGalleryOpen] = useState(false);
+  const [videoToShow, setVideoToShow] = useState(null);
+
   // to prevent the error in case data doesn't exist
   if (!attraction){
     return null
   }
   return (
     <div>
-      <Modal  transparent={false} index={1} onClose={() => console.log('close')}>
+      <Modal  transparent={false} index={1} onClose={onClose}>
         <div className={style.popup_wrapper}>
           <div className={style.popup_detail}>
             <h1>{attraction.name}</h1>
@@ -32,7 +34,7 @@ export default function MultipleAttractionPopup ({attraction}){
             <div className={style.popup_media}>
               <div className={style.popup_media_wrapper}>
                 {attraction.videos.map(item => (
-                  <div className={style.popup_video}>
+                  <div className={style.popup_video} onClick={() => setVideoToShow(item)}>
                     <a className={style.popup_video_playbutton}></a>
                     <div className={style.popup_video_linkarea}>
                       <a>{item.title}</a>
@@ -45,7 +47,7 @@ export default function MultipleAttractionPopup ({attraction}){
                     />
                   </div>
                 ))}
-                <div className={style.popup_smimage}>
+                <div className={style.popup_smimage} onClick={() => setGalleryOpen(true)}>
                   <div className={style.popup_smimage_linkarea}>
                     <a>Enter Gallery</a>
                   </div>
@@ -60,6 +62,18 @@ export default function MultipleAttractionPopup ({attraction}){
           </div>
         </div>
       </Modal>
+      {!!galleryOpen && <Modal transparent={true} index={1} onClose={() => setGalleryOpen(false)}>
+        <ImageSlider slides={attraction.slides} />
+      </Modal>}
+      {!!videoToShow && <Modal transparent={true} index={1} onClose={() => setVideoToShow(null)}>
+        <ImageSlider slides={[
+          {
+            id: 0,
+            video: videoToShow.file,
+            autoplay: true
+          },
+        ]} />
+      </Modal>}
     </div>
   )
 }

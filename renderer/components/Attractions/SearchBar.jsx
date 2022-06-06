@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useState} from "react"
 import style from "../Attractions/Attractions.module.scss"
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
@@ -8,7 +8,12 @@ const options = [
 ];
 const defaultOption = options[0];
 
-function SearchBar (keywords, isWalkable) {
+function SearchBar ({onSetWalkable}) {
+  const [walkable, setWalkable] = useState(false);
+
+  useEffect(() => {
+    onSetWalkable(walkable);
+  }, [walkable]);
 
   return (
     <div className={style.searchBar_wrapper}>
@@ -22,7 +27,7 @@ function SearchBar (keywords, isWalkable) {
           arrowOpen={<span className={style.searchBar_dropdown_arrow_open} />}
           options={options} value={defaultOption} 
           placeholder="Select an option" />
-          <input type="checkbox" />
+          <input type="checkbox" onChange={() => setWalkable(!walkable)} />
           <div className={style.searchBar_walkicon}/>
           <h2>Walkable</h2>
       </div>

@@ -1,17 +1,14 @@
 import React, {useState} from "react";
 import style from "../Attractions/Attractions.module.scss";
-import database from "../../../database.json"
 import Scroller from "../Scroller/Scroller";
 
-const featuresAttractions = database.attractions
 
-export default function List (){
-  const [showAttraction, setShowAttraction] = useState(null)
+export default function List ({areaAttractions, onChooseAttraction}){
   return (
     <div className={style.lists_wrapper}>
       <Scroller>
-        {featuresAttractions.map(item => (
-          <div className={style.lists_each} onClick={() => {setShowAttraction(item.id); console.log(showAttraction)}}>
+        {areaAttractions.map(item => (
+          <div className={style.lists_each} onClick={() => {onChooseAttraction(item)}}>
             {item.walkable === true ? <div className={style.lists_walkicon} /> : <div className={style.lists_walkicon_blank} /> }
             <div className={style.lists_each_detail} >
               <h3>{item.name}</h3>

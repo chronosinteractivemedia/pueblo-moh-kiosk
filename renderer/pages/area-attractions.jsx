@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 import Header from "../components/Attractions/Header"
 import SearchBar from "../components/Attractions/SearchBar"
 import Features from "../components/Attractions/Features"
@@ -8,27 +8,30 @@ import MultipleAttractionPopup from "../components/Attractions/MultipleAttractio
 import database from "../../database.json"
 
 function AreaAttractions ({areaAttractions}) {
-  console.log("Hi there")
+  const [currentAttraction, setCurrentAttraction] = useState();
+  const [filterWalkable, setFilterWalkable] = useState(false);
+  const [displayList, setDisplayList] = useState([]);
+
+  useEffect(() => {
+    if(areaAttractions){
+      if(filterWalkable){
+        setDisplayList(areaAttractions.filter(item => item.walkable));
+      } else {
+        setDisplayList(areaAttractions);
+      }
+    }
+  }, [areaAttractions, filterWalkable]);
+
   return(
     <div>
-      {/* <div style={{position:"absolute"}}>
-        <AttractionPopup 
-          attraction={areaAttractions[0]}
-        />
-      </div> */}
-      <div style={{position:"absolute"}}>
-        <MultipleAttractionPopup 
-          attraction={areaAttractions[1]}
-        />
-      </div>
+      {!!currentAttraction && !currentAttraction.videos && <AttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
+      {!!currentAttraction && !!currentAttraction.videos && <MultipleAttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
       <div>
         <Header />
-        <SearchBar />
+        <SearchBar onSetWalkable={setFilterWalkable} />
         <div className="page-flex-row" style={{backgroundColor:"#1E2934", position:"absolute", height:"100%"}}>
-          <Features /> 
-          <List 
-            onList={() => {console.log(areaAttractions[1].name)}}
-          />
+          <Features featuresAttractions={areaAttractions} />
+          <List areaAttractions={displayList} onChooseAttraction={setCurrentAttraction} />
         </div>
       </div>  
     </div>

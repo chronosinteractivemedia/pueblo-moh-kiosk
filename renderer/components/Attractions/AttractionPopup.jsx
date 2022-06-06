@@ -2,16 +2,14 @@ import React, {useState} from "react";
 import style from "../Attractions/Attractions.module.scss";
 import Image from "../Image/Image";
 import ImageSlider from "../ImageSlider/ImageSlider";
-import DetailPopup from "../DetailPopup/DetailPopup";
-import database from "../../../database.json"
 import QrDisplay from "../QrDisplay/QrDisplay";
 import { Modal } from "../Modal/Modal";
 
-export default function AttractionPopup ({attraction}){
-  console.log(attraction)
+export default function AttractionPopup ({attraction, onClose}){
+  const [galleryOpen, setGalleryOpen] = useState(false);
   return (
     <div>
-      <Modal  transparent={false} index={1} onClose={() => console.log('close')}>
+      <Modal  transparent={false} index={1} onClose={onClose}>
         <div className={style.popup_wrapper}>
           <div className={style.popup_detail}>
             <h1>{attraction.name}</h1>
@@ -26,7 +24,7 @@ export default function AttractionPopup ({attraction}){
             </div>
           </div>
             <div className={style.popup_image_wrapper}>
-              <div className={style.popup_image}>
+              <div className={style.popup_image} onClick={() => setGalleryOpen(true)}>
                 <div className={style.popup_image_linkarea}>
                   <a>Enter Gallery</a>
                 </div>
@@ -40,6 +38,9 @@ export default function AttractionPopup ({attraction}){
             </div>
         </div>
       </Modal>
+      {!!galleryOpen && <Modal transparent={true} index={1} onClose={() => setGalleryOpen(false)}>
+        <ImageSlider slides={attraction.slides} />
+      </Modal>}
     </div>
   )
 }
