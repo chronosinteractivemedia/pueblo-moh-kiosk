@@ -12,12 +12,14 @@ function RecipientDetail({person}){
       <div className={style.inner_right}>      
         <div className={style.wrapper_column_hallfame}>
           <div className={style.wrapper_column}>
-            <Image 
-              src={person.hallfame_image}
-              width='543'
-              height='508'
-              position='relative'
-            />
+            <div className={style.detailrecipient_border}>
+              <Image 
+                src={person.hallfame_image}
+                width='543'
+                height='508'
+                position='relative'
+              />
+            </div>
             <p>{person.hallfame_image_caption}</p>
           </div>
           <div className={style.wrapper_sideway}>
