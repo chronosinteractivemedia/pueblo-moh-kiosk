@@ -57,7 +57,7 @@ export default function Nav({ items = [] }) {
             </Link>
             <Link href="/3">
               <li data-active={router.asPath === "/3"}>
-                Veterans Bridge <FiArrowRight />
+                Veterans' Bridge <FiArrowRight />
               </li>
             </Link>
             <Link href="/">

@@ -671,16 +671,16 @@
       "id": 3,
       "logo": "",
       "city": null,
-      "title": "Veteran's Bridge",
-      "description": "<p>Pueblo has many unique monuments, memorials, attractions, and recreation areas you will enjoy.</p><p>Through the years, Veterans from every era have been honored in some way in the Pueblo area.  Unique monuments, memorials, plaques, cannons, signs, parkways, parks, and sculptures dot the landscape. Added in more recent times are highway welcoming signs, the Medal of Honor Plaza, Weisbrod Aircraft Museum, Veterans Bridge, Walk of Valor, and Center for American Values. Pride in our veterans helps make Pueblo the Home of Heroes.</p>",
+      "title": "Veterans’ Bridge",
+      "description": "<p>The “Veterans’ Bridge” is the only monument in the United States recognizing veterans of all military branches and duty statuses. It is also the first time in history that families can group family members who are veterans together regardless of which branch of service they served in, or whether they served in peacetime or war. Veterans are prominently displayed on the bridge along with Pueblo’s four Medal of Honor recipients, the 5 military branch seals, and the flags of both Colorado and the United States.</p><p>Veterans’ Bridge Steering Committee Chairman Gus Sandstrom stated, “Pueblo has one of the highest concentrations of veterans in the nation. This bridge will forever honor the sacrifice of the men and women who served our nation. We owe our freedom to their sacrifice.”</p><p>“Veterans’ Bridge” is a partnership between the Pueblo Veterans’ Council, the Historic Arkansas Riverwalk of Pueblo Foundation and the Pueblo Home of Heroes Association.</p>",
       "audio": null,
       "button": {
         "title": "Search Veterans",
-        "href": "#"
+        "href": "veterans-bridge"
       },
       "media": [
         {
-          "title": "Veteran's Bridge",
+          "title": "Veterans’ Bridge",
           "type": "gallery",
           "thumbnail": "/images/vet-bridge/Veterans_Bridge_Christopher_Pherosorio.jpg",
           "slides": [
