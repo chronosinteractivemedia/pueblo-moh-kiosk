@@ -21,17 +21,20 @@
     animation: fade 600ms $ease-out-quint both;
 }
 .code{
-	width: 100px;
-	height: 100px;
 	margin-bottom: 20px;
 	display: inline-block;
 }
 .desc{
 	display: inline-block;
-	max-width: 100px;
 	padding: 0;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
 	font-size: 14px;
-	line-height: 135%;
-	text-align: left;
-	font-weight: normal;
+	line-height: 17px;
+	color: #000000;
+	&_white{
+		@extend .desc;
+		color: #fff;
+	}
 }
