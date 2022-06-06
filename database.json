@@ -738,5 +738,501 @@
         }
       ]
     }
+  ],
+  "attractions": [
+    {
+      "id": 0, 
+      "name": "Center for American Values",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/american-value.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 1, 
+      "name": "Weisbrod Aircraft Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": true,
+      "videos": [
+        {
+          "id": 0,
+          "title": "Beyond the Medal of Honor",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=1",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 1,
+          "title": "Civil War Medal of Honor Display",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=2",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 2,
+          "title": "Educational Trips",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=3",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Our Values Speaker Series",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=4",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Portraits of Valor Exhibit",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=5",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 5,
+          "title": "Medal of Honor Quotes Book",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=6",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        },
+        {
+          "id": 6,
+          "title": "World Trade Center Steel Memorial",
+          "thumbnail":"https://picsum.photos/190/200.jpg?random=7",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
+        }
+      ],
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/weisbroad-museum.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },    
+    {
+      "id": 2, 
+      "name": "Historic Arkansas River Walk",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/arkansas-river-walk.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 3, 
+      "name": "Sangre de Cristo Art Center",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/sangre-art-center.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 4, 
+      "name": "El Pueblo History Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/el-pueblo-history-museum.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 5, 
+      "name": "Pueblo Heritage Museum",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "../../images/attractions/pueblo-heritage-museum.jpg",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 6, 
+      "name": "Attraction Name Feature",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 7, 
+      "name": "Chronos Center",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 8, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 9, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 10, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 11, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": true,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 12, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 13, 
+      "name": "Attraction Name",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": false,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    },
+    {
+      "id": 14, 
+      "name": "Attraction Name Feature",
+      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
+      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "walkable": false,
+      "featured": true,
+      "slides": [
+        {
+          "id": 0,
+          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 1,
+          "image": "https://picsum.photos/1200/800.jpg?random=2",
+          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        },
+        {
+          "id": 2,
+          "image": "https://picsum.photos/1800/800.jpg?random=3"
+        },
+        {
+          "id": 3,
+          "image": "https://picsum.photos/1200/800.jpg?random=4",
+          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+        }
+      ]
+    }
   ]
 }
