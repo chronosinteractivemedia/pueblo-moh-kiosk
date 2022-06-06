@@ -682,27 +682,57 @@
         {
           "title": "Veterans’ Bridge",
           "type": "gallery",
-          "thumbnail": "/images/vet-bridge/Veterans_Bridge_Christopher_Pherosorio.jpg",
+          "thumbnail": "/images/vet-bridge/veterans_bridge_gallery_landing_optimized.jpg",
           "slides": [
             {
               "id": 0,
-              "image": "https://picsum.photos/1200/1800.jpg?random=1",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+              "image": "/images/vet-bridge/gallery/Veterans_Bridge_Christopher_Pherosorio-optimized.jpg",
+              "caption": "Dedicated November 11, 2010, Veterams Bridge is located on the Historic Arkansas Riverwalk  of Pueblo.  The Veterans' Bridge is a $1.5 million pedestrian footbridge and monument, built throgh a partnership betweeen the Pueblo Veterans Council and the HARP Foundation with the Pueblo Medal of Honor Foundation;s help providing an electronic data base. It was designed to further Pueblo's proud tradition of honoring veterans."
             },
             {
               "id": 1,
-              "image": "https://picsum.photos/1200/800.jpg?random=2",
-              "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+              "image": "/images/vet-bridge/gallery/8a618200-optimized.jpg",
+              "caption": "One of two pyramids which hold the names of over 7,000 veterans. Each plaque has the service person's name, branch of the service and dates of service. "
             },
             {
               "id": 2,
-              "image": "https://picsum.photos/1800/800.jpg?random=3"
+              "image": "/images/vet-bridge/gallery/8a820190-optimized.jpg",
+              "caption": "One of two pyramids which hold the names of over 7,000 veterans. Each plaque has the service person's name, branch of the service and dates of service. "
             },
             {
               "id": 3,
-              "image": "https://picsum.photos/1200/800.jpg?random=4",
-              "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+              "image": "/images/vet-bridge/gallery/LANDING-DSC_0560-optimized.jpg",
+              "caption": "Each plaque has the service person's name, branch of the service and dates of service. "
+            },
+            {
+              "id": 4,
+              "image": "/images/vet-bridge/gallery/8a420190-optimized.jpg",
+              "caption": "Each plaque has the service person's name, branch of the service and dates of service. "
+            },
+            {
+              "id": 5,
+              "image": "/images/vet-bridge/gallery/DSC_0687-optimized.jpg",
+              "caption": ""
+            },
+            {
+              "id": 6,
+              "image": "/images/vet-bridge/gallery/Flags-and-sun-optimized.jpg",
+              "caption": ""
+            },
+            {
+              "id": 7,
+              "image": "/images/vet-bridge/gallery/IMG-3479-optimized.jpg",
+              "caption": ""
+            },
+            {
+              "id": 8,
+              "image": "/images/vet-bridge/gallery/RiverWalk-(57)-optimized.jpg",
+              "caption": ""
+            },
+            {
+              "id": 9,
+              "image": "/images/vet-bridge/gallery/",
+              "caption": ""
             }
           ]
         }
