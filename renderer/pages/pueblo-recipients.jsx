@@ -21,7 +21,7 @@ function PuebloRecipients({recipients, detail}) {
         {!!currentRecipient ? <GalleryDisplay layout="person" person={currentRecipient}/> :
           <GalleryDisplay layout="thumbnails">
             {recipients.map(person => {
-              return <PuebloRecipientThumb person={person} onClick={() => setCurrentRecipient(person)}/>
+              return <PuebloRecipientThumb key={person.id} person={person} onClick={() => setCurrentRecipient(person)}/>
             })}
           </GalleryDisplay>}
       </SectionRight>

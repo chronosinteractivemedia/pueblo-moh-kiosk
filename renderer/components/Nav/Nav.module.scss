@@ -79,29 +79,6 @@
 }
 
 
-@keyframes medal-in{
-  0%{
-    opacity:0;
-    transform: rotateY(90deg);
-  }
-  100%{
-    opacity:1;
-    transform: rotateY(0deg);
-  }
-}
-
-.medal{
-  @include setup-perspective(1000px);
-  position: absolute;
-  z-index: 999999;
-  top: 0;
-  right: 0;
-  width: 1100px;
-  height: 780px;
-  :global(.image){
-    animation: medal-in 1200ms $ease-out-quint both;
-  }
-}
 
 @keyframes link-in{
   0%{
