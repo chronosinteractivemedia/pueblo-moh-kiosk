@@ -12,13 +12,13 @@ export default function MyApp({Component, pageProps, menuItems}){
     window.interruptResetTimer = () => {
       if(window.resetTimer) clearTimeout(window.resetTimer);
       window.resetTimer = setTimeout(() => {
-        //router.push('/home');
+        router.push('/');
       }, 60000 * 6);
     };
     document.addEventListener('touchstart', window.interruptResetTimer);
   }, []);
   return <>
-    <Nav items={{}} /> 
+    {router.asPath !== '/' && <Nav items={{}} /> }
     <Component {...pageProps} />
   </>
 }

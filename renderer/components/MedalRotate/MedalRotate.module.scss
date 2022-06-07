@@ -1,0 +1,47 @@
+@import '../../styles/include';
+
+
+.component{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999999;
+}
+.items{
+  position: relative;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+@keyframes medal-in{
+  0%{
+    opacity:0;
+    transform: rotateY(90deg);
+  }
+  100%{
+    opacity:1;
+    transform: rotateY(0deg);
+  }
+}
+.item{
+  @include setup-perspective(1000px);
+  transform: rotateY(180deg);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 1800ms $ease-out-quint;
+  &[data-display="true"]{
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+.medal{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1100px;
+  height: 780px;
+}

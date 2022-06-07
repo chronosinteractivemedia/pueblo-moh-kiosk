@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
 import Image from "../Image/Image";
 import styles from "./Nav.module.scss";
+import MedalRotate from "../MedalRotate/MedalRotate";
 
 export default function Nav({ items = [] }) {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function Nav({ items = [] }) {
   }, []);
   return (
     <>
-      <div className={styles.navToggle} onClick={() => setIsOpen(!isOpen)}>
+      <div className={`${styles.navToggle} nav`} onClick={() => setIsOpen(!isOpen)}>
         {!isOpen ? (
           <>
             <FiMenu />
@@ -51,7 +52,7 @@ export default function Nav({ items = [] }) {
               </li>
             </Link>
             <Link href="/">
-              <li data-active={router.asPath === ""}>
+              <li data-active={router.asPath === "/moh-recipients"}>
                 Congressional Medal of Honor Recipients <FiArrowRight />
               </li>
             </Link>
@@ -61,14 +62,12 @@ export default function Nav({ items = [] }) {
               </li>
             </Link>
             <Link href="/">
-              <li data-active={router.asPath === ""}>
+              <li data-active={router.asPath === "/area-attractions"}>
                 Pueblo Attractions <FiArrowRight />
               </li>
             </Link>
           </ul>
-          <div className={styles.medal}>
-            <Image width={1100} height={780} src="/images/moh-medal_1.png" />
-          </div>
+          <MedalRotate />
           <div className={styles.sponsorSection}>
             <h2>Sponsored By:</h2>
             <ul className={styles.sponsors}>

@@ -1,4 +1,15 @@
 {
+  "attracts": {
+    "title": "MEDAL OF HONOR INFORMATION CENTER",
+    "subtitle": "Presented by Pueblo Home of Heroes Association",
+    "logo": "/images/hha-logo.png",
+    "slides": [
+      {"type":  "medals"},
+      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=1" },
+      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=2" },
+      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=3" }
+    ]
+  },
   "puebloRecipientsDetail": {
     "city": "Pueblo",
     "title": "Medal of Honor Recipients",
