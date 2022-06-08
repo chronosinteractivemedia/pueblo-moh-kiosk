@@ -755,8 +755,8 @@
     {
       "id": 0, 
       "name": "Center for American Values",
-      "descptn" : "The Center's organizational mission is based on the need for a national initiative ...",
-      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "descptn" : "The Center's organizational mission is based on the need for a national ...",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street, 719-543-9502</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://www.google.com/maps/place/Center+For+American+Values/@38.2646268,-104.6139963,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a302042d2719:0xf86c7f0f7f7b931c!8m2!3d38.2645787!4d-104.6117448",
       "types":["Military Attractions"],
@@ -888,36 +888,76 @@
     }, 
     {
       "id": 1, 
-      "name": "Attraction name 2",
-      "descptn" : "List description goes here",
-      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "name": "Weisbrod Aircraft Museum",
+      "descptn" : "The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum ...",
+      "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>640 Pueblo Reservoir Road, 719-561-9320</p>",
       "qrcode_label":"Scan QR code for map location",
-      "qrcode": "",
-      "types":["",""],
-      "walkable": true,
+      "qrcode": "https://www.google.com/maps/place/Pueblo+Weisbrod+Aircraft+Museum/@38.2814518,-104.4986664,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a50d618660f1:0x98d628560dd8ccc8!8m2!3d38.2814518!4d-104.4964777",
+      "types":["Military Attractions","Museums"],
+      "walkable": false,
       "featured": true,
-      "featured_name": "",
-      "featured_image": "/images/attractions/",
+      "featured_name": "Weisbrod Aircraft Museum",
+      "featured_image": "/images/attractions/weisbrod-featured.jpg",
       "slides": [
         {
           "id": 0,
-          "image": "../../images/attractions/american-value.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/weisbrod/20200729_120333.jpg",
+          "caption": ""
         },
         {
           "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/weisbrod/1.JPG",
+          "caption": ""
         },
         {
           "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
+          "image": "/images/attractions/weisbrod/105.jpg",
+          "caption": ""
         },
         {
           "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/weisbrod/512.jpg",
+          "caption": ""
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/weisbrod/7702.jpg",
+          "caption": ""
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/weisbrod/weisbrod-LANDING-20200729_115934.jpg",
+          "caption": ""
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/weisbrod/B47.jpg",
+          "caption": ""
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/weisbrod/B49.jpg",
+          "caption": ""
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/weisbrod/DSC_0012.JPG",
+          "caption": ""
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/weisbrod/DSCN1095.JPG",
+          "caption": ""
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/weisbrod/DSCN1097.JPG",
+          "caption": ""
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/weisbrod/Weisbrod-Aircraft-Museum-1-Visit-Pueblo.jpg",
+          "caption": ""
         }
       ]
     },
