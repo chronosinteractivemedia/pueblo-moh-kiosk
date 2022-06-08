@@ -1119,6 +1119,41 @@
           "image": "/images/attractions/riverwalk/View-to-Memorial-Hall.jpg"
         }
       ]
+    },
+    {
+      "id": 3, 
+      "name": "Sangre de Cristo Arts and Conference Center",
+      "descptn" : "This three building complex is located in the heart of downtown ...",
+      "detail": "<p>This three building complex is located in the heart of downtown Pueblo. It is dedicated to the dissemination of art and culture in this part of Colorado. The center was founded in 1972 and in the past 50 years has been a major driving force in development of art and dance. The structures inside the complex comprises a theater which has a seating capacity for 500 spectators, Buell Children’s Museum and art galleries. Besides hosting cultural events and national and international art exhibits, the center also conducts classes and programs all through the year. </p><p>210 N. Santa Fe Avenue, 719-283-3623</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/Sangre+de+Cristo+Arts+%26+Conference+Center/@38.2696246,-104.6084279,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a30483912d5f:0x54fa19c716256b62!8m2!3d38.2697089!4d-104.606429",
+      "types":["Arts & Culture", "Museums"],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "Sangre de Cristo Arts Center ",
+      "featured_image": "/images/attractions/sangre-de-cristo-featured.jpg",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/sangre_arts/landing-Sangre-De-Cristo-Art-Center.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/sangre_arts/Sangre-de-Christo-Art-Center.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/sangre_arts/DSCN1058.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/sangre_arts/Sangre-De-Cristo-Art-Center-030318.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/sangre_arts/Buell-Childrens-Museum.jpg"
+        }
+      ]
     }
   ]
 }
