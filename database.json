@@ -1268,6 +1268,187 @@
           "image": "/images/attractions/pueblo_heritage/Sewing-Machines.jpg"
         }
       ]
+    },
+    {
+      "id": 6, 
+      "name": "Military Monuments and Memorials",
+      "descptn" : "Pueblo has many unique monuments, memorials, attractions, and ...",
+      "detail": "<p>Pueblo has many unique monuments, memorials, attractions, and recreation areas you will enjoy. Through the years, Veterans from every era have been honored in some way in the Pueblo area.  Unique monuments, memorials, plaques, cannons, signs, parkways, parks, and sculptures dot the landscape. Added in more recent times are highway welcoming signs, the Medal of Honor Plaza, Weisbrod Aircraft Museum, Veterans Bridge, Walk of Valor, and Center for American Values. Pride in our veterans helps make Pueblo the Home of Heroes. (81 words)</p>",
+      "qrcode_label":"",
+      "qrcode": "",
+      "types":["Military Attractions"],
+      "walkable": true,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/military/707-Vietnam-Memorial-LANDING.jpg",
+          "caption": "This Colorado Vietnam Memorial was the dream of Delbert Schmeling, a Vietnam Army veteran. It is located  at 26th and North Elizabeth Streets in the Elizabeth Street Parkway. The memorial was dedicated  in 1996 to those from Colorado who served their country during the Vietnam Era 1964-1975 and has the names of the 620 Colorado men and women who gave their lives in service during this conflict."
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/military/712-USS-Pueblo.jpg",
+          "caption": "This bronze plaque, dedicated to the USS Pueblo, its captain  and crew, is at the front door of the Pueblo Convention Center. The USS Pueblo was called an Auxiliary General Environmental Research vessel to hide its true purpose of intelligence gathering. It was named for the city and county of Pueblo. The community followed events closely when it was attacked and seized in 1968 in international waters by North Korea who is still in possession of the ship, making it the only captive vessel on the commissioned roster of the US Navy.The crew was captive for 11 months. Commander Lloyd Bucher visited Pueblo following his release to thank the community for its support and efforts in seeking the men's return. The crew members have met in Pueblo several times since then."
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/military/20-Memorial-Hall-1.jpg",
+          "caption": "Pueblo City Hall was constructed in 1916 followed by a large city auditorium added at the south end. On September 25, 1919 President Woodrow Wilson came to Pueblo to draw support for the League of Nations, which he felt would help prevent future wars. Needing a large place indoors to hold he speech, the City Auditorium was suggested, even though it was not quite finished. During that speech Wilson dedicated the auditorium as 'Memorial Hall' in honor of those who died in the Great War (WWI)."
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/military/701-a-I-25-Welcome-Sign.jpg",
+          "caption": "Welcoming people to Pueblo is a large highway sign proclaiming Pueblo as 'Home of Heroes'. Spanning the decades, Pueblo has had pride for its veterans and has shown it through monuments and memorials."
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/military/702-A-Crawford-sign.jpg",
+          "caption": "Drew D. Dix recently saw his namesake street sign change locations. Rather than having a one block road in the Belmont area that leads to a park bearing his name, City Council approved renaming a portion of Platteville Boulevard on the northern edge of the city, to Drew Dix Parkway. Jerry Murphy is honored with a Street in the Belmont area, while both Carl Sitter and Bill Crawford have streets on the south side of Pueblo near the areas where they used to deliver newspapers."
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/military/702-B-Sitter-sign.jpg",
+          "caption": "Drew D. Dix recently saw his namesake street sign change locations. Rather than having a one block road in the Belmont area that leads to a park bearing his name, City Council approved renaming a portion of Platteville Boulevard on the northern edge of the city, to Drew Dix Parkway. Jerry Murphy is honored with a Street in the Belmont area, while both Carl Sitter and Bill Crawford have streets on the south side of Pueblo near the areas where they used to deliver newspapers."
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/military/702-C-Jerry-Murphy-sign.jpg",
+          "caption": "Drew D. Dix recently saw his namesake street sign change locations. Rather than having a one block road in the Belmont area that leads to a park bearing his name, City Council approved renaming a portion of Platteville Boulevard on the northern edge of the city, to Drew Dix Parkway. Jerry Murphy is honored with a Street in the Belmont area, while both Carl Sitter and Bill Crawford have streets on the south side of Pueblo near the areas where they used to deliver newspapers."
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/military/702-D-Dix-sign.jpg",
+          "caption": "Drew D. Dix recently saw his namesake street sign change locations. Rather than having a one block road in the Belmont area that leads to a park bearing his name, City Council approved renaming a portion of Platteville Boulevard on the northern edge of the city, to Drew Dix Parkway. Jerry Murphy is honored with a Street in the Belmont area, while both Carl Sitter and Bill Crawford have streets on the south side of Pueblo near the areas where they used to deliver newspapers."
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/military/702-Drew-Dix-park.jpg",
+          "caption": "Drew D. Dix Park , named for Pueblo Medal of Honor recipient, is an 8.6 acre park on Massari Road near Troy Avenue. While this park has been in existence for many years it received a much needed improvement of signage and playground area thanks to many Veteran and  volunteer groups."
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/military/703-Doughboy.jpg",
+          "caption": "Located on Pueblo's northside at 29th and Elizabeth Street Parkway, in an area known as Victory Row,  this Doughboy statue was created by the Daughters of American Revolution to remember the World War I. It was titled Ready, but quickly became known simply as The Doughboy"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/military/704-Rolling-W.jpg",
+          "caption": "Memorial to the famous 89th Infantry Division, activated in both WWI and WWII and memoralizes all 400 Puebloans who served in the division during WWI and lists 27 who were killed"
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/military/705-USS-Maine-(2).jpg",
+          "caption": "The USS Maine was sunk during the Spanish American War. The ship was raised, and from the metal recovered this plaque was one of 1,000 cast. Pueblo was allotted one because it is a community that lost officers or crew on the vessel. It represents victory in an attitude of sorrow."
+        },
+        {
+          "id": 12,
+          "image": "/images/attractions/military/706-Centennial-HS.jpg",
+          "caption": "Centennial High School was established in 1873, before Colorado became a state (1876). It has plaques recognizing the four wars in which its students fought and many died."
+        },
+        {
+          "id": 13,
+          "image": "/images/attractions/military/708-a-Mineral-Palace.jpg",
+          "caption": "Mineral Palace Park features a large concrete obelisk dedicated to all soldiers and sailors. Nearby is a 155mm Howitzer cannon used during WWII"
+        },
+        {
+          "id": 14,
+          "image": "/images/attractions/military/709-Courthouse.jpg",
+          "caption": "Pueblo County Courthouse at 10th & Main Street, is guarded by Lady Liberty. All  branches of service and  veterans groups are  now recognized both outside and inside the building. Lady Liberty was one of more than 200 installed throughout the United States in 1950 by the Boy Scouts of America."
+        },
+        {
+          "id": 15,
+          "image": "/images/attractions/military/710-Fed-bldg-Cannon-Balls-2.jpg",
+          "caption": "Issac R. French served in the Union Army during the Civil War and came to Pueblo in 1883, joining the Colorado National Guard. Active in local veterans organizations including the Grand  Army of the Republic, he is credited  with this Civil War monument which is by the Federal Building at 5th and Main Streets. Erected in 1902."
+        },
+        {
+          "id": 16,
+          "image": "/images/attractions/military/711-Mormon-Battalion.jpg",
+          "caption": "This Mormon Battalion monument Located near Runyon Field is in recognition of a detachment of U.S. soldiers who , during the Mexican  War, spent the winter of 1846-47 near the junction of Santa Fe Avenue and Santa Fe Drive. With their families and Mormon immigrants from Mississippi, the settlement numbered around 275, and from it, the first white children in Colorado were born."
+        },
+        {
+          "id": 17,
+          "image": "/images/attractions/military/713-Pete-Lemon-plaque.jpg",
+          "caption": "Peter.C. Lemon Rose Garden is near the front door of the Pueblo ConventionCenter and is in honor of Medal of Honor recipient Peter C. Lemon (who was living in Colorado Springs),  for all his help and personal dedication to working with young people in our community to learn about leadership, ethics, and patriotism. It also honors the members of Lemon's Battalion who lost their lives in Vietnam."
+        },
+        {
+          "id": 18,
+          "image": "/images/attractions/military/715-Memorial-Hall.jpg",
+          "caption": "Pueblo City Hall was constructed in 1916 followed by a large city auditorium added at the south end. On September 25, 1919 President Woodrow Wilson came to Pueblo to draw support for the League of Nations, which he felt would help prevent future wars. Needing a large place indoors to hold he speech, the City Auditorium was suggested, even though it was not quite finished. During that speech Wilson dedicated the auditorium as 'Memorial Hall' in honor of those who died in the Great War (WWI)."
+        },
+        {
+          "id": 19,
+          "image": "/images/attractions/military/716-A-CSU-P-SE-Asia.jpg",
+          "caption": "An eighty foot flagpole flying Old Glory centers the Southeast Asia Memorial on the CSU-Pueblo campus. It is flanked by a Colorado flag and a POW/MIA flag. The memorial contains granite  slabs bearing the names of those who attended the college and were killed while fighting in Vietnam. "
+        },
+        {
+          "id": 20,
+          "image": "/images/attractions/military/716-B-CSU-P-SE-Asia.jpg",
+          "caption": "An eighty foot flagpole flying Old Glory centers the Southeast Asia Memorial on the CSU-Pueblo campus. It is flanked by a Colorado flag and a POW/MIA flag. The memorial contains granite  slabs bearing the names of those who attended the college and were killed while fighting in Vietnam. "
+        },
+        {
+          "id": 21,
+          "image": "/images/attractions/military/717-Lucero-Library.jpg",
+          "caption": "The Patrick A. Lucero Library, one of the newest branches of the Pueblo City/County Library District is named for an Eastside native who gave his life serving in the Vietnam War. It was dedicated on September 24, 2013 at 7th and Monument Streets."
+        },
+        {
+          "id": 22,
+          "image": "/images/attractions/military/719-Central-High.jpg",
+          "caption": "Pueblo Central High School on Orman Avenue is the second oldest High School in Pueblo and thought to be the only high school in America to graduate two Medal of Honor recipients  William J. 'Bill' Crawford and Carl. L. Sitter  and it recognizes them as such with a display case in their main hallway. Also at Central High is a plaque honoring the memory of former students who died in World War II."
+        },
+        {
+          "id": 23,
+          "image": "/images/attractions/military/720-PCC.jpg",
+          "caption": "Pueblo Community College,  formerly Pueblo Junior College, has a plaque in memory of alumni and employees who served in conflicts and deployment throughout the world from its founding in 1933 through the end of World War II."
+        },
+        {
+          "id": 24,
+          "image": "/images/attractions/military/721-Imperial-Gardens.jpg",
+          "caption": "Imperial Memorial Gardens cemetery has established a Veterans Court of Honor and is known for its ceremonial handling of military funerals."
+        },
+        {
+          "id": 25,
+          "image": "/images/attractions/military/722-Joe-Martinez-Blvd.jpg",
+          "caption": "Near the main entrance to Pueblo West, is a plaza that honors all its residents who have served in the Armed Forces. The Community also honors another Medal of Honor recipient Joseph P 'Joe'. Martinez . A resident of Alt, Colorado, Martinez has many relatives in Pueblo. He became the first Hispanic American to receive the Medal of Honor during World War II."
+        },
+        {
+          "id": 26,
+          "image": "/images/attractions/military/723-a-Roselawn-Civil-War-cannons.jpg",
+          "caption": "The largest display of patriotism in the entire area is found at Roselawn Cemetery, where the tributes date back to the Civil War."
+        },
+        {
+          "id": 27,
+          "image": "/images/attractions/military/723-b-Dockums-grave.jpg",
+          "caption": "The largest display of patriotism in the entire area is found at Roselawn Cemetery, where the tributes date back to the Civil War."
+        },
+        {
+          "id": 28,
+          "image": "/images/attractions/military/723-C-TREA-at-Roselawn.jpg",
+          "caption": "The largest display of patriotism in the entire area is found at Roselawn Cemetery, where the tributes date back to the Civil War."
+        },
+        {
+          "id": 29,
+          "image": "/images/attractions/military/723-E-Spanish-Am-war-Roselawy.jpg",
+          "caption": "The largest display of patriotism in the entire area is found at Roselawn Cemetery, where the tributes date back to the Civil War."
+        },
+        {
+          "id": 30,
+          "image": "/images/attractions/military/726-Boone.jpg",
+          "caption": ""
+        },
+        {
+          "id": 31,
+          "image": "/images/attractions/military/I-25-southside-welcome-sign.jpg",
+          "caption": "South I-25 sign"
+        },
+        {
+          "id": 32,
+          "image": "/images/attractions/military/VeteransBridge-B.jpg",
+          "caption": ""
+        }
+        
+      ]
     }
   ]
 }
