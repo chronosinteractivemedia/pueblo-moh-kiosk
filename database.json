@@ -851,7 +851,7 @@
         },
         {
           "id": 8,
-          "image": "/images/attractions/cav/CAV-W-trade-Center-082821-(5)-crop.JPG",
+          "image": "/images/attractions/cav/CAV-W-trade-Center-082821-crop.JPG",
           "caption": ""
         },
         {
@@ -876,7 +876,7 @@
         },
         {
           "id": 13,
-          "image": "/images/attractions/cav/Main-101-S-Water-Front-Flags-Building-46-(7).JPG",
+          "image": "/images/attractions/cav/Main-101-S-Water-Front-Flags-Building-46.JPG",
           "caption": ""
         },
         {
@@ -1044,7 +1044,7 @@
         },
         {
           "id": 17,
-          "image": "/images/attractions/riverwalk/Lake-Elizabeth-at-dawn-in-Dec---from-Meagan.jpg"
+          "image": "/images/attractions/riverwalk/Lake-Elizabeth-at-dawn-in-Dec-from-Meagan.jpg"
         },
         {
           "id": 18,
@@ -1117,6 +1117,155 @@
         {
           "id": 35,
           "image": "/images/attractions/riverwalk/View-to-Memorial-Hall.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3, 
+      "name": "Sangre de Cristo Arts and Conference Center",
+      "descptn" : "This three building complex is located in the heart of downtown ...",
+      "detail": "<p>This three building complex is located in the heart of downtown Pueblo. It is dedicated to the dissemination of art and culture in this part of Colorado. The center was founded in 1972 and in the past 50 years has been a major driving force in development of art and dance. The structures inside the complex comprises a theater which has a seating capacity for 500 spectators, Buell Children’s Museum and art galleries. Besides hosting cultural events and national and international art exhibits, the center also conducts classes and programs all through the year. </p><p>210 N. Santa Fe Avenue, 719-283-3623</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/Sangre+de+Cristo+Arts+%26+Conference+Center/@38.2696246,-104.6084279,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a30483912d5f:0x54fa19c716256b62!8m2!3d38.2697089!4d-104.606429",
+      "types":["Arts & Culture", "Museums"],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "Sangre de Cristo Arts Center",
+      "featured_image": "/images/attractions/sangre-de-cristo-featured.jpg",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/sangre_arts/landing-Sangre-De-Cristo-Art-Center.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/sangre_arts/Sangre-de-Christo-Art-Center.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/sangre_arts/DSCN1058.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/sangre_arts/Sangre-De-Cristo-Art-Center-030318.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/sangre_arts/Buell-Childrens-Museum.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4, 
+      "name": "El Pueblo History Museum",
+      "descptn" : "The El Pueblo History Museum is one block from the Convention Center ...",
+      "detail": "<p>The El Pueblo History Museum is one block from the Convention Center and the  Riverwalk. Fort Pueblo was founded  in 1842 on the Arkansas River - which divided the United States from Mexico. El Pueblo was an important cultural crossroads of the Southwest. Here lived Anglo, French, and African-American trappers and traders; Mexican settlers and their families; and Plains, Iroquois, Delaware, and Cherokee Indians. The occupants traded, farmed, and ranched in and around this combination trading post and settlement. Made of adobe, the post and its living quarters, were built around a secure interior plaza.</p><p>301 N. Union Avenue 81003, 719- 583-0453</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/El+Pueblo+History+Museum/@38.267374,-104.613421,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a302bc7f6b4d:0x1ff8ee995331e60e!8m2!3d38.267374!4d-104.6112279",
+      "types":["Museums"],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "El Pueblo History Museum",
+      "featured_image": "/images/attractions/el-pueblo-featured.jpg",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-Museum-A-new-landing.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/el_pueblo_museum/Central-Plaza-El-Pueblo-Museum.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/el_pueblo_museum/DSCN0027.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-Mercado-1.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-Mercado-2.JPG"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-Mercado-3.JPG"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-Mercado-4.JPG"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/el_pueblo_museum/El-Pueblo-History-Museum.JPG"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/el_pueblo_museum/EP_LP_05-21-02_012.JPG"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/el_pueblo_museum/EP_LP_06-26-02_019.JPG"
+        }
+      ]
+    },
+    {
+      "id": 5, 
+      "name": "Pueblo Heritage Museum",
+      "descptn" : "The Southeastern Colorado Heritage Center preserves and furthers the ...",
+      "detail": "<p>The Southeastern Colorado Heritage Center preserves and furthers the local culture, while keeping the history of the place alive. They have on display, memorabilia from the city's history and culture leading up to the present day. Exhibits include, Pueblo's 1921 Flood, Early Coloradoans, Depression Era, Telephones through the years, Sewing machines, Pueblo Saddles, just to name a few.</p><p>201 W. B Street 81003 719- 295-1517</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/Pueblo+Heritage+Museum/@38.26354,-104.619148,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a2e3703152df:0xebc518b519f4b9ff!8m2!3d38.26354!4d-104.616954",
+      "types":["Museums"],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "Pueblo Heritage Museum",
+      "featured_image": "/images/attractions/pueblo-heritage-museum-featured.jpg",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/pueblo_heritage/new-landing-Pueblo-Heritage-Museum.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/pueblo_heritage/LANDING-Pueblo-Heritage-Museum.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/pueblo_heritage/B-Street-081621.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/pueblo_heritage/Depression-Era-Exhibit.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/pueblo_heritage/Early-Coloradoans.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/pueblo_heritage/Kay-Keating-Carriages.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Flood-Exhibit.jpg"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Railroad-Museum-Exhibit.jpg"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Saddles-Exhibit.jpg"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/pueblo_heritage/Rural-Phone-Exhibit.jpg"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/pueblo_heritage/Sewing-Machines.jpg"
         }
       ]
     }
