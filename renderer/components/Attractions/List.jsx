@@ -4,6 +4,7 @@ import Scroller from "../Scroller/Scroller";
 
 
 export default function List ({areaAttractions, onChooseAttraction}){
+  areaAttractions = [...areaAttractions]; //copy so we can sort without efecting the original list
   areaAttractions.sort((a,b) => {
     if(a.name > b.name) return 1;
     else if(a.name < b.name) return -1;
