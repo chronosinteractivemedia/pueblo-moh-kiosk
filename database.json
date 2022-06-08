@@ -25,8 +25,8 @@
         "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Crawford and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
         "bio": "Pvt. Bill Crawford was a squad scout in action with the enemy near Altavilla, Italy, 13 September 1943, when his Company was attacked on Hill 424 by an enemy-held position. After reaching the crest of a hill, his platoon was pinned down by intense enemy machine-gun and small-arms fire. Locating one of these guns, which was dug in on a terrace on his immediate front, Pvt. Crawford, without orders and on his own initiative moved over the hill under enemy fire to a point within a few yards of the gun emplacement and singlehandedly destroyed the machine gun and killed three of the crew with a hand grenade, thus enabling his platoon to continue its advance. When the platoon, after reaching the crest, was once more delayed by enemy fire, Pvt. Crawford again, in the face of intense fire, advanced directly to the front midway between two hostile machine-gun nests located on a higher terrace and emplaced in a small ravine. Moving first to the left, with a grenade he destroyed one gun emplacement and killed the crew; he then worked his way, under continuous fire, to the other and with one grenade and the use of his rifle, killed one enemy and forced the remainder to flee. Seizing the enemy machine gun, he fired on the withdrawing Germans and facilitated his company's advance.",
         "cmoh_link":"https://www.cmohs.org/kiosk/recipients/william-j-crawford",
-        "qrcode_label":"",
-        "qrcode": "",
+        "qrcode_label":"test",
+        "qrcode": "www.chronosinteractive.com",
         "summary": [
           {
             "name": "Rank",
@@ -755,10 +755,149 @@
     {
       "id": 0, 
       "name": "Center for American Values",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "descptn" : "The Center's organizational mission is based on the need for a national initiative ...",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/Center+For+American+Values/@38.2646268,-104.6139963,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a302042d2719:0xf86c7f0f7f7b931c!8m2!3d38.2645787!4d-104.6117448",
+      "types":["Military Attractions"],
       "walkable": true,
       "featured": true,
+      "featured_name": "Center for American Values",
+      "featured_image": "/images/attractions/center-for-american-values-featured.jpg",
+      "videos": [
+        {
+          "id": 0,
+          "title": "Beyond the Medal of Honor",
+          "thumbnail":"/images/attractions/cav/cav-beyond-the-moh-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Beyond-The-Medal.mp4"
+        },
+        {
+          "id": 1,
+          "title": "Civil War Medal of Honor Display",
+          "thumbnail":"/images/attractions/cav/cav-civil-war-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Chism-display.mp4"
+        },
+        {
+          "id": 2,
+          "title": "Educational Trips",
+          "thumbnail":"/images/attractions/cav/cav-educational-trips-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Educational-Field-Trip.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Our Values Speaker Series",
+          "thumbnail":"/images/attractions/cav/cav-our-values-speaker-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-On-Values-Speaker-Series.mp4"
+        },
+        {
+          "id": 4,
+          "title": "Portraits of Valor Exhibit",
+          "thumbnail":"/images/attractions/cav/cav-portraits-of-valor-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Portraits-of-Valor.mp4"
+        },
+        {
+          "id": 5,
+          "title": "Medal of Honor Quotes Book",
+          "thumbnail":"/images/attractions/cav/cav-quotes-book-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Quotes-Book.mp4"
+        },
+        {
+          "id": 6,
+          "title": "World Trade Center Steel Memorial",
+          "thumbnail":"/images/attractions/cav/cav-steel-memorial-thumb.jpg",
+          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-World-Trade-Center-Steel.mp4"
+        }
+      ],
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/cav/Center-For-American-Values-11-Visit-Pueblo-Gallery-title-photo.JPG",
+          "caption": ""
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/cav/_JCW3333.jpg",
+          "caption": ""
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/cav/911-Memorial.jpg",
+          "caption": ""
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/cav/2015-08-26-005-Copy.JPG",
+          "caption": ""
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/cav/2015-08-26-006-Copy.JPG",
+          "caption": ""
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/cav/AmValues-0215.jpg",
+          "caption": ""
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/cav/Boy.jpg",
+          "caption": ""
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/cav/CAV-Building.jpg",
+          "caption": ""
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/cav/CAV-W-trade-Center-082821-(5)-crop.JPG",
+          "caption": ""
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/cav/Center-For-American-Values-6-Visit-Pueblo.JPG",
+          "caption": ""
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/cav/DREW-WITH-RECIPIENTS.jpg",
+          "caption": ""
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/cav/IMG_0277.jpg",
+          "caption": ""
+        },
+        {
+          "id": 12,
+          "image": "/images/attractions/cav/Kids-and-Pueblo-4.jpg",
+          "caption": ""
+        },
+        {
+          "id": 13,
+          "image": "/images/attractions/cav/Main-101-S-Water-Front-Flags-Building-46-(7).JPG",
+          "caption": ""
+        },
+        {
+          "id": 14,
+          "image": "/images/attractions/cav/ON-VALUES-SPEAKER-SERIES.jpg",
+          "caption": ""
+        }
+      ]
+    }, 
+    {
+      "id": 1, 
+      "name": "Attraction name 2",
+      "descptn" : "List description goes here",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "",
+      "types":["",""],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "",
+      "featured_image": "/images/attractions/",
       "slides": [
         {
           "id": 0,
@@ -783,90 +922,21 @@
       ]
     },
     {
-      "id": 1, 
-      "name": "Weisbrod Aircraft Museum",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 2, 
+      "name": "Attraction name 3",
+      "descptn" : "List description goes here",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "",
+      "types":["",""],
       "walkable": true,
       "featured": true,
-      "videos": [
-        {
-          "id": 0,
-          "title": "Beyond the Medal of Honor",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=1",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 1,
-          "title": "Civil War Medal of Honor Display",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=2",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 2,
-          "title": "Educational Trips",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=3",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 3,
-          "title": "Our Values Speaker Series",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=4",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 4,
-          "title": "Portraits of Valor Exhibit",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=5",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 5,
-          "title": "Medal of Honor Quotes Book",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=6",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        },
-        {
-          "id": 6,
-          "title": "World Trade Center Steel Memorial",
-          "thumbnail":"https://picsum.photos/190/200.jpg?random=7",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4"
-        }
-      ],
+      "featured_name": "",
+      "featured_image": "/images/attractions/",
       "slides": [
         {
           "id": 0,
-          "image": "../../images/attractions/weisbroad-museum.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },    
-    {
-      "id": 2, 
-      "name": "Historic Arkansas River Walk",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": true,
-      "slides": [
-        {
-          "id": 0,
-          "image": "../../images/attractions/arkansas-river-walk.jpg",
+          "image": "../../images/attractions/american-value.jpg",
           "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
         },
         {
@@ -888,15 +958,20 @@
     },
     {
       "id": 3, 
-      "name": "Sangre de Cristo Art Center",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
+      "name": "Attraction name 4",
+      "descptn" : "List description goes here",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "",
+      "types":["",""],
+      "walkable": true,
       "featured": true,
+      "featured_name": "",
+      "featured_image": "/images/attractions/",
       "slides": [
         {
           "id": 0,
-          "image": "../../images/attractions/sangre-art-center.jpg",
+          "image": "../../images/attractions/american-value.jpg",
           "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
         },
         {
@@ -918,315 +993,20 @@
     },
     {
       "id": 4, 
-      "name": "El Pueblo History Museum",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": true,
-      "slides": [
-        {
-          "id": 0,
-          "image": "../../images/attractions/el-pueblo-history-museum.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 5, 
-      "name": "Pueblo Heritage Museum",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": true,
-      "slides": [
-        {
-          "id": 0,
-          "image": "../../images/attractions/pueblo-heritage-museum.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 6, 
-      "name": "Attraction Name Feature",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "name": "Attraction name 5",
+      "descptn" : "List description goes here",
+      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "",
+      "types":["",""],
       "walkable": true,
       "featured": true,
+      "featured_name": "",
+      "featured_image": "/images/attractions/",
       "slides": [
         {
           "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 7, 
-      "name": "Chronos Center",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": true,
-      "featured": true,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 8, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": true,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 9, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 10, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 11, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": true,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 12, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 13, 
-      "name": "Attraction Name",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": false,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        },
-        {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
-        },
-        {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 14, 
-      "name": "Attraction Name Feature",
-      "descptn" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu",
-      "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "walkable": false,
-      "featured": true,
-      "slides": [
-        {
-          "id": 0,
-          "image": "https://picsum.photos/1200/800.jpg?random=1",
+          "image": "../../images/attractions/american-value.jpg",
           "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
         },
         {
