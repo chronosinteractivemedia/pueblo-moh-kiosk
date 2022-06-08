@@ -890,7 +890,7 @@
       "id": 1, 
       "name": "Weisbrod Aircraft Museum",
       "descptn" : "The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum ...",
-      "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>640 Pueblo Reservoir Road, 719-561-9320</p>",
+      "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>640 Pueblo Reservoir Road 81006, 719-561-9320</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://www.google.com/maps/place/Pueblo+Weisbrod+Aircraft+Museum/@38.2814518,-104.4986664,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a50d618660f1:0x98d628560dd8ccc8!8m2!3d38.2814518!4d-104.4964777",
       "types":["Military Attractions","Museums"],
@@ -963,106 +963,160 @@
     },
     {
       "id": 2, 
-      "name": "Attraction name 3",
-      "descptn" : "List description goes here",
-      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
+      "name": "Historic Arkansas Riverwalk of Pueblo",
+      "descptn" : "Less than a block from the Pueblo Convention Center is the Historic ...",
+      "detail": "<p>Less than a block from the Pueblo Convention Center is the Historic Arkansas Riverwalk of Pueblo. This 26 acre, urban, water based, multigenerational recreational environmental education park is publicly owned and free of charge to all populations within the region. In the past the Arkansas River was the dividing line between the US territory and Mexico and the Riverwalk has the flags of five nations which have flown over the area (France, Spain, Mexico, Texas and US).. For a small fee excursion boats are available with a boat captain who will point out many of the  the sculptures, some out in the open and others which are hidden away, as you learn more about Pueblo.</p><p>101 S. Union Avenue 81003, 719-595-0242</p>",
       "qrcode_label":"Scan QR code for map location",
-      "qrcode": "",
-      "types":["",""],
+      "qrcode": "https://www.google.com/maps/place/Historic+Arkansas+Riverwalk/@38.2654686,-104.6147866,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a302ef0f3bcd:0xd8c43fe7e146f185!8m2!3d38.2654686!4d-104.6125979",
+      "types":["Outdoor Attractions & Parks"],
       "walkable": true,
       "featured": true,
-      "featured_name": "",
-      "featured_image": "/images/attractions/",
+      "featured_name": "Historic Arkansas Riverwalk of Pueblo",
+      "featured_image": "/images/attractions/historic-arkansas-riverwalk-featured.jpg",
       "slides": [
         {
           "id": 0,
-          "image": "../../images/attractions/american-value.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/riverwalk/Channel-near-red-bridge-2019-crop-LANDING.JPG"
         },
         {
           "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/riverwalk/20210704_195917.jpg"
         },
         {
           "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
+          "image": "/images/attractions/riverwalk/Boathouse-and-boats.jpg"
         },
         {
           "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 3, 
-      "name": "Attraction name 4",
-      "descptn" : "List description goes here",
-      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
-      "qrcode_label":"Scan QR code for map location",
-      "qrcode": "",
-      "types":["",""],
-      "walkable": true,
-      "featured": true,
-      "featured_name": "",
-      "featured_image": "/images/attractions/",
-      "slides": [
-        {
-          "id": 0,
-          "image": "../../images/attractions/american-value.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "image": "/images/attractions/riverwalk/Boettcher-entry.jpg"
         },
         {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "id": 4,
+          "image": "/images/attractions/riverwalk/Bridge-RiverWalk-(58).JPG"
         },
         {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
+          "id": 5,
+          "image": "/images/attractions/riverwalk/Channel-near-red-bridge-2019.JPG"
         },
         {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
-        }
-      ]
-    },
-    {
-      "id": 4, 
-      "name": "Attraction name 5",
-      "descptn" : "List description goes here",
-      "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street 719-543-9502</p>",
-      "qrcode_label":"Scan QR code for map location",
-      "qrcode": "",
-      "types":["",""],
-      "walkable": true,
-      "featured": true,
-      "featured_name": "",
-      "featured_image": "/images/attractions/",
-      "slides": [
-        {
-          "id": 0,
-          "image": "../../images/attractions/american-value.jpg",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "id": 6,
+          "image": "/images/attractions/riverwalk/DSC_0079.JPG"
         },
         {
-          "id": 1,
-          "image": "https://picsum.photos/1200/800.jpg?random=2",
-          "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "id": 7,
+          "image": "/images/attractions/riverwalk/DSC_0081.JPG"
         },
         {
-          "id": 2,
-          "image": "https://picsum.photos/1800/800.jpg?random=3"
+          "id": 8,
+          "image": "/images/attractions/riverwalk/DSC_0084.JPG"
         },
         {
-          "id": 3,
-          "image": "https://picsum.photos/1200/800.jpg?random=4",
-          "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi iure nobis quidem soluta temporibus voluptatem voluptatibus? Exercitationem fugiat molestiae quis!"
+          "id": 9,
+          "image": "/images/attractions/riverwalk/DSC_0981.JPG"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/riverwalk/Flags-on-VB-2.jpg"
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/riverwalk/Fountain-with-flowers.jpg"
+        },
+        {
+          "id": 12,
+          "image": "/images/attractions/riverwalk/Full-boat-by-full-Brues.jpg"
+        },
+        {
+          "id": 13,
+          "image": "/images/attractions/riverwalk/Grand-Staircase-with-fountains-and-kids-2.jpg"
+        },
+        {
+          "id": 14,
+          "image": "/images/attractions/riverwalk/GWP-Sculpture-Path.jpg"
+        },
+        {
+          "id": 15,
+          "image": "/images/attractions/riverwalk/IMG_6019.JPG"
+        },
+        {
+          "id": 16,
+          "image": "/images/attractions/riverwalk/IMG_7290.JPG"
+        },
+        {
+          "id": 17,
+          "image": "/images/attractions/riverwalk/Lake-Elizabeth-at-dawn-in-Dec---from-Meagan.jpg"
+        },
+        {
+          "id": 18,
+          "image": "/images/attractions/riverwalk/Red-bridge-evening.jpg"
+        },
+        {
+          "id": 19,
+          "image": "/images/attractions/riverwalk/Red-bridge-in-fall.jpg"
+        },
+        {
+          "id": 20,
+          "image": "/images/attractions/riverwalk/River-061716-(13).JPG"
+        },
+        {
+          "id": 21,
+          "image": "/images/attractions/riverwalk/River-061716-(19).JPG"
+        },
+        {
+          "id": 22,
+          "image": "/images/attractions/riverwalk/River-061716-(21).JPG"
+        },
+        {
+          "id": 23,
+          "image": "/images/attractions/riverwalk/RiverWalk-(8).JPG"
+        },
+        {
+          "id": 24,
+          "image": "/images/attractions/riverwalk/RiverWalk-(13).JPG"
+        },
+        {
+          "id": 25,
+          "image": "/images/attractions/riverwalk/RiverWalk-(14).JPG"
+        },
+        {
+          "id": 26,
+          "image": "/images/attractions/riverwalk/RiverWalk-(24).JPG"
+        },
+        {
+          "id": 27,
+          "image": "/images/attractions/riverwalk/RiverWalk-(33).JPG"
+        },
+        {
+          "id": 28,
+          "image": "/images/attractions/riverwalk/RiverWalk-(45).JPG"
+        },
+        {
+          "id": 29,
+          "image": "/images/attractions/riverwalk/RiverWalk-(63).JPG"
+        },
+        {
+          "id": 30,
+          "image": "/images/attractions/riverwalk/riverwalk.jpg"
+        },
+        {
+          "id": 31,
+          "image": "/images/attractions/riverwalk/runyon.jpg"
+        },
+        {
+          "id": 32,
+          "image": "/images/attractions/riverwalk/Slopes-and-a-boat-2.jpg"
+        },
+        {
+          "id": 33,
+          "image": "/images/attractions/riverwalk/VB-reflections.jpg"
+        },
+        {
+          "id": 34,
+          "image": "/images/attractions/riverwalk/Veterans-Bridge.JPG"
+        },
+        {
+          "id": 35,
+          "image": "/images/attractions/riverwalk/View-to-Memorial-Hall.jpg"
         }
       ]
     }
