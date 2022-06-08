@@ -1209,6 +1209,65 @@
           "image": "/images/attractions/el_pueblo_museum/EP_LP_06-26-02_019.JPG"
         }
       ]
+    },
+    {
+      "id": 5, 
+      "name": "Pueblo Heritage Museum",
+      "descptn" : "The Southeastern Colorado Heritage Center preserves and furthers the ...",
+      "detail": "<p>The Southeastern Colorado Heritage Center preserves and furthers the local culture, while keeping the history of the place alive. They have on display, memorabilia from the city's history and culture leading up to the present day. Exhibits include, Pueblo's 1921 Flood, Early Coloradoans, Depression Era, Telephones through the years, Sewing machines, Pueblo Saddles, just to name a few.</p><p>201 W. B Street 81003 719- 295-1517</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://www.google.com/maps/place/Pueblo+Heritage+Museum/@38.26354,-104.619148,17z/data=!3m1!4b1!4m5!3m4!1s0x8713a2e3703152df:0xebc518b519f4b9ff!8m2!3d38.26354!4d-104.616954",
+      "types":["Museums"],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "Pueblo Heritage Museum",
+      "featured_image": "/images/attractions/pueblo-heritage-museum-featured.jpg",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/pueblo_heritage/new-landing-Pueblo-Heritage-Museum.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/pueblo_heritage/LANDING-Pueblo-Heritage-Museum.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/pueblo_heritage/B-Street-081621.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/pueblo_heritage/Depression-Era-Exhibit.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/pueblo_heritage/Early-Coloradoans.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/pueblo_heritage/Kay-Keating-Carriages.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Flood-Exhibit.jpg"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Railroad-Museum-Exhibit.jpg"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/pueblo_heritage/Pueblo-Saddles-Exhibit.jpg"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/pueblo_heritage/Rural-Phone-Exhibit.jpg"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/pueblo_heritage/Sewing-Machines.jpg"
+        }
+      ]
     }
   ]
 }
