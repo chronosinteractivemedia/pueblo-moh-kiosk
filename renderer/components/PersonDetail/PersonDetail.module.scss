@@ -81,6 +81,10 @@
       line-height: 1.06;
       color: #403D3D;
       padding: 5px 0;
+      span{
+        display: block;
+        padding: 10px 0;
+      }
     }
     &_title{
       display: flex;

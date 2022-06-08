@@ -15,6 +15,8 @@ export default function Nav({ items = [] }) {
       setIsOpen(false);
     });
   }, []);
+
+
   return (
     <>
       <div className={`${styles.navToggle} nav`} onClick={() => setIsOpen(!isOpen)}>
@@ -61,7 +63,7 @@ export default function Nav({ items = [] }) {
                 Veterans' Bridge <FiArrowRight />
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/area-attractions">
               <li data-active={router.asPath === "/area-attractions"}>
                 Pueblo Attractions <FiArrowRight />
               </li>

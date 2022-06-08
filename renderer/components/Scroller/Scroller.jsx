@@ -3,7 +3,7 @@ import { MdDragHandle } from 'react-icons/md';
 import { BsPlayFill } from 'react-icons/bs';
 import styles from './Scroller.module.scss'
 
-export default function Scroller({ children, scrollToIndex }) {
+export default function Scroller({ children, scrollToIndex, darkBg }) {
 
 	const scrollParentRef = useRef();
 	const scrollBarRef = useRef();
@@ -55,7 +55,7 @@ export default function Scroller({ children, scrollToIndex }) {
 				} else {
 					setHideScroller(false)
 				}
-			}, 500)
+			}, 250)
 		}
 	}, [scrollParentRef.current])
 
@@ -86,7 +86,7 @@ export default function Scroller({ children, scrollToIndex }) {
 	}, [scrollToIndex, scrollParentRef.current]);
 
 
-	return <div className={styles.component}>
+	return <div className={`${styles.component} ${hideScroller ? styles.hide : ''} ${darkBg ? styles.darkBg : ''}`}>
 		<div className={`${styles.container} ${hideScroller ? styles.hide : ''}`} ref={scrollParentRef}>
 			{children}
 		</div>

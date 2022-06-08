@@ -26,7 +26,10 @@ function RecipientDetail({person}){
             {person.media.type.toLowerCase() ==='audio' ? <AudioPlayer file={person.media.file} /> : "" }
             {person.media.type.toLowerCase() ==='video' ? <VideoPlayer file={person.media.file} /> : "" }
             {!!person.qrcode && <QrDisplay
-              url={person.qrcode} description= "Scan QR code to learn more"
+              isWhite={true}
+              url={person.qrcode}
+              description= {person.qrcode_label}
+              size={85}
             />}
           </div>
         </div>

@@ -29,8 +29,8 @@ function AreaAttractions ({areaAttractions}) {
       <div>
         <Header />
         <SearchBar onSetWalkable={setFilterWalkable} />
-        <div className="page-flex-row" style={{backgroundColor:"#1E2934", position:"absolute", height:"100%"}}>
-          <Features featuresAttractions={areaAttractions} />
+        <div className="page-flex-row" style={{backgroundColor:"#1E2934", position:"absolute", height:"100%", width: "100%"}}>
+          <Features featuresAttractions={areaAttractions} onChooseAttraction={setCurrentAttraction} />
           <List areaAttractions={displayList} onChooseAttraction={setCurrentAttraction} />
         </div>
       </div>  
@@ -40,7 +40,7 @@ function AreaAttractions ({areaAttractions}) {
 
 
 export async function getStaticProps({params}) {
-  const areaAttractions = database.attractions;
+  let areaAttractions = database.attractions;
   return { props: { areaAttractions } }
 }
 

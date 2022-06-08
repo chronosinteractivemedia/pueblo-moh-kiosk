@@ -4,9 +4,14 @@ import Scroller from "../Scroller/Scroller";
 
 
 export default function List ({areaAttractions, onChooseAttraction}){
+  areaAttractions.sort((a,b) => {
+    if(a.name > b.name) return 1;
+    else if(a.name < b.name) return -1;
+    else return 0;
+  });
   return (
     <div className={style.lists_wrapper}>
-      <Scroller>
+      <Scroller darkBg={true}>
         {areaAttractions.map(item => (
           <div className={style.lists_each} onClick={() => {onChooseAttraction(item)}}>
             {item.walkable === true ? <div className={style.lists_walkicon} /> : <div className={style.lists_walkicon_blank} /> }

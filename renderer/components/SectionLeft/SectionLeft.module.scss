@@ -13,6 +13,7 @@
     background-color: #3E6CB3;
     position: absolute;
   }
+  transition: all 400ms $ease-out-quint;
   &[data-width="narrow"]{
     //wide width
     width: 641px;

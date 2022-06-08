@@ -29,7 +29,7 @@ function SearchBar ({onSetWalkable}) {
           placeholder="Select an option" />
           <input type="checkbox" onChange={() => setWalkable(!walkable)} />
           <div className={style.searchBar_walkicon}/>
-          <h2>Walkable</h2>
+          <h2>Walkable from Convention Center</h2>
       </div>
     </div>
   )

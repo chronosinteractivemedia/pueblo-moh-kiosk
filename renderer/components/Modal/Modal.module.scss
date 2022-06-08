@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   background-color: rgba($color: #000000, $alpha: 0.8);
+  backdrop-filter: blur(40px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,12 +24,20 @@
   position: absolute;
   z-index:10;
   cursor: pointer;
-  top: 12px;
-  right: 12px;
-  color: $black;
+  top: 20px;
+  right: 20px;
+  color: #3e6cb3;
+  display: flex;
+  align-items: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
   svg{
     width: 38px;
     height: 38px;
+    margin-left: 10px;
   }
 }
 .component[data-transparent=true]{

@@ -7,7 +7,7 @@ export function Modal({ children, index = 0, transparent = false, onClose}) {
   const output = (
     <div className={styles.component} data-transparent={transparent}>
       <div className={styles.wrapper}>
-        <div className={styles.close} onClick={onClose}><MdClose /></div>
+        <div className={styles.close} onClick={onClose}>Back <MdClose /></div>
         {children}
       </div>
     </div>

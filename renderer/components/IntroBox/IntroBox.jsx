@@ -23,7 +23,7 @@ function IntroBox({logo, city, title, description, button, audio, video}) {
           </div>
         }
         {!!city && <h3>{city}</h3>}
-        <h2>{title}</h2>
+        <h2 dangerouslySetInnerHTML={{__html: title}} />
         <div className={style.outline}></div>
         <div className={style.description}>
           <Scroller>

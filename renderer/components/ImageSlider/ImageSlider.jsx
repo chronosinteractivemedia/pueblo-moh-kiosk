@@ -3,12 +3,33 @@ import Image from "../Image/Image";
 import {imgUrl} from "../../config";
 import styles from "./ImageSlider.module.scss";
 import {BsChevronLeft, BsChevronRight, BsPause, BsPlay} from "react-icons/bs";
+import {FiRefreshCcw} from 'react-icons/fi';
 
-export default function ImageSlider({slides}) {
+export default function ImageSlider({slides, onClose}) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [videoStarted, setVideoStarted] = useState(false);
   const [videoPaused, setVideoPaused] = useState(false);
+  const [videoProgress, setVideoProgress] = useState(0);
   const videoRef = useRef();
+
+  useEffect(() => {
+    let interval;
+    if(videoRef.current){
+      if( slides.length === 1){
+        videoRef.current.onended = () => {
+          if(onClose) onClose();
+        }
+      }
+      interval = setInterval(() => {
+        setVideoProgress((videoRef.current.currentTime / videoRef.current.duration) * 100);
+      }, 33);
+    }
+    return () => {
+      clearInterval(interval);
+      setVideoProgress(0);
+    }
+  },[videoRef, slides, setVideoProgress])
+
   useEffect(() => {
     let newSlide = currentSlide;
     if (currentSlide < 0) {
@@ -24,15 +45,19 @@ export default function ImageSlider({slides}) {
   }, [currentSlide]);
 
   useEffect(() => {
+    let interval;
     if(videoRef.current){
       if(videoStarted){
         if(!videoPaused){
           videoRef.current.play();
+          interval = setInterval(window.interruptResetTimer, 1000);
         } else {
           videoRef.current.pause();
+          clearInterval(interval)
         }
       }
     }
+    return () => clearInterval(interval);
   }, [videoStarted, videoPaused, videoRef])
 
   useEffect(() => {
@@ -69,17 +94,20 @@ export default function ImageSlider({slides}) {
                  onClick={() => toggleVideoPlay()}
                  style={{backgroundImage: `url(${slide.image})`}}>
               <video ref={videoRef} src={slide.video} autoPlay={false} controls={false}/>
+              <div className={styles.progress} style={{'width': `${videoProgress}%`}}></div>
               <div className={styles.playIcon}><BsPlay /></div>
               <div className={styles.pauseIcon}><BsPause /></div>
+              <div className={styles.restart} onClick={(e) => {
+                e.stopPropagation();
+                videoRef.current.currentTime = 0
+              }}><FiRefreshCcw /></div>
             </div>
           }
           {(slides.length > 1) && <div className={styles.counter}>
             {currentSlide + 1} of {slides.length}
           </div>}
           {!!slide.caption && (
-            <div className={styles.desc}>
-              {slide.caption}
-            </div>
+            <div className={styles.desc} dangerouslySetInnerHTML={{__html: slide.caption}} />
           )}
         </div>
       </div>

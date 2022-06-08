@@ -10,18 +10,27 @@ function AudioPlayer({file}) {
     const audio = document.createElement('AUDIO');
     audio.src = file;
     setAudio(audio);
-  }, [setAudio]);
+    audio.onended = () => {
+      setPlaying(false);
+    }
+    return () => {
+      audio.pause();
+    }
+  }, [setAudio, setPlaying]);
 
   useEffect(() => {
     if (audio) {
       if (playing) audio.play();
-      else audio.pause();
+      else{
+        audio.pause();
+        audio.currentTime = 0;
+      }
     }
   }, [audio, playing, setPlaying])
 
   return (
     <div className={style.link_audio} data-playing={playing} onClick={() => setPlaying(!playing)}>
-      <a>{playing ? "Pause" : "Play"} Audio</a>
+      <a>{playing ? "Stop" : "Play"} Audio</a>
     </div>
   )
 }

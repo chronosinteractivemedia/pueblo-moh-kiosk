@@ -133,6 +133,7 @@
       z-index: 1;
       width: 305px;
       height: 100%;
+      backdrop-filter: blur(2px);
       &::after{
         content:"";
         display: block;

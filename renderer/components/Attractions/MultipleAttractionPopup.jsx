@@ -21,11 +21,11 @@ export default function MultipleAttractionPopup ({attraction, onClose}){
         <div className={style.popup_wrapper}>
           <div className={style.popup_detail}>
             <h1>{attraction.name}</h1>
-            <p>{attraction.detail}</p>
+            <div dangerouslySetInnerHTML={{__html: attraction.detail}}/>
             <div className={style.popup_qr}>
               <QrDisplay 
-                url={"http://www.google.com"}
-                description={"Scan QR code for map location"}
+                url={attraction.qrcode}
+                description={attraction.qrcode_label}
                 isWhite={false}
                 size={87}
               />              

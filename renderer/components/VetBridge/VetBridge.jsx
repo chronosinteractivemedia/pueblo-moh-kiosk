@@ -85,7 +85,7 @@ function List({items, onSetRecipient}){
   }
   return <div className={styles.listContainer}>
     <div className={styles.listWrapper}>
-      <Scroller>
+      <Scroller darkBg={true}>
         <table className={styles.list}>
           <thead>
           <tr>

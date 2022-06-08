@@ -12,7 +12,7 @@ function VideoPlayer({file}) {
       </div>
       {!!playing &&
         <Modal transparent={true} onClose={() => setPlaying(false)}>
-          <ImageSlider slides={[{id: 0, video: file, autoplay: true, }]}/>
+          <ImageSlider slides={[{id: 0, video: file, autoplay: true, }]} onClose={() => setPlaying(false)}/>
         </Modal>}
     </>
   )
