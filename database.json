@@ -1675,7 +1675,7 @@
       "id": 12, 
       "name": "Union Avenue Historic District",
       "descptn" : "The Union Avenue Historic Commercial District was placed on ...",
-      "detail": "<p>The Union Avenue Historic Commercial District was placed on the  National Register on December 28, 1982.  The district consists of a group of business structures located to the northwest of the Arkansas River in Pueblo’s old business district. Of the original 87 properties that were within the boundaries, 70 contributed to the historic and architectural importance of the district. Unique shops for antiques, clothing, food, jewelry and many other goods and services offer their wares in the District.</p><p>300 blocks of Union Avenue 81003</p></p>",
+      "detail": "<p>The Union Avenue Historic Commercial District was placed on the  National Register on December 28, 1982.  The district consists of a group of business structures located to the northwest of the Arkansas River in Pueblo’s old business district. Of the original 87 properties that were within the boundaries, 70 contributed to the historic and architectural importance of the district. Unique shops for antiques, clothing, food, jewelry and many other goods and services offer their wares in the District.</p><p>300 blocks of Union Avenue 81003</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/7tmTLqGXxdpy6DtS9",
       "types":["Outdoor Attractions & Parks"],
@@ -1707,6 +1707,37 @@
         {
           "id": 5,
           "image": "/images/attractions/union_avenue/Union-Ave.JPG"
+        }
+      ]
+    },
+    {
+      "id": 13, 
+      "name": "Historic Union Train Depot",
+      "descptn" : "Initially the station was served by the Denver & Rio Grande Western ...",
+      "detail": "<p>Initially the station was served by the Denver & Rio Grande Western Railroad, the Atchison, Topeka and Santa Fe Railway, the Colorado & Southern Railway (which was acquired by the Chicago, Burlington and Quincy Railroad in 1908), the Missouri Pacific Railroad, and the Chicago Rock Island & Pacific Railroad. Today the Union Pacific Railroad and the BNSF Railroad share use of the tracks, and the depot is privately owned. Regular passenger train service no longer exists.</p><p>132 B. Street 81003<br/>719-544-0020</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/7pCjVGpifBWrsDFC6",
+      "types":["Arts & Culture"],
+      "walkable": true,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/union_train/Landing-Train-Station-ed.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/union_train/B-Street-081621.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/union_train/PuebloShares-5.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/union_train/Union-Train-Depot.JPG"
         }
       ]
     }
