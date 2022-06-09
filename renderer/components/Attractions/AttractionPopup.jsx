@@ -14,14 +14,14 @@ export default function AttractionPopup ({attraction, onClose}){
           <div className={style.popup_detail}>
             <h1>{attraction.name}</h1>
             <div dangerouslySetInnerHTML={{__html: attraction.detail}}/>
-            <div className={style.popup_qr}>
-              <QrDisplay 
+            {!!attraction.qrcode && <div className={style.popup_qr}>
+               <QrDisplay 
                 url={attraction.qrcode}
                 description={attraction.qrcode_label}
                 isWhite={false}
                 size={87}
-              />              
-            </div>
+              />     
+            </div>}
           </div>
             <div className={style.popup_image_wrapper}>
               <div className={style.popup_image} onClick={() => setGalleryOpen(true)}>

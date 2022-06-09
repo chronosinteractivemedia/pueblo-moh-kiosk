@@ -26,9 +26,9 @@ function IntroBox({logo, city, title, description, button, audio, video}) {
         <h2 dangerouslySetInnerHTML={{__html: title}} />
         <div className={style.outline}></div>
         <div className={style.description}>
-          <Scroller>
+          {/*<Scroller>*/}
             <div dangerouslySetInnerHTML={{__html: description}}/>
-          </Scroller>
+          {/*</Scroller>*/}
         </div>
         {!!button && <Link href={button.href}><a className={style.buttonLink}>{button.title}</a></Link>}
         {!!audio && <div className={style.mediaLink}> <AudioPlayer file={audio} /> </div>}

@@ -22,8 +22,8 @@
   }
   &_qr{
     position: absolute;
-    display: none;
-    top: 36px;
+    display: block;
+    top: 66px;
     right: 62px;
   }
 }
@@ -409,4 +409,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;  
+}
+
+.no_results{
+  width: 508px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Lato;
 }
