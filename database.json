@@ -1612,6 +1612,61 @@
           "image": "/images/attractions/nature_center_river/Web-Header-for-RRR-2018-e1542490808612.jpg"
         }
       ]
+    },
+    {
+      "id": 11, 
+      "name": "Pueblo City Park and Zoo",
+      "descptn" : "Located in the City Park in Pueblo, the Pueblo Zoo houses ...",
+      "detail": "<p>Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 animals of 140 species. The areas of the park are divided into different parts based on the animals housed like the Serengeti Safari,  North American Grasslands and many more. City park has fountains, a lake, tennis courts, a skate park, frisbee golf, a dog park, and acres of grass and trees for picnic area as well as a swimming pool.</p><p>5200 Nature Center Drive 81005 <br/>719-549-2414</p></p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/Pun2taaDpkSkux8dA",
+      "types":["Outdoor Attractions & Parks"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/zoo/LANDING-Zoo-front.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/zoo/Bethany-feeding-4-2022.jpeg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/zoo/Pueblo-Zoo-African-Penguins.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/zoo/Lionesses-sunbathing.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/zoo/Cotton-Top-Tamarin-with-baby.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/zoo/Mogwai.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/zoo/DSCN1084.JPG"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/zoo/Kids-and-Penguins.jpg"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/zoo/20150802_194645.jpg"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/zoo/Pueblo-Zoo.jpg"
+        }
+      ]
     }
   ]
 }
