@@ -16,8 +16,8 @@ export default function AttractionPopup ({attraction, onClose}){
             <div dangerouslySetInnerHTML={{__html: attraction.detail}}/>
             <div className={style.popup_qr}>
               <QrDisplay 
-                url={"http://www.google.com"}
-                description={"Scan QR code for map location"}
+                url={attraction.qrcode}
+                description={attraction.qrcode_label}
                 isWhite={false}
                 size={87}
               />              
