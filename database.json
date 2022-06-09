@@ -1522,6 +1522,53 @@
           "image": "/images/attractions/lake_pueblo/Lake-Pueblo-South-100816.JPG"
         }
       ]
+    },
+    {
+      "id": 9, 
+      "name": "Nature & Wildlife Discovery Center Mountain Campus",
+      "descptn" : "The Nature and Wildlife Discovery Center is a multi-campus ...",
+      "detail": "<p>The Nature and Wildlife Discovery Center is a multi-campus nature preserve and educational center in Pueblo County. The NWDC  which includes a 611 acres (247 ha) mountain park, lodge, gift shop, and museum in Beulah, a small museum and educational center, as well as an open-space park on the Arkansas River in Pueblo and an adjacent raptor education and rehabilitation facility.</p><p><b>Nature and Wildlife Discovery Center:</b><br/>5200 Nature Center Drive 81005, 719-549-2414</p><p><b>Pueblo Mountain Park:</b><br/>9112 Mountain Park Drive, Beulah, 719-485-4444</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/myFZhUGXQg1WM4M18",
+      "types":["Outdoor Attractions & Parks"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/nature_center_mountain/LANDING-Pueblo-Mtn-Park-Horseshoe-Lodge.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/nature_center_mountain/2015-09-07-003.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/nature_center_mountain/Buelah-Mt-park-092416.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/nature_center_mountain/DSCF0649.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/nature_center_mountain/IMG_0523-scaled.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/nature_center_mountain/looking-at-tracks-1-1024x991.jpeg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/nature_center_mountain/porch-rockers-doc.jpg"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/nature_center_mountain/Pueblo-Mtn-Park-Maze.jpg"
+        }
+      ]
     }
   ]
 }
