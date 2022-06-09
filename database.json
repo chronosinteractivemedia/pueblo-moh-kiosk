@@ -1447,7 +1447,41 @@
           "image": "/images/attractions/military/VeteransBridge-B.jpg",
           "caption": ""
         }
-        
+      ]
+    },
+    {
+      "id": 7, 
+      "name": "Charles Goodnight Barn",
+      "descptn" : "The original barn of cattleman legend Charles Goodnight has ...",
+      "detail": "<p>The original barn of cattleman legend Charles Goodnight has been renovated to show what life on the early frontier was like. Taking cattle from Texas to the Dakotas in the 1800's was hard work. Goodnight, along with partner Oliver Loving made many trips. Goodnight  established a ranch here in the Pueblo area. The cattle barn is the only piece of that ranch that is left. Over the last few years it has been refurbished and is available for special uses by appointment only. Bronze sculptures of both Goodnight and Loving can be found along the Pueblo Riverwalk in downtown Pueblo.</p><p>5475 W. State Hwy 96 81005</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/6tnEZwgT1pFwiGLH9",
+      "types":["Outdoor Attractions & Parks"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/goodnight_barn/LANDING-Goodnight-Barn.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/goodnight_barn/Finished-Barn.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/goodnight_barn/interior-restored.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/goodnight_barn/Oldest-Barn-Pic.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/goodnight_barn/Turkeys-042217-Goodnight-Barn-B.JPG"
+        }
       ]
     }
   ]
