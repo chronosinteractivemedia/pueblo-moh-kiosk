@@ -187,3 +187,11 @@
   padding: 14px 20px;
   border: 1px solid $white;
 }
+
+.listHead{
+  @extend .list;
+  th:nth-child(1){width: 150px}
+  th:nth-child(2){width: 200px}
+  th:nth-child(3){width: 350px}
+  th:nth-child(4){width: 300px;}
+}
