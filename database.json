@@ -1483,6 +1483,45 @@
           "image": "/images/attractions/goodnight_barn/Turkeys-042217-Goodnight-Barn-B.JPG"
         }
       ]
+    },
+    {
+      "id": 8, 
+      "name": "Lake Pueblo State Park",
+      "descptn" : "Lake Pueblo (also known as Pueblo Reservoir) has a maximum depth ...",
+      "detail": "<p>Lake Pueblo (also known as Pueblo Reservoir) has a maximum depth of 135 feet (41 m) and is impounded by Pueblo Dam. It includes 60 miles (97 km) of shoreline and 10,000 acres (40 km2) of land. Activities it offers include two full-service marinas, recreational fishing, hiking, camping and swimming at a special swim beach. Lake Pueblo is host to many water recreation activities including sailing, motor-boating, waterskiing, wakeboarding, wake-surfing, river tubing and prime fishing.</p><p>640 Pueblo Reservoir Road  81005<br/>719-561-9320</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/YJk1rT1qF5tnkzFn8",
+      "types":["Outdoor Attractions & Parks"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-Dam-LANDING.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-072316-crop-se.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-North-100816-small.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-North-100816.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-South-100816-small.JPG"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/lake_pueblo/Lake-Pueblo-South-100816.JPG"
+        }
+      ]
     }
   ]
 }
