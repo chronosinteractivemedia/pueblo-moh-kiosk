@@ -1569,6 +1569,49 @@
           "image": "/images/attractions/nature_center_mountain/Pueblo-Mtn-Park-Maze.jpg"
         }
       ]
+    },
+    {
+      "id": 10, 
+      "name": "Nature & Wildlife Discovery Center River Campus",
+      "descptn" : "The Nature and Wildlife Discovery Center is a multi-campus ...",
+      "detail": "<p>The Nature and Wildlife Discovery Center is a multi-campus nature preserve and educational center in Pueblo County. The NWDC  which includes a 611 acres (247 ha) mountain park, lodge, gift shop, and museum in Beulah, a small museum and educational center, as well as an open-space park on the Arkansas River in Pueblo and an adjacent raptor education and rehabilitation facility.</p><p><b>Nature and Wildlife Discovery Center:</b><br/>5200 Nature Center Drive 81005, 719-549-2414</p><p><b>Pueblo Mountain Park:</b><br/>9112 Mountain Park Drive, Beulah, 719-485-4444</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/G6XW1GJq24abeLGh9",
+      "types":["Outdoor Attractions & Parks"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/nature_center_river/LANDING-Nature-Center-070816.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/nature_center_river/18_0621_RaptorCamp-62.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/nature_center_river/DianaAquila2016EagleDays-lg.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/nature_center_river/LANDING-Nature-Center-071216-Postcard.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/nature_center_river/o.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/nature_center_river/Raptor-Center-071216-crop-small.JPG"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/nature_center_river/Web-Header-for-RRR-2018-e1542490808612.jpg"
+        }
+      ]
     }
   ]
 }
