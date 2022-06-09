@@ -13,15 +13,16 @@ export default function List ({areaAttractions, onChooseAttraction}){
   return (
     <div className={style.lists_wrapper}>
       <Scroller darkBg={true}>
-        {areaAttractions.map(item => (
-          <div className={style.lists_each} onClick={() => {onChooseAttraction(item)}}>
+        {!!areaAttractions.length && areaAttractions.map(item => (
+          <div key={item.id} className={style.lists_each} onClick={() => {onChooseAttraction(item)}}>
             {item.walkable === true ? <div className={style.lists_walkicon} /> : <div className={style.lists_walkicon_blank} /> }
-            <div className={style.lists_each_detail} >
+            <div className={style.lists_each_detail}>
               <h3>{item.name}</h3>
-              <p>{item.descptn}</p>              
+              <p>{item.descptn}</p>
             </div>
           </div>
         ))}
+        {!areaAttractions.length && <div className={style.no_results}>No Results</div> }
       </Scroller>
     </div>
   )

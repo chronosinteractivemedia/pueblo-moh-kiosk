@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
-import Image from "../Image/Image";
 import styles from "./Nav.module.scss";
 import MedalRotate from "../MedalRotate/MedalRotate";
 
@@ -69,7 +68,7 @@ export default function Nav({ items = [] }) {
               </li>
             </Link>
           </ul>
-          <MedalRotate />
+          <MedalRotate playing={true} />
           <div className={styles.sponsorSection}>
             <h2>Sponsored By:</h2>
             <ul className={styles.sponsors}>

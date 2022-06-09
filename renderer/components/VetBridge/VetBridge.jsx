@@ -70,6 +70,7 @@ function Filters({allVets, onFilter}){
       <BsSearch />
       <input className={styles.search} placeholder="Search by name..." type="text" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
     </div>
+    <div className={styles.clear} onClick={() => setSearchText('')}>CLEAR</div>
     {/*<Dropdown className={styles.wars} items={filterSets.wars} onChange={val => setWarFilter(val)} placeholder="War"/>*/}
     {/*<Dropdown className={styles.branches} items={filterSets.branches} onChange={val => setBranchFilter(val)} placeholder="Service Branch" />*/}
   </div>

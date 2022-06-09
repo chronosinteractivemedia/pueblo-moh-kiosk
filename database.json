@@ -751,6 +751,9 @@
       ]
     }
   ],
+  "attractionsLanding": {
+    "audio": "/audio/medal_of_honor-memorial.mp3"
+  },
   "attractions": [
     {
       "id": 0, 

@@ -47,7 +47,7 @@ export default function AttractLoops({attracts}){
       </div>
       <div className={styles.slides}>
         {attracts.slides.map((slide, idx) => {
-          if(slide.type === 'medals') return <div key={idx} className={styles.slide} data-is-active={currentScreenRef.current === idx}><MedalRotate /></div>
+          if(slide.type === 'medals') return <div key={idx} className={styles.slide} data-is-active={currentScreenRef.current === idx}><MedalRotate playing={currentScreenRef.current === idx}/></div>
           else if(slide.type === 'image') return <div key={idx} className={styles.slide} data-is-active={currentScreenRef.current === idx}>
             <div className={styles.imageContainer}>
               <Image className={styles.image} src={slide.image} height={1080} width={828}/>

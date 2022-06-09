@@ -2,8 +2,6 @@ import React, {useState} from "react";
 import style from "../Attractions/Attractions.module.scss";
 import Image from "../Image/Image";
 import ImageSlider from "../ImageSlider/ImageSlider";
-import DetailPopup from "../DetailPopup/DetailPopup";
-import database from "../../../database.json"
 import QrDisplay from "../QrDisplay/QrDisplay";
 import { Modal } from "../Modal/Modal";
 
@@ -22,14 +20,14 @@ export default function MultipleAttractionPopup ({attraction, onClose}){
           <div className={style.popup_detail}>
             <h1>{attraction.name}</h1>
             <div dangerouslySetInnerHTML={{__html: attraction.detail}}/>
-            <div className={style.popup_qr}>
+            {!!attraction.qrcode && <div className={style.popup_qr}>
               <QrDisplay 
                 url={attraction.qrcode}
                 description={attraction.qrcode_label}
                 isWhite={false}
                 size={87}
               />              
-            </div>
+            </div> }
           </div>
             <div className={style.popup_media}>
               <div className={style.popup_media_wrapper}>
