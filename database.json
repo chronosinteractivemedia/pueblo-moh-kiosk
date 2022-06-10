@@ -1966,7 +1966,7 @@
       "detail": "<p>Pueblo 2200 Bonforte Blvd. 81001<br/>719-549-2100 </p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/32VW1MAq2ZqGE8sF7",
-      "types":["Sports"],
+      "types":["Sports","Education"],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -2053,6 +2053,37 @@
         {
           "id": 1,
           "image": "/images/attractions/motorsports/PMI-Raceway-100216.JPG"
+        }
+      ]
+    },
+    {
+      "id": 24, 
+      "name": "Runyon Field Sports Complex",
+      "descptn" : "",
+      "detail": "<p>400 Stanton Ave, 81003</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/fzgy3hrAUJDMLbzKA",
+      "types":["Sports"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/runyon/Runyon2.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/runyon/Runyon1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/runyon/272890081.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/runyon/285610583.jpg"
         }
       ]
     }
