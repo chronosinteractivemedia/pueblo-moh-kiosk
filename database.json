@@ -73,7 +73,7 @@
         ],
         "media": {
           "type": "video",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Bill-Crawford-The-Fighter.mp4"
+          "file": "/video/Bill-Crawford-The-Fighter.mp4"
         }
       },
       {
@@ -131,7 +131,7 @@
         ],
         "media": {
           "type": "video",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Carl-Sitter-The-Captain.mp4"
+          "file": "/video/Carl-Sitter-The-Captain.mp4"
         }
       },
       {
@@ -189,7 +189,7 @@
         ],
         "media": {
           "type": "video",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Jerry-Murphy-The-Lieutenant.mp4"
+          "file": "/video/Jerry-Murphy-The-Lieutenant.mp4"
         }
       },
       {
@@ -239,7 +239,7 @@
         ],
         "media": {
           "type": "video",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Drew-Dix-The-Green-Beret.mp4"
+          "file": "/video/Drew-Dix-The-Green-Beret.mp4"
         }
       }
     ]
@@ -262,7 +262,7 @@
             {
               "id": 1,
               "image": "",
-              "video": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Forged-From-Fire.mp4",
+              "video": "/video/Forged-From-Fire.mp4",
               "autoplay": true
             }
           ]
@@ -414,7 +414,7 @@
             {
               "id": 1,
               "image": "",
-              "video": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/Paul-Harvey-and-Brokaw.mp4",
+              "video": "/video/Paul-Harvey-and-Brokaw.mp4",
               "autoplay": true
             }
           ]
@@ -656,7 +656,7 @@
             {
               "id": 1,
               "image": "",
-              "video": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/medal-of-honor-history.mp4",
+              "video": "/video/medal-of-honor-history.mp4",
               "autoplay": true
             }
           ]
@@ -774,43 +774,43 @@
           "id": 0,
           "title": "Beyond the Medal of Honor",
           "thumbnail":"/images/attractions/cav/cav-beyond-the-moh-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Beyond-The-Medal.mp4"
+          "file": "/video/CAV-Beyond-The-Medal.mp4"
         },
         {
           "id": 1,
           "title": "Civil War Medal of Honor Display",
           "thumbnail":"/images/attractions/cav/cav-civil-war-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Chism-display.mp4"
+          "file": "/video/CAV-Chism-display.mp4"
         },
         {
           "id": 2,
           "title": "Educational Trips",
           "thumbnail":"/images/attractions/cav/cav-educational-trips-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Educational-Field-Trip.mp4"
+          "file": "/video/CAV-Educational-Field-Trip.mp4"
         },
         {
           "id": 3,
           "title": "Our Values Speaker Series",
           "thumbnail":"/images/attractions/cav/cav-our-values-speaker-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-On-Values-Speaker-Series.mp4"
+          "file": "/video/CAV-On-Values-Speaker-Series.mp4"
         },
         {
           "id": 4,
           "title": "Portraits of Valor Exhibit",
           "thumbnail":"/images/attractions/cav/cav-portraits-of-valor-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Portraits-of-Valor.mp4"
+          "file": "/video/CAV-Portraits-of-Valor.mp4"
         },
         {
           "id": 5,
           "title": "Medal of Honor Quotes Book",
           "thumbnail":"/images/attractions/cav/cav-quotes-book-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-Quotes-Book.mp4"
+          "file": "/video/CAV-Quotes-Book.mp4"
         },
         {
           "id": 6,
           "title": "World Trade Center Steel Memorial",
           "thumbnail":"/images/attractions/cav/cav-steel-memorial-thumb.jpg",
-          "file": "https://pueblo-moh-videos.s3.us-west-1.amazonaws.com/CAV-World-Trade-Center-Steel.mp4"
+          "file": "/video/CAV-World-Trade-Center-Steel.mp4"
         }
       ],
       "slides": [
