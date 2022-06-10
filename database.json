@@ -1838,7 +1838,7 @@
       "id": 17, 
       "name": "Rosemount Victorian House Museum",
       "descptn" : "The grandeur of a bygone era awaits you at Rosemount. ...",
-      "detail": "<p>The grandeur of a bygone era awaits you at Rosemount. Built between 1891 and 1893 this 37 room, 24,000 square-foot mansion was the family home of prominent Pueblo businessman John A. Thatcher and his wife Margaret.  This museum is unique because nearly all the furnishings, wall and window treatments, decorative arts and paintings on view are original to the home. </p><p>415 W. 14th Street 81003<br/>719-545-5296</p>",
+      "detail": "<p>The grandeur of a bygone era awaits you at Rosemount. Built between 1891 and 1893 this 37 room, 24,000 square-foot mansion was the family home of prominent Pueblo businessman John A. Thatcher and his wife Margaret.  This museum is unique because nearly all the furnishings, wall and window treatments, decorative arts and paintings on view are original to the home.</p><p>415 W. 14th Street 81003<br/>719-545-5296</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://g.page/RosemountMuseum?share",
       "types":["Museums"],
@@ -1898,6 +1898,45 @@
         {
           "id": 12,
           "image": "/images/attractions/rosemount/Sitting-room.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18, 
+      "name": "Steelworks Museum Center of the West",
+      "descptn" : "This is the first building opened in a series of buildings ...",
+      "detail": "<p>This is the first building opened in a series of buildings which once housed the Colorado Fuel and Iron Steel Mill offices for over 100 years. The steel mill, still operating, has several buildings which eventually will all house exhibits dedicated to the mining and steel industry in the west. Often called the Pittsburgh of the West, Pueblo’s long time steel mill once had over 9,000 people working at the Mill and mines throughout Colorado and Wyoming which were owned by the mill. This museum is open in the Medical Dispensary Building. No other collection of records for mining and steel works exists in such massive quantities and this museum is one of the most important industry related museums in the United States. Several displays are outside in their park area. A MUST see in Pueblo!</p><p>213 Canal Street 81004<br/>719-564-9086</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/ExX9gSkYExbJp6o38",
+      "types":["Museums"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/steelworks/Landing-CFI-SWC.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/steelworks/CFI-Park-031518-25-small.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/steelworks/CFI-Park-031518-crop.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/steelworks/CFI-Park-031518-small.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/steelworks/CFI-Park-031518.JPG"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/steelworks/DSCN3463.JPG"
         }
       ]
     }
