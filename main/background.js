@@ -24,11 +24,11 @@ if (isProd) {
   mainWindow.removeMenu();
 
   if (isProd) {
-    await mainWindow.loadURL('app://./lighting-test.html');
+    await mainWindow.loadURL('app://./index.html');
     mainWindow.webContents.openDevTools();
   } else {
     const port = process.argv[2];
-    await mainWindow.loadURL(`http://localhost:${port}/home`);
+    await mainWindow.loadURL(`http://localhost:${port}/`);
   }
 })();
 
