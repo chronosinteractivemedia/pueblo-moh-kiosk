@@ -52,7 +52,7 @@ export default function Nav({ items = [] }) {
                 History of the Medal of Honor <FiArrowRight />
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/moh-recipients">
               <li data-active={router.asPath === "/moh-recipients"}>
                 Congressional Medal of Honor Recipients <FiArrowRight />
               </li>

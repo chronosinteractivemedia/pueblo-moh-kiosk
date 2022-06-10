@@ -16,7 +16,7 @@ export default function SecretClose(){
 
     const onInput = (inp) => {
         if(inp === "{exit}"){
-            if(input === '56623'){
+            if(input === '1234'){
                 ipcRenderer.send('close-me');
             }
             setInput('');

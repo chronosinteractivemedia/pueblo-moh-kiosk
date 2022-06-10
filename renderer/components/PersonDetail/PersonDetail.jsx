@@ -23,7 +23,7 @@ function PersonDetail({person, onBack}) {
                 {person.light_display_text}
               </div>
               <p>{person.bio}</p>
-              <p>See the&nbsp;<Link href={person.cmoh_link}>Medal of Honor Recipients section</Link>&nbsp;for the full citation.</p>
+              <p>See the&nbsp;<Link href={`/moh-recipients?p=${person.cmoh_link}`}>Medal of Honor Recipients section</Link>&nbsp;for the full citation.</p>
             </div>
           </div>
           <ul className={style.bio_table}>
