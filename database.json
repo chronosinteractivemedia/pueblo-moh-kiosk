@@ -1787,7 +1787,7 @@
     {
       "id": 15, 
       "name": "InfoZone News Museum at Rawlings Public Library",
-      "descptn" : "The Fire Museum is owned by the City of Pueblo and operated by ...",
+      "descptn" : "This is a one-of-a- kind museum that aims to propagate knowledge ...",
       "detail": "<p>This is a one-of-a- kind museum that aims to propagate knowledge about American rights to freedom of speech, press and disseminate local history and culture. The museum, housed in the Robert Hoag Rawlings Public Library, in the historic Mesa Junction business district.  Exhibit information about the American rights, history and other social aspects can be viewed anytime the Library is open. You can also find chronicles of how newspapers were made throughout the ages as well as copies of some of the nearly 100 newspapers which helped Pueblo’s many immigrants learn the news of the day. Apart from the regular exhibits a number of fun events for children are held here as well.</p><p>100 E. Abriendo, Avenue 81004<br/>719-562-5600</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/v3D11Zx6PHRmkC1h6",
@@ -1800,6 +1800,37 @@
         {
           "id": 0,
           "image": "/images/attractions/infozone/Rawling-Library-Info-Zone-landing.JPG"
+        }
+      ]
+    },
+    {
+      "id": 16, 
+      "name": "The Pueblo Railway Foundation and Museum",
+      "descptn" : "It was formed in 2003 to continue and expand the collection ...",
+      "detail": "<p>It was formed in 2003 to continue and expand the collection and activities of the Pueblo Locomotive & Railroad Historical Society. The mission of the Foundation is to operate, preserve, and display railroad equipment and history. The goal is to promote interest in railroading, and the preservation and study of its history, for the education and satisfaction of all. The Foundation makes this history come alive by operating rail equipment during public events behind the Pueblo Union Depot, where visitors can come and ride the trains.</p><p>201 W. B Street 81003  (next to Union Train Depot)<br/>719-544-1773</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/wmRH8D8tF4zEBJr78",
+      "types":["Museums"],
+      "walkable": true,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/railway_museum/281756492_landing.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/railway_museum/13603483.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/railway_museum/15975011.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/railway_museum/267590006.jpg"
         }
       ]
     }
