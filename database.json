@@ -1997,6 +1997,33 @@
           "image": "/images/attractions/csu/IMG_2559.JPG"
         }
       ]
+    },
+    {
+      "id": 21, 
+      "name": "Dutch Clark Football Stadium",
+      "descptn" : "This football stadium is shared by Pueblo High Schools and is also ...",
+      "detail": "<p>This football stadium is shared by Pueblo High Schools and is also the site of many state football and track events. The stadium is named in honor of Earl 'Dutch' Clark 1906 - 1978 who played Football for Pueblo Central High and when on to eventually play for the Detroits Lions. His incredible skills were recognized by being inducted into the College Football Hall of Fame in its inaugural class and well as the NFL Hall of Fame inaugural class. </p><p>1001 W. Abriendo Avenue 81004</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/K1PPxXmB9sAR9NYZ6",
+      "types":["Sports"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/dutch_clark/LANDING-Duch-Clark-Stadium.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/dutch_clark/Dutch-Clark-Bell-game-night.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/dutch_clark/Dutch-Clark-Statium.JPG"
+        }
+      ]
     }
   ]
 }
