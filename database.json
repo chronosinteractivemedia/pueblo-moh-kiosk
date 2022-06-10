@@ -1999,29 +1999,37 @@
       ]
     },
     {
-      "id": 21, 
-      "name": "Dutch Clark Football Stadium",
-      "descptn" : "This football stadium is shared by Pueblo High Schools and is also ...",
-      "detail": "<p>This football stadium is shared by Pueblo High Schools and is also the site of many state football and track events. The stadium is named in honor of Earl 'Dutch' Clark 1906 - 1978 who played Football for Pueblo Central High and when on to eventually play for the Detroits Lions. His incredible skills were recognized by being inducted into the College Football Hall of Fame in its inaugural class and well as the NFL Hall of Fame inaugural class. </p><p>1001 W. Abriendo Avenue 81004</p>",
+      "id": 22, 
+      "name": "Pueblo Ice Arena",
+      "descptn" : "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
+      "detail": "<p>This arena is home of the Pueblo Bulls Hockey team. Opened in fall of 1975, the arena is a year-round indoor first-class facility at 39,800 square ft. with a single NHL size rink 200’x 85’, four locker rooms, ref room, all with showers. The arena also has a fully stocked concession area with birthday party rooms and open skating. It has two electric Zamboni’s and electric edger emitting zero carbon monoxide. The arena stays at a cool 50-54 degrees.</p><p>100 N. Grand Avenue<br/>719-553-2730</p>",
       "qrcode_label":"Scan QR code for map location",
-      "qrcode": "https://goo.gl/maps/K1PPxXmB9sAR9NYZ6",
+      "qrcode": "https://goo.gl/maps/gjooeUcMjrU2aboe7",
       "types":["Sports"],
-      "walkable": false,
+      "walkable": true,
       "featured": false,
       "featured_name": "",
       "featured_image": "",
       "slides": [
         {
           "id": 0,
-          "image": "/images/attractions/dutch_clark/LANDING-Duch-Clark-Stadium.JPG"
+          "image": "/images/attractions/ice_arena/LANDING-new.JPG"
         },
         {
           "id": 1,
-          "image": "/images/attractions/dutch_clark/Dutch-Clark-Bell-game-night.JPG"
+          "image": "/images/attractions/ice_arena/LANDING-Ice-Arena-052016-4.JPG"
         },
         {
           "id": 2,
-          "image": "/images/attractions/dutch_clark/Dutch-Clark-Statium.JPG"
+          "image": "/images/attractions/ice_arena/Path-1.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/ice_arena/Path-2.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/ice_arena/Path-3.jpg"
         }
       ]
     }
