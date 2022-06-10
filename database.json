@@ -2060,7 +2060,7 @@
       "id": 24, 
       "name": "Runyon Field Sports Complex",
       "descptn" : "",
-      "detail": "<p>400 Stanton Ave, 81003</p>",
+      "detail": "<p>400 Stanton Ave. 81003</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/fzgy3hrAUJDMLbzKA",
       "types":["Sports"],
@@ -2084,6 +2084,37 @@
         {
           "id": 3,
           "image": "/images/attractions/runyon/285610583.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25, 
+      "name": "Pueblo Community College",
+      "descptn" : "his lovely campus offers real-world know-how and skills in the ...",
+      "detail": "<p>This lovely campus offers real-world know-how and skills in the area’s top career growth areas including cyber security, health information technology, advanced manufacturing, health professions, business and more.</p><p>900 W. Orman Avenue 81004<br/>719-549-3200</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/vcviXcVX56bFtPHAA",
+      "types":["Education"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/community_college/PCC-LANDING.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/community_college/PCC-053016-10.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/community_college/PCC-053016-15.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/community_college/PCC-073116-5.JPG"
         }
       ]
     }
