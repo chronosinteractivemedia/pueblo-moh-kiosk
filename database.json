@@ -5,9 +5,11 @@
     "logo": "/images/hha-logo.png",
     "slides": [
       {"type":  "medals"},
-      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=1" },
-      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=2" },
-      {"type":  "image", "image": "https://picsum.photos/800/1080.jpg?random=3" }
+      {"type":  "image", "image": "/images/attract-loop/attract-recipients.jpg" },
+      {"type":  "image", "image": "/images/attract-loop/attract-home-of-heroes.jpg" },
+      {"type":  "image", "image": "/images/attract-loop/attract-veterans-bridge.jpg" },
+      {"type":  "image", "image": "/images/attract-loop/attract-cav.jpg" },
+      {"type":  "image", "image": "/images/attract-loop/attract-attractions.jpg" }
     ]
   },
   "puebloRecipientsDetail": {
