@@ -1958,6 +1958,45 @@
           "image": "/images/attractions/kayak/LANDING-Kayack-course-Arkansas-River-041118.JPG"
         }
       ]
+    },
+    {
+      "id": 20, 
+      "name": "Colorado State Pueblo and Thunderbowl Football Stadium",
+      "descptn" : "",
+      "detail": "<p>Pueblo 2200 Bonforte Blvd. 81001<br/>719-549-2100 </p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/32VW1MAq2ZqGE8sF7",
+      "types":["Sports"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/csu/LANDING-CSUP-062916-33.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/csu/CSU-P-panorama.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/csu/CSUP-061816-1.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/csu/CSUP-061816-14.JPG"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/csu/CSUP-061816-20.JPG"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/csu/IMG_2559.JPG"
+        }
+      ]
     }
   ]
 }
