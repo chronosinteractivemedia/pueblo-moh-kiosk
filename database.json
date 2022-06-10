@@ -2032,6 +2032,29 @@
           "image": "/images/attractions/ice_arena/Path-3.jpg"
         }
       ]
+    },
+    {
+      "id": 23, 
+      "name": "Pueblo Motorsports Park",
+      "descptn" : "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
+      "detail": "<p>Pueblo's long time motorsports complex featuring drag racing and road racing. Racing is seasonal.</p><p>3733 N. Pueblo Blvd. 81005<br/>719-641-7736</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/X4Fiu17BBPnfSFRE6",
+      "types":["Sports"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/motorsports/PMI-LANDING.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/motorsports/PMI-Raceway-100216.JPG"
+        }
+      ]
     }
   ]
 }
