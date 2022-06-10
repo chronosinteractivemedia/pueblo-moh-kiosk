@@ -752,7 +752,7 @@
     }
   ],
   "attractionsLanding": {
-    "audio": "/audio/medal_of_honor-memorial.mp3"
+    "audio": "/audio/attractions_military.mp3"
   },
   "attractions": [
     {
@@ -2090,7 +2090,7 @@
     {
       "id": 25, 
       "name": "Pueblo Community College",
-      "descptn" : "his lovely campus offers real-world know-how and skills in the ...",
+      "descptn" : "This lovely campus offers real-world know-how and skills in the ...",
       "detail": "<p>This lovely campus offers real-world know-how and skills in the area’s top career growth areas including cyber security, health information technology, advanced manufacturing, health professions, business and more.</p><p>900 W. Orman Avenue 81004<br/>719-549-3200</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/vcviXcVX56bFtPHAA",
@@ -2115,6 +2115,37 @@
         {
           "id": 3,
           "image": "/images/attractions/community_college/PCC-073116-5.JPG"
+        }
+      ]
+    },
+    {
+      "id": 26, 
+      "name": "Golf Courses",
+      "descptn" : "",
+      "detail": "<p><b>Elmwood Golf Course</b><br/>www.pueblo.us/721/Municipal-Golf-Courses</p><p><b>Desert Hawk Pueblo West Golf Course</b><br/>www.deserthawkgolfcourse.com</p><p><b>Walking Stick Golf Course</b><br/>www.pueblo.us/721/Municipal-Golf-Courses</p><p><b>Hollydot Golf Club - Colorado City</b><br/>www.hollydotgolf.com<br/></p>",
+      "qrcode_label":"Scan QR code for more info",
+      "qrcode": "https://www.pueblo.us/721/Municipal-Golf-Courses",
+      "types":["Sports"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/golf/Walking-Stick-072416.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/golf/DSC_0027.JPG"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/golf/DSC00284.JPG"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/golf/DSC_0007.JPG"
         }
       ]
     }
