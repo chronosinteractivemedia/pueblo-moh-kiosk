@@ -16,8 +16,8 @@ if (isProd) {
   const mainWindow = createWindow('main', {
     width: 1080,
     height: 1920,
-    kiosk: false,
-    frame: true
+    kiosk: true,
+    frame: false
   });
 
   mainWindow.removeMenu();
