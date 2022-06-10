@@ -1740,6 +1740,49 @@
           "image": "/images/attractions/union_train/Union-Train-Depot.JPG"
         }
       ]
+    },
+    {
+      "id": 14, 
+      "name": "Hose Company #3 Fire Museum",
+      "descptn" : "The Fire Museum is owned by the City of Pueblo and operated by ...",
+      "detail": "<p>The Fire Museum is owned by the City of Pueblo and operated by volunteers from the Pueblo Firefighters Historical Society. It is located in Pueblo’s historic Mesa Junction Business District that serves as a gateway between south Pueblo and the downtown area. The building has a dentilled cornice and large front door for easy entry and exit of the fire engines and includes a pyramidal metal roof and original hose tower and fire pole. The building witnessed the transition in firefighting technology from horse-drawn wagons to motorized fire engines as well as the advent of unionization among professional firefighters. Open by appointment only.</p><p>100 E. Abriendo, Avenue 81004<br/>719-562-5600</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://goo.gl/maps/N9TPExA6EpVypaxF6",
+      "types":["Museums"],
+      "walkable": true,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/fire_museum/LANDING-Fire-Museum-Hose-co-no-3.JPG"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/fire_museum/20160717_111012.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/fire_museum/20160717_111649.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/fire_museum/20160717_112153.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/fire_museum/20160717_113654.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/fire_museum/20160717_114724.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/fire_museum/IMG_4602.JPG"
+        }
+      ]
     }
   ]
 }
