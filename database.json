@@ -1833,6 +1833,73 @@
           "image": "/images/attractions/railway_museum/267590006.jpg"
         }
       ]
+    },
+    {
+      "id": 17, 
+      "name": "Rosemount Victorian House Museum",
+      "descptn" : "The grandeur of a bygone era awaits you at Rosemount. ...",
+      "detail": "<p>The grandeur of a bygone era awaits you at Rosemount. Built between 1891 and 1893 this 37 room, 24,000 square-foot mansion was the family home of prominent Pueblo businessman John A. Thatcher and his wife Margaret.  This museum is unique because nearly all the furnishings, wall and window treatments, decorative arts and paintings on view are original to the home. </p><p>415 W. 14th Street 81003<br/>719-545-5296</p>",
+      "qrcode_label":"Scan QR code for map location",
+      "qrcode": "https://g.page/RosemountMuseum?share",
+      "types":["Museums"],
+      "walkable": false,
+      "featured": false,
+      "featured_name": "",
+      "featured_image": "",
+      "slides": [
+        {
+          "id": 0,
+          "image": "/images/attractions/rosemount/LANDING-Rose-2.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/rosemount/Dinning-room.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/rosemount/Guest-room.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/rosemount/Kitchen.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/rosemount/Lillian-Thatchers-bedroom.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/rosemount/Main-Hall.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/rosemount/Margaret-Thatchers-bedroom.jpg"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/rosemount/Parlor.jpg"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/rosemount/Raymond-Thatchers-bedroom.jpg"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/rosemount/Rose-3.jpg"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/rosemount/Rosemont-library.jpg"
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/rosemount/Rosemount-072816-small.JPG"
+        },
+        {
+          "id": 12,
+          "image": "/images/attractions/rosemount/Sitting-room.jpg"
+        }
+      ]
     }
   ]
 }
