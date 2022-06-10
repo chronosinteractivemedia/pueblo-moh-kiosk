@@ -70,7 +70,7 @@ export default function MultipleAttractionPopup ({attraction, onClose}){
             video: videoToShow.file,
             autoplay: true
           },
-        ]} />
+        ]} onClose={() => setVideoToShow(null)} />
       </Modal>}
     </div>
   )

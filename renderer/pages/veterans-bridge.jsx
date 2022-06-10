@@ -15,8 +15,11 @@ function PuebloRecipients({recipients, detail}) {
 }
 
 export async function getStaticProps(_context) {
+  const clean = bridgeRecipients.map(recipient => {
+    return {...recipient, fullName: `${recipient.FirstName} ${recipient.LastName}`}
+  })
   return {
-    props: { recipients: bridgeRecipients }
+    props: { recipients: clean }
   }
 }
 

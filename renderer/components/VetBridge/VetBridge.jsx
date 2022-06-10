@@ -1,27 +1,54 @@
-import React, { useEffect, useRef, useState } from "react";
-import styles from "./VetBridge.module.scss";
+import { useEffect, useRef, useState } from "react";
 import { Modal } from "../Modal/Modal";
+import styles from "./VetBridge.module.scss";
 // import Dropdown from "../Dropdown/Dropdown";
 import Fuse from "fuse.js";
 
 import "react-dropdown/style.css";
-import Scroller from "../Scroller/Scroller";
-import { BsSearch } from "react-icons/bs";
+import { BsArrowLeftShort, BsArrowRightShort, BsChevronLeft, BsChevronRight, BsSearch } from "react-icons/bs";
 import Keyboard from "../Keyboard/Keyboard";
+import Scroller from "../Scroller/Scroller";
+import ReactPaginate from 'react-paginate';
+
+const itemsPerPage = 10;
 
 export default function VetBridge({ allVets }) {
   const [currentRecipient, setCurrentRecipient] = useState(null);
   const [displayList, setDisplayList] = useState([]);
+  const [filteredSet, setFilteredSet] = useState([]);
+  const [pageCount, setPageCount] = useState(1);
+  const [currentPage, setCurrentPage] = useState(0);
+
+  useEffect(() => {
+    const offset = (currentPage * itemsPerPage) % filteredSet.length;
+    const end = offset + itemsPerPage;
+    setPageCount(Math.ceil(filteredSet.length / itemsPerPage));
+    setDisplayList(filteredSet.slice(offset, end));
+  }, [filteredSet, currentPage]);
+
   return (
     <div className={styles.component}>
       <Filters
         allVets={allVets}
-        onFilter={(filtered) => setDisplayList(filtered)}
+        onFilter={(filtered) => setFilteredSet(filtered)}
       />
       <List
         items={displayList}
         onSetRecipient={(recipient) => setCurrentRecipient(recipient)}
       />
+      {pageCount > 1 && <ReactPaginate
+        breakLabel="..."
+        onPageChange={e => setCurrentPage(e.selected)}
+        pageRangeDisplayed={5}
+        pageCount={pageCount}
+        renderOnZeroPageCount={null}
+        forcePage={currentPage}
+        className={styles.paginator}
+        pageClassName={styles.paginatorPage}
+        activeLinkClassName={styles.paginatorActive}
+        previousLabel={<div className={styles.paginatorPrev}><BsArrowLeftShort /> Prev </div>}
+        nextLabel={<div className={styles.paginatorNext}>Next <BsArrowRightShort /></div>}
+      />}
       {!!currentRecipient && (
         <Details
           item={currentRecipient}
@@ -34,36 +61,17 @@ export default function VetBridge({ allVets }) {
 
 function Filters({ allVets, onFilter }) {
   const [searchText, setSearchText] = useState("");
-  const [activeSearchText, setActiveSearchText] = useState("");
   const [showKeyboard, setShowKeyboard] = useState(false);
   const fuseInstance = useRef();
-  // const [warFilter, setWarFilter] = useState('');
-  // const [branchFilter, setBranchFilter] = useState('');
-  // const [filterSets, setFilterSets] = useState({wars: [], branches: []})
-
-  // useEffect(() => {
-  //   if(allVets?.length){
-  //     const wars = allVets.reduce((reduced, item) => {
-  //       if(item.War && !reduced.includes(item.War)) reduced.push(item.War);
-  //       return reduced;
-  //     }, []);
-  //     const branches = allVets.reduce((reduced, item) => {
-  //       if(item.Branch && !reduced.includes(item.Branch)) reduced.push(item.Branch);
-  //       return reduced;
-  //     }, []);
-  //     setFilterSets({wars, branches});
-  //   }
-  // }, [allVets, setFilterSets]);
 
   useEffect(() => {
     if (!fuseInstance.current) {
       const options = {
-        keys: ["FirstName", "LastName"],
-        threshold: -1.2,
+        keys: ["fullName"],
+        threshold: 0.6,
+        location: 0,
         ignoreLocation: true,
-        getFn: (obj) => {
-          return obj.FirstName + " " + obj.LastName;
-        },
+        findAllMatches: true
       };
       fuseInstance.current = new Fuse(allVets, options);
     }
@@ -76,7 +84,7 @@ function Filters({ allVets, onFilter }) {
       filteredSet = allVets;
     }
     onFilter(filteredSet);
-  }, [allVets, activeSearchText]);
+  }, [allVets, searchText]);
 
   return (
     <div className={styles.filters}>
@@ -90,29 +98,20 @@ function Filters({ allVets, onFilter }) {
           onClick={() => setShowKeyboard(true)}
         />
       </div>
-      <div className={styles.clear} onClick={() => {
-          setActiveSearchText(searchText);
-          setShowKeyboard(false);
-      }}>
-        SEARCH
-      </div>
-      <div className={styles.clear} onClick={() => {
-          setSearchText("");
-          setActiveSearchText("");
-      }}>
-        CLEAR
-      </div>
+      {!!searchText && (
+        <div className={styles.clear} onClick={() => { setSearchText(""); }} > CLEAR </div>
+      )}
       {/*<Dropdown className={styles.wars} items={filterSets.wars} onChange={val => setWarFilter(val)} placeholder="War"/>*/}
       {/*<Dropdown className={styles.branches} items={filterSets.branches} onChange={val => setBranchFilter(val)} placeholder="Service Branch" />*/}
       {!!showKeyboard && (
         <Keyboard
           onChange={(input) => {
             setSearchText(input);
+            setShowKeyboard(false);
           }}
-          externValue={searchText}
+          initialValue={searchText}
           onCancel={() => {
-            setShowKeyboard(false)
-            setActiveSearchText(searchText);
+            setShowKeyboard(false);
           }}
         />
       )}
@@ -137,7 +136,7 @@ function List({ items, onSetRecipient }) {
   //       </div>
   //     </div>
   //   );
-  // } else 
+  // } else
   if (!items?.length) {
     return (
       <div className={styles.listContainer}>
@@ -164,7 +163,6 @@ function List({ items, onSetRecipient }) {
             </tr>
           </thead>
         </table>
-        <Scroller darkBg={true}>
           <table className={styles.list}>
             <tbody>
               {items.map((item) => (
@@ -183,7 +181,6 @@ function List({ items, onSetRecipient }) {
               ))}
             </tbody>
           </table>
-        </Scroller>
       </div>
     </div>
   );

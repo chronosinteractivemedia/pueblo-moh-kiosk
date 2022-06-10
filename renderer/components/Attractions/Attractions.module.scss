@@ -102,6 +102,9 @@
         @extend .searchBar_dropdown_arrow;
       }
     }
+    :global(.Dropdown-menu){
+      max-height: 300px;
+    }
   }
   &_walkicon{
     content: "";
