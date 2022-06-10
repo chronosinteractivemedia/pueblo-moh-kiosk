@@ -19,9 +19,9 @@ export default function MyApp({Component, pageProps, menuItems}){
     document.addEventListener('touchstart', window.interruptResetTimer);
   }, []);
   return <>
+    <SecretClose />
     {router.asPath !== '/' && <Nav items={{}} /> }
     <Component {...pageProps} />
-    <SecretClose />
   </>
 }
 
