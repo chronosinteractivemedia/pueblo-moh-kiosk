@@ -44,6 +44,17 @@
     display: inline-block;
     animation: toggle-sub-in 400ms $ease-out-quint both;
   }
+  &[data-full-click="true"]{
+    &:after{
+      content: '';
+      display:block;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+    }
+  }
 }
 
 @keyframes header-in{

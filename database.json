@@ -21,6 +21,7 @@
       {
         "id": "1",
         "name": "William J. Crawford",
+        "lightingCommand": "X0402",
         "image": "/images/people/crawford-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/crawford-reagan-color-optimized.jpg",
         "hallfame_image_caption": "William J. Crawford receives Medal of Honor from President Ronald Reagan at USAF Academy graduation 1984",
@@ -79,6 +80,7 @@
       {
         "id": "2",
         "name": "Carl L. Sitter",
+        "lightingCommand": "X0404",
         "image": "/images/people/sitter-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/sitter-truman-optimized.jpg",
         "hallfame_image_caption": "Carl Sitter receives his Medal of Honor from President Harry S. Truman in 1951",
@@ -137,6 +139,7 @@
       {
         "id": "3",
         "name": "Raymond G. Murphy",
+        "lightingCommand": "X0403",
         "image": "/images/people/murphy-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/jerry-eisenhower-optimized.jpg",
         "hallfame_image_caption": "Raymond G. Murphy receives his Medal of Honor from President Dwight D. Eisenhower in 1953",
@@ -195,6 +198,7 @@
       {
         "id": "4",
         "name": "Drew D. Dix",
+        "lightingCommand": "X0405",
         "image": "/images/people/dix-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/drew-johnson-optimized.jpg",
         "hallfame_image_caption": "Drew D.Dix receives his Medal of Honor from President Lyndon B. Johnson in 1969",

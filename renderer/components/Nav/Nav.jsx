@@ -5,7 +5,7 @@ import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
 import styles from "./Nav.module.scss";
 import MedalRotate from "../MedalRotate/MedalRotate";
 
-export default function Nav({ items = [] }) {
+export default function Nav({items = [], fullScreenClick}) {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,10 +15,18 @@ export default function Nav({ items = [] }) {
     });
   }, []);
 
+  useEffect(() => {
+    if(isOpen){
+      if(window.navOpenListener) window.navOpenListener();
+    } else {
+      if(window.navCloseListener) window.navCloseListener();
+    }
+  }, [isOpen])
+
 
   return (
     <>
-      <div className={`${styles.navToggle} nav`} onClick={() => setIsOpen(!isOpen)}>
+      <div className={`${styles.navToggle} nav`} data-full-click={fullScreenClick && !isOpen} onClick={() => setIsOpen(!isOpen)}>
         {!isOpen ? (
           <>
             <FiMenu />

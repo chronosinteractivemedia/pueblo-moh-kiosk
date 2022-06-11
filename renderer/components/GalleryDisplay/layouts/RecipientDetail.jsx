@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import style from "./layouts.module.scss"
-import database from "../../../../database.json"
 import Image from '../../Image/Image.jsx';
 import VideoPlayer from "../../MediaPlayer/VideoPlayer";
 import AudioPlayer from "../../MediaPlayer/AudioPlayer";
 import QrDisplay from "../../QrDisplay/QrDisplay"
+import {ipcRenderer} from 'electron';
 
 function RecipientDetail({person}){
+  useEffect(() => {
+    if(person.lightingCommand){
+      console.log('sending lighting command: ', person.lightingCommand);
+      ipcRenderer.send('send-serial-command', person.lightingCommand);
+    }
+    return () => {
+      console.log('sending lighting command: ', 'X0401');
+      ipcRenderer.send('send-serial-command', 'X0401');
+    }
+  }, []);
   return(
     <div className={style.wrapper_right}> 
       <div className={style.inner_right}>      

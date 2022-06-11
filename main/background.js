@@ -4,6 +4,7 @@ import { createWindow } from './helpers';
 const { ipcMain, BrowserView } = require('electron')
 const isProd = process.env.NODE_ENV === 'production';
 import { SerialPort } from 'serialport';
+import { inRange } from 'lodash';
 
 if (isProd) {
   serve({ directory: 'app' });
@@ -31,11 +32,13 @@ if (isProd) {
     mainWindow.webContents.openDevTools();
   }
     const externalFrame = new BrowserView()
-    ipcMain.on('show-external', (event, person) => {
+    ipcMain.on('show-external', (event, person, noReload) => {
       mainWindow.addBrowserView(externalFrame);
-      externalFrame.setBounds({ x: 370, y: 0, width: 1550, height: 1080})
-      const url = person ? `https://www.cmohs.org/kiosk/recipients/${person}` : `https://www.cmohs.org/kiosk/recipients`;
-      externalFrame.webContents.loadURL(url)
+      externalFrame.setBounds({ x: 370, y: 0, width: 1550, height: 1080});
+      if(!noReload){
+        const url = person ? `https://www.cmohs.org/kiosk/recipients/${person}` : `https://www.cmohs.org/kiosk/explore`;
+        externalFrame.webContents.loadURL(url)
+      }
     });
     ipcMain.on('hide-external', () => {
       mainWindow.removeBrowserView(externalFrame);

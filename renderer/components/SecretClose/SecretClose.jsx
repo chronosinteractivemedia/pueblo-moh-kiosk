@@ -27,7 +27,7 @@ export default function SecretClose(){
         }
     }
 
-    return <>
+    return <div>
         <div className={styles.button} onClick={() => setIsOpen(true)} />
         {isOpen && <div className={styles.popup}>
             <div className={styles.wrapper}>
@@ -46,5 +46,5 @@ export default function SecretClose(){
                 />
             </div>
         </div>} 
-    </>
+    </div>
 }

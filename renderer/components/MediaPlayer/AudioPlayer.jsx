@@ -13,10 +13,12 @@ function AudioPlayer({file}) {
     audio.onended = () => {
       setPlaying(false);
     }
+    window.navOpenListener = () => setPlaying(false);
     return () => {
       audio.pause();
+      window.navOpenListener = undefined;
     }
-  }, [setAudio, setPlaying]);
+  }, [file, setAudio, setPlaying]);
 
   useEffect(() => {
     if (audio) {

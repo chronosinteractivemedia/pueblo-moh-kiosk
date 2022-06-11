@@ -12,7 +12,7 @@ export default function LightingTest(){
     <button onClick={() => sendSerialCommand('X0403')}>Uniform Two</button> 
     <button onClick={() => sendSerialCommand('X0404')}>Uniform Three</button> 
     <button onClick={() => sendSerialCommand('X0405')}>Uniform Four</button> 
-    </div>
+  </div>
 }
 
   /*

@@ -17,11 +17,12 @@ export default function MyApp({Component, pageProps, menuItems}){
       }, 60000 * 6);
     };
     document.addEventListener('touchstart', window.interruptResetTimer);
+    document.body.requestPointerLock();
   }, []);
   return <>
-    <SecretClose />
-    {router.asPath !== '/' && <Nav items={{}} /> }
+    <Nav fullScreenClick={router.asPath === '/'} />
     <Component {...pageProps} />
+    <SecretClose />
   </>
 }
 

@@ -12,6 +12,11 @@ html{
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: #fff;
+    &, *{cursor: none !important;}
+    &.show-cursor{
+        &, *{cursor: default !important;}
+    }
+
 }
 ::-webkit-scrollbar { width: 0px; }
 body{
@@ -27,7 +32,6 @@ body{
     @include font-smooth();
     box-sizing: border-box;
     user-select: none;
-    cursor: default;
 }
 
 .page-flex{

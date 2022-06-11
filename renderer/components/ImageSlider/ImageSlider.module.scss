@@ -49,7 +49,7 @@
 .slide{
 	visibility: hidden;
 	opacity:0;
-	animation: slide-in 800ms $ease-out-quint both;
+	animation: slide-in 800ms 150ms $ease-out-quint both;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

@@ -37,7 +37,7 @@ function One({medias}) {
   if (medias.length === 1) {
     return (<>
       {DetailOne(medias, setShowSlides)}
-      {!!showSlides && <Modal transparent={true} index={0} onClose={() => setShowSlides(null)}><ImageSlider slides={showSlides} /></Modal>}
+      {!!showSlides && <Modal transparent={true} index={0} onClose={() => setShowSlides(null)}><ImageSlider slides={showSlides} onClose={() => setShowSlides(null)}/></Modal>}
     </>)
   } else {
     return (
