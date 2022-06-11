@@ -20,7 +20,7 @@ export default function MyApp({Component, pageProps, menuItems}){
     document.body.requestPointerLock();
   }, []);
   return <>
-    <Nav fullScreenClick={router.asPath === '/'} />
+    <Nav />
     <Component {...pageProps} />
     <SecretClose />
   </>

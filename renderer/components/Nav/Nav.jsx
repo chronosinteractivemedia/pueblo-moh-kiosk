@@ -5,7 +5,7 @@ import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
 import styles from "./Nav.module.scss";
 import MedalRotate from "../MedalRotate/MedalRotate";
 
-export default function Nav({items = [], fullScreenClick}) {
+export default function Nav({ items = [] }) {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,20 +13,28 @@ export default function Nav({items = [], fullScreenClick}) {
     router.events.on("routeChangeStart", () => {
       setIsOpen(false);
     });
+    window.openNav = () => {
+      setIsOpen(true);
+    }
+    return () => {
+      window.openNav = undefined;
+    }
   }, []);
 
   useEffect(() => {
-    if(isOpen){
-      if(window.navOpenListener) window.navOpenListener();
+    if (isOpen) {
+      if (window.navOpenListener) window.navOpenListener();
     } else {
-      if(window.navCloseListener) window.navCloseListener();
+      if (window.navCloseListener) window.navCloseListener();
     }
-  }, [isOpen])
-
+  }, [isOpen]);
 
   return (
     <>
-      <div className={`${styles.navToggle} nav`} data-full-click={fullScreenClick && !isOpen} onClick={() => setIsOpen(!isOpen)}>
+      <div
+        className={`${styles.navToggle} nav`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
         {!isOpen ? (
           <>
             <FiMenu />
@@ -87,7 +95,9 @@ export default function Nav({items = [], fullScreenClick}) {
               <li>Pueblo County Government</li>
               <li>Pueblo Urban Renewal Authority</li>
             </ul>
-            <Link href="/"><a>Acknowledgements</a></Link>
+            <Link href="/">
+              <a>Acknowledgements</a>
+            </Link>
           </div>
         </div>
       )}

@@ -41,8 +41,12 @@ export default function AttractLoops({ attracts }) {
     };
   }, []);
 
+  function handleClick(){
+    if(window.openNav) window.openNav();
+  }
+
   return (
-    <div className={styles.component} data-hide={hide}>
+    <div className={styles.component} data-hide={hide} onClick={handleClick}>
       <div className={styles.content}>
         <div className={styles.heading}>{attracts.title}</div>
         <div className={styles.subheading}>{attracts.subtitle}</div>

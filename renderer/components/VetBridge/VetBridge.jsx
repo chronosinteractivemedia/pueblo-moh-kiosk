@@ -26,6 +26,11 @@ export default function VetBridge({ allVets }) {
     setDisplayList(filteredSet.slice(offset, end));
   }, [filteredSet, currentPage]);
 
+
+  useEffect(() => {
+    setCurrentPage(0);
+  }, [filteredSet])
+
   return (
     <div className={styles.component}>
       <Filters
