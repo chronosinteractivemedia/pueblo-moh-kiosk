@@ -4,14 +4,18 @@ import React, { useEffect, useState } from "react";
 import { FiArrowRight, FiMenu, FiX } from "react-icons/fi";
 import styles from "./Nav.module.scss";
 import MedalRotate from "../MedalRotate/MedalRotate";
+import Acknowledgements from "../Acknowledgements/Acknowledgements";
+import {Modal} from '../Modal/Modal';
 
 export default function Nav({ items = [] }) {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const [showAcks, setShowAcks] = useState(false);
 
   useEffect(() => {
     router.events.on("routeChangeStart", () => {
       setIsOpen(false);
+      setShowAcks(false);
     });
     window.openNav = () => {
       setIsOpen(true);
@@ -26,6 +30,7 @@ export default function Nav({ items = [] }) {
       if (window.navOpenListener) window.navOpenListener();
     } else {
       if (window.navCloseListener) window.navCloseListener();
+      setShowAcks(false);
     }
   }, [isOpen]);
 
@@ -95,10 +100,13 @@ export default function Nav({ items = [] }) {
               <li>Pueblo County Government</li>
               <li>Pueblo Urban Renewal Authority</li>
             </ul>
-            <Link href="/">
-              <a>Acknowledgements</a>
-            </Link>
+            <a onClick={() => setShowAcks(true)} href="javascript:void(0)">Acknowledgements</a>
           </div>
+          {!!showAcks && (
+            <Modal index={0} aboveAll={true} onClose={() => setShowAcks(false)}>
+              <Acknowledgements />
+            </Modal>
+          )}
         </div>
       )}
     </>
