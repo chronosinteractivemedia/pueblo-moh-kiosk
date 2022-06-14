@@ -122,3 +122,17 @@
   position: absolute;
   bottom: calc(0% + 75px);
 }
+
+@keyframes in{
+  0%{
+    opacity: 0;
+    transform: translate3d(-60px, 0, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+.wrapper{
+  animation: in 800ms $ease-out-quint both; 
+}

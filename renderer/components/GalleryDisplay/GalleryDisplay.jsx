@@ -11,10 +11,10 @@ function GalleryDisplay ({layout, person, children, medias}) {
     <div className={style.wrapper}>
       {(() => {
         switch(layout){
-          case "thumbnails": return <Frame>{children}</Frame>;
-          case "person": return <RecipientDetail person={person}/>;
-          case "two": return <Two medias={medias} />;
-          case "one": return <One medias={medias} />;
+          case "thumbnails": return <Frame key={Math.random()}>{children}</Frame>;
+          case "person": return <RecipientDetail key={Math.random()} person={person}/>;
+          case "two": return <Two key={Math.random()} medias={medias} />;
+          case "one": return <One  key={Math.random()} medias={medias} />;
         }
       })()}
     </div>

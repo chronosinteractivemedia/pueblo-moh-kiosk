@@ -10,7 +10,7 @@ import Link from "next/link";
 
 function IntroBox({logo, city, title, description, button, audio, video}) {
   return (
-    <div className={style.wrapper}>
+    <div className={style.wrapper} key={Math.random()}>
       <div className={!!logo ? style.content : style.content_logo}>
         {!!logo &&
           <div className={style.logo}>

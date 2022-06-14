@@ -294,3 +294,47 @@
 .detailrecipient_border{
   border: 4px solid #FFFFFF;
 }
+
+@keyframes media-in{
+  0%{
+    opacity: 0;
+    transform: translate3d(60px, 0, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+.media_wrapper{
+  animation: media-in 800ms $ease-out-quint both; 
+}
+
+@keyframes slide-left{
+  0%{
+    opacity: 0;
+    transform: translate3d(60px, 0, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+@keyframes slide-right{
+  0%{
+    opacity: 0;
+    transform: translate3d(-60px, 0, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.wrapper_card{
+  a:nth-child(odd) &{
+    animation: slide-left 600ms $ease-out-quint both; 
+  }
+  a:nth-child(even) &{
+    animation: slide-right 600ms $ease-out-quint both; 
+  }
+}

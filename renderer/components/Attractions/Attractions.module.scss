@@ -422,3 +422,34 @@
   font-weight: 600;
   font-family: Lato;
 }
+
+@keyframes in{
+  0%{
+    opacity: 0;
+    transform: translate3d(0, 40px, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+@keyframes slide{
+  0%{
+    opacity: 0;
+    transform: translate3d(60px, 0, 0)
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.features_cards_each{
+  animation: in 600ms $ease-out-quint both; 
+  @include animation-sequence(50ms, 8);
+}
+
+.lists_each{
+  animation: slide 600ms $ease-out-quint both; 
+  @include animation-sequence(50ms, 15);
+}
