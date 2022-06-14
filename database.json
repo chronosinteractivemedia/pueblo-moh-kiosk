@@ -19,68 +19,9 @@
     "audio": "/audio/medal_of_honor_recipients.mp3",
     "puebloRecipients": [
       {
-        "id": "1",
-        "name": "William J. Crawford",
-        "lightingCommand": "X0402",
-        "image": "/images/people/crawford-main-photo-optimized.jpg",
-        "hallfame_image": "/images/people/crawford-reagan-color-optimized.jpg",
-        "hallfame_image_caption": "William J. Crawford receives Medal of Honor from President Ronald Reagan at USAF Academy graduation 1984",
-        "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Crawford and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
-        "bio": "Pvt. Bill Crawford was a squad scout in action with the enemy near Altavilla, Italy, 13 September 1943, when his Company was attacked on Hill 424 by an enemy-held position. After reaching the crest of a hill, his platoon was pinned down by intense enemy machine-gun and small-arms fire. Locating one of these guns, which was dug in on a terrace on his immediate front, Pvt. Crawford, without orders and on his own initiative moved over the hill under enemy fire to a point within a few yards of the gun emplacement and singlehandedly destroyed the machine gun and killed three of the crew with a hand grenade, thus enabling his platoon to continue its advance. When the platoon, after reaching the crest, was once more delayed by enemy fire, Pvt. Crawford again, in the face of intense fire, advanced directly to the front midway between two hostile machine-gun nests located on a higher terrace and emplaced in a small ravine. Moving first to the left, with a grenade he destroyed one gun emplacement and killed the crew; he then worked his way, under continuous fire, to the other and with one grenade and the use of his rifle, killed one enemy and forced the remainder to flee. Seizing the enemy machine gun, he fired on the withdrawing Germans and facilitated his company's advance.",
-        "cmoh_link":"william-j-crawford",
-        "qrcode_label":"",
-        "qrcode": "",
-        "summary": [
-          {
-            "name": "Rank",
-            "value": "Private (Highest Rank: Master Sergeant)"
-          },
-          {
-            "name": "Conflict/Era",
-            "value": "World War II"
-          },
-          {
-            "name": "Unit/Command",
-            "value": "3D Platoon, Company I, 3D Battalion, 142D Infantry, 36TH Infantry Division"
-          },
-          {
-            "name": "Service Branch",
-            "value": "U.S. Army"
-          },
-          {
-            "name": "MOH Action Date",
-            "value": "September 13, 1943"
-          },
-          {
-            "name": "MOH Action Place",
-            "value": "Near Altavilla, Italy"
-          },
-          {
-            "name": "Presentation Date",
-            "value": "May 30, 1984, the U.S. Air Force Academy, Colorado Springs, Colorado, Presented by Pres. Ronald Reagan"
-          },
-          {
-            "name": "Born",
-            "value": "May 19, 1918, Pueblo, Pueblo County, CO, United States"
-          },
-          {
-            "name": "Died",
-            "value": "March 15, 2000, Palmer Lake, CO, United States"
-          },
-          {
-            "name": "Buried",
-            "value": "U.S. Air Force Academy Cemetery (Mh) (3-D-68), Colorado Springs, Co, United States"
-          }
-        ],
-        "media": {
-          "type": "video",
-          "file": "/video/Bill-Crawford-The-Fighter.mp4"
-        }
-      },
-      {
         "id": "2",
         "name": "Carl L. Sitter",
-        "lightingCommand": "X0404",
+        "lightingCommand": "X0402",
         "image": "/images/people/sitter-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/sitter-truman-optimized.jpg",
         "hallfame_image_caption": "Carl Sitter receives his Medal of Honor from President Harry S. Truman in 1951",
@@ -139,7 +80,7 @@
       {
         "id": "3",
         "name": "Raymond G. Murphy",
-        "lightingCommand": "X0403",
+        "lightingCommand": "X0404",
         "image": "/images/people/murphy-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/jerry-eisenhower-optimized.jpg",
         "hallfame_image_caption": "Raymond G. Murphy receives his Medal of Honor from President Dwight D. Eisenhower in 1953",
@@ -193,6 +134,65 @@
         "media": {
           "type": "video",
           "file": "/video/Jerry-Murphy-The-Lieutenant.mp4"
+        }
+      },
+      {
+        "id": "1",
+        "name": "William J. Crawford",
+        "lightingCommand": "X0403",
+        "image": "/images/people/crawford-main-photo-optimized.jpg",
+        "hallfame_image": "/images/people/crawford-reagan-color-optimized.jpg",
+        "hallfame_image_caption": "William J. Crawford receives Medal of Honor from President Ronald Reagan at USAF Academy graduation 1984",
+        "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Crawford and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
+        "bio": "Pvt. Bill Crawford was a squad scout in action with the enemy near Altavilla, Italy, 13 September 1943, when his Company was attacked on Hill 424 by an enemy-held position. After reaching the crest of a hill, his platoon was pinned down by intense enemy machine-gun and small-arms fire. Locating one of these guns, which was dug in on a terrace on his immediate front, Pvt. Crawford, without orders and on his own initiative moved over the hill under enemy fire to a point within a few yards of the gun emplacement and singlehandedly destroyed the machine gun and killed three of the crew with a hand grenade, thus enabling his platoon to continue its advance. When the platoon, after reaching the crest, was once more delayed by enemy fire, Pvt. Crawford again, in the face of intense fire, advanced directly to the front midway between two hostile machine-gun nests located on a higher terrace and emplaced in a small ravine. Moving first to the left, with a grenade he destroyed one gun emplacement and killed the crew; he then worked his way, under continuous fire, to the other and with one grenade and the use of his rifle, killed one enemy and forced the remainder to flee. Seizing the enemy machine gun, he fired on the withdrawing Germans and facilitated his company's advance.",
+        "cmoh_link":"william-j-crawford",
+        "qrcode_label":"",
+        "qrcode": "",
+        "summary": [
+          {
+            "name": "Rank",
+            "value": "Private (Highest Rank: Master Sergeant)"
+          },
+          {
+            "name": "Conflict/Era",
+            "value": "World War II"
+          },
+          {
+            "name": "Unit/Command",
+            "value": "3D Platoon, Company I, 3D Battalion, 142D Infantry, 36TH Infantry Division"
+          },
+          {
+            "name": "Service Branch",
+            "value": "U.S. Army"
+          },
+          {
+            "name": "MOH Action Date",
+            "value": "September 13, 1943"
+          },
+          {
+            "name": "MOH Action Place",
+            "value": "Near Altavilla, Italy"
+          },
+          {
+            "name": "Presentation Date",
+            "value": "May 30, 1984, the U.S. Air Force Academy, Colorado Springs, Colorado, Presented by Pres. Ronald Reagan"
+          },
+          {
+            "name": "Born",
+            "value": "May 19, 1918, Pueblo, Pueblo County, CO, United States"
+          },
+          {
+            "name": "Died",
+            "value": "March 15, 2000, Palmer Lake, CO, United States"
+          },
+          {
+            "name": "Buried",
+            "value": "U.S. Air Force Academy Cemetery (Mh) (3-D-68), Colorado Springs, Co, United States"
+          }
+        ],
+        "media": {
+          "type": "video",
+          "file": "/video/Bill-Crawford-The-Fighter.mp4"
         }
       },
       {
