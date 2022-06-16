@@ -6,6 +6,7 @@ import SecretClose from '../components/SecretClose/SecretClose';
 //import { apiUrl } from "../config";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import { ipcRenderer } from "electron";
 
 export default function MyApp({Component, pageProps, menuItems}){
   const router = useRouter();
@@ -18,6 +19,11 @@ export default function MyApp({Component, pageProps, menuItems}){
     };
     document.addEventListener('touchstart', window.interruptResetTimer);
     document.body.requestPointerLock();
+    ipcRenderer.on('network-change', (e, statusArg) => {
+      console.log('GOT NETWORK CHANGE', statusArg);
+      window.appIsOnline = !!statusArg;
+    });
+    ipcRenderer.on('interrupt-timer', window.interruptResetTimer)
   }, []);
   return <>
     <Nav />

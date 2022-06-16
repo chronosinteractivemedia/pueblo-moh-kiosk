@@ -27,6 +27,7 @@
   "dependencies": {
     "@serialport/list": "^10.4.0",
     "axios": "^0.21.1",
+    "check-internet-connected": "^2.0.6",
     "electron-serve": "^1.1.0",
     "electron-store": "^7.0.2",
     "fuse.js": "^6.6.2",
