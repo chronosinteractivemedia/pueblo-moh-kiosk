@@ -6,7 +6,7 @@
     "slides": [
       {"type":  "medals"},
       {"type":  "image", "image": "/images/attract-loop/attract-recipients.jpg" },
-      {"type":  "image", "image": "/images/attract-loop/attract-home-of-heroes.jpg" },
+      {"type":  "image", "image": "/images/attract-loop/attract-memorial.jpg" },
       {"type":  "image", "image": "/images/attract-loop/attract-veterans-bridge.jpg" },
       {"type":  "image", "image": "/images/attract-loop/attract-cav.jpg" },
       {"type":  "image", "image": "/images/attract-loop/attract-attractions.jpg" }
