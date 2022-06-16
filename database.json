@@ -705,7 +705,7 @@
             {
               "id": 0,
               "image": "/images/vet-bridge/gallery/Veterans_Bridge_Christopher_Pherosorio-optimized.jpg",
-              "caption": "Dedicated November 11, 2010, Veterams Bridge is located on the Historic Arkansas Riverwalk  of Pueblo.  The Veterans' Bridge is a $1.5 million pedestrian footbridge and monument, built throgh a partnership betweeen the Pueblo Veterans Council and the HARP Foundation with the Pueblo Medal of Honor Foundation;s help providing an electronic data base. It was designed to further Pueblo's proud tradition of honoring veterans."
+              "caption": "Dedicated November 11, 2010, Veterams Bridge is located on the Historic Arkansas Riverwalk  of Pueblo.  The Veterans' Bridge is a $1.5 million pedestrian footbridge and monument, built through a partnership betweeen the Pueblo Veterans Council and the HARP Foundation with the Pueblo Medal of Honor Foundation;s help providing an electronic data base. It was designed to further Pueblo's proud tradition of honoring veterans."
             },
             {
               "id": 1,
@@ -899,7 +899,7 @@
       "id": 1, 
       "name": "Weisbrod Aircraft Museum",
       "descptn" : "The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum ...",
-      "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>640 Pueblo Reservoir Road 81006<br/>719-561-9320</p>",
+      "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>31001 Magnuson Ave. Pueblo, CO 81001<br/>719-561-9320</p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/AotrgeWL4sNkRV6z5",
       "types":["Military Attractions","Museums"],
@@ -1382,11 +1382,6 @@
           "caption": "Peter.C. Lemon Rose Garden is near the front door of the Pueblo ConventionCenter and is in honor of Medal of Honor recipient Peter C. Lemon (who was living in Colorado Springs),  for all his help and personal dedication to working with young people in our community to learn about leadership, ethics, and patriotism. It also honors the members of Lemon's Battalion who lost their lives in Vietnam."
         },
         {
-          "id": 18,
-          "image": "/images/attractions/military/715-Memorial-Hall.jpg",
-          "caption": "Pueblo City Hall was constructed in 1916 followed by a large city auditorium added at the south end. On September 25, 1919 President Woodrow Wilson came to Pueblo to draw support for the League of Nations, which he felt would help prevent future wars. Needing a large place indoors to hold he speech, the City Auditorium was suggested, even though it was not quite finished. During that speech Wilson dedicated the auditorium as 'Memorial Hall' in honor of those who died in the Great War (WWI)."
-        },
-        {
           "id": 19,
           "image": "/images/attractions/military/716-A-CSU-P-SE-Asia.jpg",
           "caption": "An eighty foot flagpole flying Old Glory centers the Southeast Asia Memorial on the CSU-Pueblo campus. It is flanked by a Colorado flag and a POW/MIA flag. The memorial contains granite  slabs bearing the names of those who attended the college and were killed while fighting in Vietnam. "
@@ -1626,7 +1621,7 @@
       "id": 11, 
       "name": "Pueblo City Park and Zoo",
       "descptn" : "Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 ...",
-      "detail": "<p>Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 animals of 140 species. The areas of the park are divided into different parts based on the animals housed like the Serengeti Safari,  North American Grasslands and many more. City park has fountains, a lake, tennis courts, a skate park, frisbee golf, a dog park, and acres of grass and trees for picnic area as well as a swimming pool.</p><p>5200 Nature Center Drive 81005 <br/>719-549-2414</p></p>",
+      "detail": "<p>Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 animals of 140 species. The areas of the park are divided into different parts based on the animals housed like the Serengeti Safari,  North American Grasslands and many more. City park has fountains, a lake, tennis courts, a skate park, frisbee golf, a dog park, and acres of grass and trees for picnic area as well as a swimming pool.</p><p>3455 Nuckolls Ave. Pueblo, CO 81005<br/>719-549-2414</p></p>",
       "qrcode_label":"Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/Pun2taaDpkSkux8dA",
       "types":["Outdoor Attractions & Parks"],
