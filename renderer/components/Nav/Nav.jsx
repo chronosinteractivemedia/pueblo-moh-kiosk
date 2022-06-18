@@ -95,7 +95,7 @@ export default function Nav({ items = [] }) {
             <ul className={styles.sponsors}>
               <li>Pueblo Home of Heroes Association</li>
               <li>El Pomar Foundation</li>
-              <li>Pueblo City Governmen</li>
+              <li>Pueblo City Government</li>
               <li>Robert Hoag Rawlings Foundation</li>
               <li>Pueblo County Government</li>
               <li>Pueblo Urban Renewal Authority</li>
