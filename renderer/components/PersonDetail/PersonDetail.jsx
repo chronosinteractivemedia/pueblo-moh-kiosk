@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import style from "./PersonDetail.module.scss"
 import Image from "../Image/Image"
 import Link from "next/link"
 import Scroller from "../Scroller/Scroller";
 
 function PersonDetail({person, onBack}) {
-  useEffect(() => {window.trackEvent(`view-recipient: ${person.name}`)}, []);
+  useEffect(() => {
+    window.trackEvent(`view-recipient: ${person.name}`);
+  }, []);
   return (
     <div className={style.wrapper}>
       <div className={style.navlink} onClick={onBack}>&lt;&nbsp;Back</div>

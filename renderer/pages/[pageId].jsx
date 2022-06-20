@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import SectionLeft from "../components/SectionLeft/SectionLeft.jsx"
 import SectionRight from "../components/SectionRight/SectionRight.jsx"
 import GalleryDisplay from "../components/GalleryDisplay/GalleryDisplay.jsx";

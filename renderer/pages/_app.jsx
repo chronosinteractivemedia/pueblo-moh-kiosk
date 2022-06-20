@@ -3,10 +3,18 @@ import './global.scss';
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import Nav from '../components/Nav/Nav';
 import SecretClose from '../components/SecretClose/SecretClose';
+import axios from 'axios';
 //import { apiUrl } from "../config";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { ipcRenderer } from "electron";
+
+if(typeof window !== 'undefined'){
+    window.trackEvent = (key) => {
+      console.log('tracking: ', key);
+      axios.post('https://pueblo-moh-analytics.herokuapp.com/events', {event: key});
+    }
+}
 
 export default function MyApp({Component, pageProps, menuItems}){
   const router = useRouter();
@@ -25,9 +33,6 @@ export default function MyApp({Component, pageProps, menuItems}){
     });
     ipcRenderer.on('interrupt-timer', window.interruptResetTimer);
 
-    window.trackEvent = (key) => {
-      console.log('tracking: ', key);
-    }
 
   }, []);
   return <>

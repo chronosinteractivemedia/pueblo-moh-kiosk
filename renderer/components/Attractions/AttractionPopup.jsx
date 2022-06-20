@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import style from "../Attractions/Attractions.module.scss";
 import Image from "../Image/Image";
 import ImageSlider from "../ImageSlider/ImageSlider";
