@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import style from "./layouts.module.scss"
 import Image from "../../Image/Image";
-import database from "../../../../database.json"
 import ImageSlider from "../../ImageSlider/ImageSlider";
 import {Modal} from "../../Modal/Modal";
 
@@ -14,8 +13,8 @@ function DetailOne(medias, setShowSlides){
             <div className={style.gallery_control_wrapper}>
               <div className={style.gallery_control_title}>{medias[0].title}</div>
               <h3>{medias[0].type}</h3>
-              {medias[0].type.toLowerCase() === "video"? <a className={style.gallery_control_video}></a> : ''}
-              {medias[0].type.toLowerCase() === "gallery"? <a className={style.gallery_control_gallery}>Enter Gallery</a> : ''}
+              {medias[0].type.toLowerCase() === "video" ? <a className={style.gallery_control_video}></a> : ''}
+              {medias[0].type.toLowerCase() === "gallery" ? <a className={style.gallery_control_gallery}>Enter Gallery</a> : ''}
             </div>
           </div>
           <Image 

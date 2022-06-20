@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Acknowledgements.module.scss";
 
 export default function Acknowledgements() {
+  useEffect(() => {window.trackEvent('view-acknowledgements')}, []);
   return (
     <div className={styles.component}>
       <div className={styles.wrapper}>

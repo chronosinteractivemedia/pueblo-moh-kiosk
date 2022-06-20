@@ -9,6 +9,8 @@ import database from "../../database.json"
 
 function PuebloRecipients({recipients, detail}) {
   const [currentRecipient, setCurrentRecipient] = useState(null);
+
+  useEffect(() => {window.trackEvent(`view-pueblo-recipients`)}, []);
   return (
     <div className="page-flex-row">
       <SectionLeft width={!!currentRecipient ? "wide" : "narrow"}>

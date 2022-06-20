@@ -7,6 +7,9 @@ import { Modal } from "../Modal/Modal";
 
 export default function AttractionPopup ({attraction, onClose}){
   const [galleryOpen, setGalleryOpen] = useState(false);
+
+  useEffect(() => {window.trackEvent(`view-attraction: ${attraction.name}`)}, []);
+
   return (
     <div>
       <Modal  transparent={false} index={1} onClose={onClose}>

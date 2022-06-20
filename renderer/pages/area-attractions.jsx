@@ -14,6 +14,8 @@ function AreaAttractions ({areaAttractions, attractionsLanding}) {
   const [filterType, setFilterType] = useState('All');
   const [displayList, setDisplayList] = useState([]);
 
+  useEffect(() => {window.trackEvent('view-attractions')}, []);
+
   useEffect(() => {
     console.log(filterType);
     if(areaAttractions){

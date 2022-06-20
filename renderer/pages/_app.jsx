@@ -23,7 +23,12 @@ export default function MyApp({Component, pageProps, menuItems}){
       console.log('GOT NETWORK CHANGE', statusArg);
       window.appIsOnline = !!statusArg;
     });
-    ipcRenderer.on('interrupt-timer', window.interruptResetTimer)
+    ipcRenderer.on('interrupt-timer', window.interruptResetTimer);
+
+    window.trackEvent = (key) => {
+      console.log('tracking: ', key);
+    }
+
   }, []);
   return <>
     <Nav />

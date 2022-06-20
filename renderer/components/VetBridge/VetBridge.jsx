@@ -18,6 +18,7 @@ export default function VetBridge({ allVets }) {
   const [filteredSet, setFilteredSet] = useState([]);
   const [pageCount, setPageCount] = useState(1);
   const [currentPage, setCurrentPage] = useState(0);
+  useEffect(() => {window.trackEvent(`view-bridge-search`)}, []);
 
   useEffect(() => {
     const offset = (currentPage * itemsPerPage) % filteredSet.length;

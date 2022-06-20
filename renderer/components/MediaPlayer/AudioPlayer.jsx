@@ -5,7 +5,11 @@ import style from './MediaPlayer.module.scss'
 function AudioPlayer({file}) {
   const [playing, setPlaying] = useState(false);
   const [audio, setAudio] = useState();
-  console.log('audio');
+
+  useEffect(() => {
+    if(playing) window.trackEvent(`view-video: ${file}`);
+  }, [playing]);
+
   useEffect(() => {
     const audio = document.createElement('AUDIO');
     audio.src = file;

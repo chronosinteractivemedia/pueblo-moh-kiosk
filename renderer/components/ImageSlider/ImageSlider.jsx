@@ -13,6 +13,11 @@ export default function ImageSlider({slides, onClose}) {
   const videoRef = useRef();
 
   useEffect(() => {
+    if(slides && slides.length === 1 && slides[0].video) window.trackEvent(`view-video: ${slides[0].video}`);
+    else if(slides && slides[0] && slides[0].track_id) window.trackEvent(`view-gallery: ${slides[0].video}`);
+  }, [slides]);
+
+  useEffect(() => {
     let interval;
     if(videoRef.current){
       if( slides.length === 1){

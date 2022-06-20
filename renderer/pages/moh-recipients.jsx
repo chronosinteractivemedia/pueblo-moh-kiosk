@@ -28,6 +28,7 @@ function MohRecipients({}) {
         ipcRenderer.send("hide-external");
       };
     }
+    window.trackEvent('view-cmoh');
   }, []);
 
 

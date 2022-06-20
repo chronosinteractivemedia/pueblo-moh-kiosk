@@ -5,6 +5,7 @@ import Link from "next/link"
 import Scroller from "../Scroller/Scroller";
 
 function PersonDetail({person, onBack}) {
+  useEffect(() => {window.trackEvent(`view-recipient: ${person.name}`)}, []);
   return (
     <div className={style.wrapper}>
       <div className={style.navlink} onClick={onBack}>&lt;&nbsp;Back</div>
