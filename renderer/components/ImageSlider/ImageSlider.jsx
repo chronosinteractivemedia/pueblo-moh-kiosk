@@ -1,6 +1,4 @@
 import React, {useEffect, useRef, useState} from "react";
-import Image from "../Image/Image";
-import {imgUrl} from "../../config";
 import styles from "./ImageSlider.module.scss";
 import {BsChevronLeft, BsChevronRight, BsPause, BsPlay} from "react-icons/bs";
 import {FiRefreshCcw} from 'react-icons/fi';
@@ -14,7 +12,8 @@ export default function ImageSlider({slides, onClose}) {
 
   useEffect(() => {
     if(slides && slides.length === 1 && slides[0].video) window.trackEvent(`view-video: ${slides[0].video}`);
-    else if(slides && slides[0] && slides[0].track_id) window.trackEvent(`view-gallery: ${slides[0].video}`);
+    else if(slides && slides[0] && slides[0]['track-id']) window.trackEvent(`view-gallery: ${slides[0]['track-id']}`);
+    else window.trackEvent(`view-gallery: ${slides[0].image}`);
   }, [slides]);
 
   useEffect(() => {
