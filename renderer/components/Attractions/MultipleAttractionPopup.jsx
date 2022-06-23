@@ -9,10 +9,15 @@ export default function MultipleAttractionPopup ({attraction, onClose}){
   const [galleryOpen, setGalleryOpen] = useState(false);
   const [videoToShow, setVideoToShow] = useState(null);
 
+  useEffect(() => {
+    if(attraction) window.trackEvent(`view-attraction: ${attraction.name}`);
+  }, [attraction]);
+
   // to prevent the error in case data doesn't exist
   if (!attraction){
     return null
   }
+
   return (
     <div>
       <Modal  transparent={false} index={1} onClose={onClose}>
