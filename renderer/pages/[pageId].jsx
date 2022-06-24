@@ -11,7 +11,7 @@ const galleryLayoutMap = {
 }
 function PageId({pageData}) {
   const {logo, city, title, description, button, audio, media} = pageData;
-  useEffect(() => {window.trackEvent(`view-internal-page: ${title}`)}, []);
+  useEffect(() => {window.trackEvent(`view-internal-page: ${title}`)}, [title]);
   return (
     <div className="page-flex-row">
         <SectionLeft>
