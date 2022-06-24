@@ -7,6 +7,7 @@ import QrDisplay from "../components/QrDisplay/QrDisplay";
 function MohRecipients({}) {
   const [offline, setOffline] = useState(false);
   useEffect(() => {
+    window.trackEvent('view-cmoh');
     if (!window.appIsOnline) {
       setOffline(true);
     } else {
@@ -28,7 +29,6 @@ function MohRecipients({}) {
         ipcRenderer.send("hide-external");
       };
     }
-    window.trackEvent('view-cmoh');
   }, []);
 
 
