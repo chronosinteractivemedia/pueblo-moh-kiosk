@@ -41,7 +41,7 @@ function MohRecipients({}) {
             <h1>Database Currently Unavailable</h1>
             <p>Internet access is currently not available. To view the database on your phone instead, simply scan the QR code below.</p>
             <QrDisplay 
-              url="https://www.cmohs.org/kiosk/explore"
+              url="https://www.cmohs.org/recipients/overview"
               description="Scan QR code to view" 
               isWhite={true}
               size={84} 
