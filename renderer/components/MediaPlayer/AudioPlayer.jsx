@@ -2,9 +2,15 @@ import React, {useEffect, useRef, useState} from 'react';
 import style from './MediaPlayer.module.scss'
 
 
-function AudioPlayer({file}) {
+function AudioPlayer({file, autoPlay}) {
   const [playing, setPlaying] = useState(false);
   const [audio, setAudio] = useState();
+
+  useEffect(() => {
+    if(autoPlay){
+      setPlaying(true);
+    }
+  }, [file])
 
   useEffect(() => {
     if(playing) window.trackEvent(`view-video: ${file}`);

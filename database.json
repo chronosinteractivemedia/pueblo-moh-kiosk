@@ -408,6 +408,7 @@
       "title": "Home of Heroes",
       "description": "<p>Pueblo, Colorado is proud to claim four Medal of Honor recipients as having grown up in our community and in the late 1990's we were the only city in the U.S. to have four living recipients out of the approximately 150 living at the time. This rare distinction, along with the fact that we have more veteran's per capita than any city in Colorado, led to Pueblo being called the Home of Heroes.</p>",
       "audio": "/audio/home_of_heroes.mp3",
+      "audioAutoplay": true,
       "button": null,
       "media": [
         {

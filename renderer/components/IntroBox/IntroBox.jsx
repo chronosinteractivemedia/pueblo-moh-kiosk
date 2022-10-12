@@ -8,7 +8,7 @@ import VideoPlayer from "../MediaPlayer/VideoPlayer"
 import Link from "next/link";
 
 
-function IntroBox({logo, city, title, description, button, audio, video}) {
+function IntroBox({logo, city, title, description, button, audio, audioAutoplay, video}) {
   return (
     <div className={style.wrapper} key={Math.random()}>
       <div className={!!logo ? style.content : style.content_logo}>
@@ -31,7 +31,7 @@ function IntroBox({logo, city, title, description, button, audio, video}) {
           {/*</Scroller>*/}
         </div>
         {!!button && <Link href={button.href}><a className={style.buttonLink}>{button.title}</a></Link>}
-        {!!audio && <div className={style.mediaLink}> <AudioPlayer file={audio} /> </div>}
+        {!!audio && <div className={style.mediaLink}> <AudioPlayer file={audio} autoPlay={audioAutoplay} /> </div>}
         {!!video && <div className={style.mediaLink}> <VideoPlayer file={video} /> </div>}
       </div>
     </div>

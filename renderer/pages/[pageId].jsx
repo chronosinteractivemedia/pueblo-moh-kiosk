@@ -10,12 +10,12 @@ const galleryLayoutMap = {
   2: 'two'
 }
 function PageId({pageData}) {
-  const {logo, city, title, description, button, audio, media} = pageData;
+  const {logo, city, title, description, button, audio, audioAutoplay, media} = pageData;
   useEffect(() => {window.trackEvent(`view-internal-page: ${title}`)}, [title]);
   return (
     <div className="page-flex-row">
         <SectionLeft>
-          <IntroBox {...({logo, city, title, description, button, audio})} />
+          <IntroBox {...({logo, city, title, description, button, audio, audioAutoplay})} />
         </SectionLeft>
       <SectionRight>
         <GalleryDisplay layout={galleryLayoutMap[media.length]} medias={media} />
