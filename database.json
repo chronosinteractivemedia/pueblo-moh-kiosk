@@ -256,6 +256,7 @@
       "title": "Medal of Honor Memorial",
       "description": "<p>Pueblo bronze artist David Dirrim and granite artist William Yates, both Colorado natives, were selected in 1998 to create the Pueblo Medal of Honor Memorial to be placed outside the Convention Center on Medal of Honor Plaza in the year 2000. In addition to the statues of Pueblo's four heroes and the names of all of the over 3,500 recipients were incorporated on granite plaques mounted on the walls of the Convention Center just behind the sculptures. Listed by war, the names are in alphabetical order.</p><p>Other features are a 35-foot flagpole in the center of a granite bench seating area. The words of President Dwight Eisenhower are engraved on the side of the bench to remind us of his words upon placing the Medal of Honor around Raymond &quot;Jerry&quot; Murphy's neck. He said: &quot;What is it in the water out there in Pueblo, all you guys turn out to be heroes?&quot;.</p>",
       "audio": "/audio/medal_of_honor-memorial.mp3",
+      "audioAutoplay": false,
       "button": null,
       "media": [
         {
@@ -653,6 +654,7 @@
       "title": "History of the <br/> Medal of Honor",
       "description": "<p>The Medal of Honor is the United States' highest award for military valor in action. And, while over 150 years have passed since its inception, the meaning behind the Medal has never tarnished. Etched within the Medal are the very values that each Recipient displayed in the moments that mattered—bravery, courage, sacrifice, integrity and a deep love of country plus a desire to always do what is right at the risk of one’s life.</p>",
       "audio": "/audio/history_of_the_medal_of_honor.mp3",
+      "audioAutoplay": false,
       "button": null,
       "media": [
         {
@@ -695,6 +697,7 @@
       "title": "Veterans’ Bridge",
       "description": "<p>The “Veterans’ Bridge” is the only monument in the United States recognizing veterans of all military branches and duty statuses. It is also the first time in history that families can group family members who are veterans together regardless of which branch of service they served in, or whether they served in peacetime or war. Veterans are prominently displayed on the bridge along with Pueblo’s four Medal of Honor recipients, the 5 military branch seals, and the flags of both Colorado and the United States.</p><p>Veterans’ Bridge Steering Committee Chairman Gus Sandstrom stated, “Pueblo has one of the highest concentrations of veterans in the nation. This bridge will forever honor the sacrifice of the men and women who served our nation. We owe our freedom to their sacrifice.”</p><p>“Veterans’ Bridge” is a partnership between the Pueblo Veterans’ Council, the Historic Arkansas Riverwalk of Pueblo Foundation and the Pueblo Home of Heroes Association.</p>",
       "audio": "/audio/veterans_bridge.mp3",
+      "audioAutoplay": false,
       "button": {
         "title": "Search Veterans",
         "href": "veterans-bridge"
