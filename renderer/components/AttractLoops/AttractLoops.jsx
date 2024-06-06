@@ -3,6 +3,7 @@ import styles from "./AttractLoops.module.scss";
 import Image from "../Image/Image";
 import MedalRotate from "../MedalRotate/MedalRotate";
 import { useRouter } from "next/router";
+import WalkOfValor from "../WalkOfValor/WalkOfValor";
 
 const SLIDE_DELAY_MEDALS = 15000;
 const SLIDE_DELAY_IMAGES = 7000;
@@ -41,17 +42,18 @@ export default function AttractLoops({ attracts }) {
     };
   }, []);
 
-  function handleClick(){
-    if(window.openNav) window.openNav();
+  function handleClick() {
+    if (window.openNav) window.openNav();
   }
 
   return (
     <div className={styles.component} data-hide={hide} onClick={handleClick}>
       <div className={styles.content}>
+        <img className={styles.logo} src="/images/hha-logo.png" alt="" />
         <div className={styles.heading}>{attracts.title}</div>
         <div className={styles.subheading}>{attracts.subtitle}</div>
-        <img className={styles.logo} src="/images/hha-logo.png" alt="" />
         <div className={styles.button}>Enter</div>
+        <WalkOfValor />
       </div>
       <div className={styles.slides}>
         {attracts.slides.map((slide, idx) => {
