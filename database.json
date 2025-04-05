@@ -4,12 +4,29 @@
     "subtitle": "Presented by Pueblo Home of Heroes Association",
     "logo": "/images/hha-logo.png",
     "slides": [
-      {"type":  "medals"},
-      {"type":  "image", "image": "/images/attract-loop/attract-recipients.jpg" },
-      {"type":  "image", "image": "/images/attract-loop/attract-memorial.jpg" },
-      {"type":  "image", "image": "/images/attract-loop/attract-veterans-bridge.jpg" },
-      {"type":  "image", "image": "/images/attract-loop/attract-cav.jpg" },
-      {"type":  "image", "image": "/images/attract-loop/attract-attractions.jpg" }
+      {
+        "type": "medals"
+      },
+      {
+        "type": "image",
+        "image": "/images/attract-loop/attract-recipients.jpg"
+      },
+      {
+        "type": "image",
+        "image": "/images/attract-loop/attract-memorial.jpg"
+      },
+      {
+        "type": "image",
+        "image": "/images/attract-loop/attract-veterans-bridge.jpg"
+      },
+      {
+        "type": "image",
+        "image": "/images/attract-loop/attract-cav.jpg"
+      },
+      {
+        "type": "image",
+        "image": "/images/attract-loop/attract-attractions.jpg"
+      }
     ]
   },
   "puebloRecipientsDetail": {
@@ -25,10 +42,10 @@
         "image": "/images/people/sitter-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/sitter-truman-optimized.jpg",
         "hallfame_image_caption": "Carl Sitter receives his Medal of Honor from President Harry S. Truman in 1951",
-        "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Sitter and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
+        "light_display_text": "The uniform jacket in this display is one actually worn by Mr. Sitter and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
         "bio": "Ordered to break through enemy-infested territory to reinforce his battalion 29 November 1950, Capt. Sitter continuously exposed himself to enemy fire as he led his company forward and, despite 25 percent casualties, succeeded in driving through to his objective. He reorganized his depleted units the following morning and led them up a steep frozen hillside under blistering fire, encouraging his troops as casualties occurred and directing forward platoons to drive to the top of the ridge. The enemy launched a vicious counterattack, setting the hill ablaze with mortar and machine-gun fire taking a heavy toll in troops. Capt. Sitter visited each foxhole, deploying reinforcing units consisting of service personnel unfamiliar with infantry tactics into a combat team instilling in every man the determination to hold his position at all costs. With the enemy penetrating his lines in counterattacks requiring hand-to-hand combat, and infiltrating to the command post with hand grenades, he fought gallantly with his men in repulsing and killing the fanatic attackers in each encounter. Painfully wounded in the face, arms, and chest by bursting grenades he refused to be evacuated and continued to fight on until a successful defense of the area was assured. His valiant leadership and superb tactics throughout 36 hours of bitter combat reflect the highest credit upon Capt. Sitter and the U.S. Naval Service.",
-        "cmoh_link":"carl-l-sitter",
-        "qrcode_label":"",
+        "cmoh_link": "carl-l-sitter",
+        "qrcode_label": "",
         "qrcode": "",
         "summary": [
           {
@@ -84,10 +101,10 @@
         "image": "/images/people/murphy-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/jerry-eisenhower-optimized.jpg",
         "hallfame_image_caption": "Raymond G. Murphy receives his Medal of Honor from President Dwight D. Eisenhower in 1953",
-        "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Murphy and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket. ",
+        "light_display_text": "The uniform jacket in this display is one actually worn by Mr. Murphy and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket. ",
         "bio": "While serving in Korea 2d Lt. Murphy, although painfully wounded by fragments from an enemy mortar shell, steadfastly refused medical aid and continued to lead his men up a hill through a withering barrage of hostile mortar and small-arms fire, skillfully maneuvering his force and shouting words of encouragement. Undeterred by the increasing intense enemy fire, he located casualties as they fell and made several trips up and down the fire-swept hill to direct evacuation teams to the wounded, personally carrying many of the stricken marines to safety. With all the wounded evacuated, he remained behind to cover the movement of friendly forces off the hill. After reaching the base of the hill, he organized a search party for a final check on missing marines, locating and carrying the bodies of a machine-gun crew down the hill. Wounded a second time through a continuing barrage of enemy small-arms, artillery, and mortar fire, he again refused medical assistance until assured that every one of his men, including all casualties, had preceded him to the main lines. His resolute and inspiring leadership, exceptional fortitude, and great personal valor reflect the highest credit upon 2d Lt. Murphy and enhance the finest traditions of the U.S. Naval Service.",
-        "cmoh_link":"raymond-g-murphy",
-        "qrcode_label":"",
+        "cmoh_link": "raymond-g-murphy",
+        "qrcode_label": "",
         "qrcode": "",
         "summary": [
           {
@@ -143,10 +160,10 @@
         "image": "/images/people/crawford-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/crawford-reagan-color-optimized.jpg",
         "hallfame_image_caption": "William J. Crawford receives Medal of Honor from President Ronald Reagan at USAF Academy graduation 1984",
-        "light_display_text":"The uniform jacket in this display is one actually worn by Mr. Crawford and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
+        "light_display_text": "The uniform jacket in this display is one actually worn by Mr. Crawford and donated by him for this display. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket.",
         "bio": "Pvt. Bill Crawford was a squad scout in action with the enemy near Altavilla, Italy, 13 September 1943, when his Company was attacked on Hill 424 by an enemy-held position. After reaching the crest of a hill, his platoon was pinned down by intense enemy machine-gun and small-arms fire. Locating one of these guns, which was dug in on a terrace on his immediate front, Pvt. Crawford, without orders and on his own initiative moved over the hill under enemy fire to a point within a few yards of the gun emplacement and singlehandedly destroyed the machine gun and killed three of the crew with a hand grenade, thus enabling his platoon to continue its advance. When the platoon, after reaching the crest, was once more delayed by enemy fire, Pvt. Crawford again, in the face of intense fire, advanced directly to the front midway between two hostile machine-gun nests located on a higher terrace and emplaced in a small ravine. Moving first to the left, with a grenade he destroyed one gun emplacement and killed the crew; he then worked his way, under continuous fire, to the other and with one grenade and the use of his rifle, killed one enemy and forced the remainder to flee. Seizing the enemy machine gun, he fired on the withdrawing Germans and facilitated his company's advance.",
-        "cmoh_link":"william-j-crawford",
-        "qrcode_label":"",
+        "cmoh_link": "william-j-crawford",
+        "qrcode_label": "",
         "qrcode": "",
         "summary": [
           {
@@ -202,10 +219,10 @@
         "image": "/images/people/dix-main-photo-optimized.jpg",
         "hallfame_image": "/images/people/drew-johnson-optimized.jpg",
         "hallfame_image_caption": "Drew D.Dix receives his Medal of Honor from President Lyndon B. Johnson in 1969",
-        "light_display_text":"The uniform jacket in this display is replica of one worn by Mr. Dix. All of Mr. Dix military memorabilia were destroyed in a fire during the time he lived and worked in Alaska. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket. ",
+        "light_display_text": "The uniform jacket in this display is replica of one worn by Mr. Dix. All of Mr. Dix military memorabilia were destroyed in a fire during the time he lived and worked in Alaska. All patches, badges, award ribbons and medals were designated by him to be displayed on his jacket. ",
         "bio": "S/Sgt. Dix distinguished himself by exceptional heroism while serving as a unit adviser. Two heavily armed Viet Cong battalions attacked the Province capital city of Chau Phu. S/Sgt. Dix, with a patrol of Vietnamese soldiers, was recalled to assist in the defense of Chau Phu. Learning that a nurse was trapped in a house near the center of the city, S/Sgt. Dix organized a relief force, successfully rescued the nurse, and returned her to safety. Being informed of other trapped civilians within the city, S/Sgt. Dix voluntarily led another force to rescue 8 civilian employees located in a building which was under heavy mortar and small-arms fire. S/Sgt. Upon approaching a building, he was subjected to intense automatic rifle and machine gun fire. He personally assaulted the building, killing 6 Viet Cong, and rescuing 2 Filipinos. The following day he assembled a 20-man force and under intense enemy fire cleared the Viet Cong out of the hotel, theater, and other buildings within the city. He then attacked enemy troops who had entered the residence of the Deputy Province Chief and rescued the official's wife and children. S/Sgt. Dix's heroic actions resulted in 14 confirmed Viet Cong killed in action, the capture of 20 prisoners, and the rescue of the 14 civilians. The heroism of S/Sgt. Dix was in the highest tradition and reflects great credit upon the U.S. Army.",
-        "cmoh_link":"drew-d-dix",
-        "qrcode_label":"",
+        "cmoh_link": "drew-d-dix",
+        "qrcode_label": "",
         "qrcode": "",
         "summary": [
           {
@@ -416,7 +433,7 @@
           "title": "Tom Brokaw",
           "type": "video",
           "thumbnail": "/images/home-of-hero/home-of-heroes-brokaw-video-landing-optimized.jpg",
-          "thumbnail_caption":"Image credit: Petty Officer 3rd Class Ryan Tippets, Public domain, via Wikimedia Commons",
+          "thumbnail_caption": "Image credit: Petty Officer 3rd Class Ryan Tippets, Public domain, via Wikimedia Commons",
           "slides": [
             {
               "id": 1,
@@ -430,7 +447,7 @@
           "title": "Home of Heroes",
           "type": "gallery",
           "thumbnail": "/images/home-of-hero/home-of-heroes-gallery-landing-optimized.jpg",
-          "thumbnail_caption":"",
+          "thumbnail_caption": "",
           "slides": [
             {
               "id": 0,
@@ -706,7 +723,7 @@
         {
           "title": "Veterans’ Bridge",
           "type": "gallery",
-          "thumbnail_caption":"",
+          "thumbnail_caption": "",
           "thumbnail": "/images/vet-bridge/veterans_bridge_gallery_landing_optimized.jpg",
           "slides": [
             {
@@ -763,6 +780,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": 4,
+      "logo": "",
+      "city": null,
+      "title": "Pueblo latino legacies of courage",
+      "description": "<p>During National Hispanic Heritage Month, which begins annually September 15 and ends October 15, the Pueblo Latino Veterans Legacies of Courage (PL VLOC) Committee will recognize Pueblo Latino veterans in accordance with Public Law 100-402, 17 Aug.1998. The PLVLOC Committee supports all diversity and national observances/ celebrations established by Law, Bill or Resolutions of Congress. These observances are designed to enhance cross-cultural and gender awareness and promote harmony among everyone. The Committee mission mirrors that of the Department of Defense (DOD), U.S. Army, Marines, Navy, Air Force, National Guard and Space Command special observances and celebrations. These special observances are conducted to recognize the continuous achievements of all American citizens, our diverse cultures and to increase awareness, mutual respect and understanding. Our Pueblo Latino Veterans are an integral part of our community, culture and identity.</p><br><br",
+      "audio": "",
+      "audioAutoplay": false,
+      "button": {
+        "title": "Search Veterans",
+        "href": "latino-legacies"
+      },
+      "displayImage": "/images/latino/landing.png"
     }
   ],
   "attractionsLanding": {
@@ -770,13 +801,15 @@
   },
   "attractions": [
     {
-      "id": 0, 
+      "id": 0,
       "name": "Center for American Values",
-      "descptn" : "The Center's organizational mission is based on the need for a ...",
+      "descptn": "The Center's organizational mission is based on the need for a ...",
       "detail": "<p>The Center's organizational mission is based on the need for a national initiative to identify, document and disseminate information about individuals, groups and organizations whose character attributes relate directly to the values this great country was founded upon. The Center displays an extraordinary collection of photographic portraits and documentation of over 140 Congressional Medal of Honor recipients. The collection is a powerful example of the self-sacrifice one segment of our society has made to protect the freedoms we enjoy.</p><p>101 S. Main Street<br/>719-543-9502</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/P35zwN5buFjhmFrC8",
-      "types":["Military Attractions"],
+      "types": [
+        "Military Attractions"
+      ],
       "walkable": true,
       "featured": true,
       "featured_name": "Center for American Values",
@@ -785,43 +818,43 @@
         {
           "id": 0,
           "title": "Beyond the Medal of Honor",
-          "thumbnail":"/images/attractions/cav/cav-beyond-the-moh-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-beyond-the-moh-thumb.jpg",
           "file": "/video/CAV-Beyond-The-Medal.mp4"
         },
         {
           "id": 1,
           "title": "Civil War Medal of Honor Display",
-          "thumbnail":"/images/attractions/cav/cav-civil-war-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-civil-war-thumb.jpg",
           "file": "/video/CAV-Chism-display.mp4"
         },
         {
           "id": 2,
           "title": "Educational Trips",
-          "thumbnail":"/images/attractions/cav/cav-educational-trips-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-educational-trips-thumb.jpg",
           "file": "/video/CAV-Educational-Field-Trip.mp4"
         },
         {
           "id": 3,
           "title": "Our Values Speaker Series",
-          "thumbnail":"/images/attractions/cav/cav-our-values-speaker-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-our-values-speaker-thumb.jpg",
           "file": "/video/CAV-On-Values-Speaker-Series.mp4"
         },
         {
           "id": 4,
           "title": "Portraits of Valor Exhibit",
-          "thumbnail":"/images/attractions/cav/cav-portraits-of-valor-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-portraits-of-valor-thumb.jpg",
           "file": "/video/CAV-Portraits-of-Valor.mp4"
         },
         {
           "id": 5,
           "title": "Medal of Honor Quotes Book",
-          "thumbnail":"/images/attractions/cav/cav-quotes-book-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-quotes-book-thumb.jpg",
           "file": "/video/CAV-Quotes-Book.mp4"
         },
         {
           "id": 6,
           "title": "World Trade Center Steel Memorial",
-          "thumbnail":"/images/attractions/cav/cav-steel-memorial-thumb.jpg",
+          "thumbnail": "/images/attractions/cav/cav-steel-memorial-thumb.jpg",
           "file": "/video/CAV-World-Trade-Center-Steel.mp4"
         }
       ],
@@ -903,15 +936,18 @@
           "caption": ""
         }
       ]
-    }, 
+    },
     {
-      "id": 1, 
+      "id": 1,
       "name": "Weisbrod Aircraft Museum",
-      "descptn" : "The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum ...",
+      "descptn": "The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum ...",
       "detail": "<p>The Pueblo Weisbrod Aircraft Museum is a non-profit aviation museum located in near Pueblo Air Port. It was founded in the mid-1970s by former Pueblo City Manager Fred Weisbrod. The museum is made up of two hangars that were built in 2005 and 2011. The hangars house dozens of the museum's aircraft of all kinds with thousands of artifacts dating from World War I to modern day.</p><p>31001 Magnuson Ave. Pueblo, CO 81001<br/>719-561-9320</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/AotrgeWL4sNkRV6z5",
-      "types":["Military Attractions","Museums"],
+      "types": [
+        "Military Attractions",
+        "Museums"
+      ],
       "walkable": false,
       "featured": true,
       "featured_name": "Weisbrod Aircraft Museum",
@@ -981,13 +1017,15 @@
       ]
     },
     {
-      "id": 2, 
+      "id": 2,
       "name": "Historic Arkansas Riverwalk of Pueblo",
-      "descptn" : "Less than a block from the Pueblo Convention Center is the Historic ...",
+      "descptn": "Less than a block from the Pueblo Convention Center is the Historic ...",
       "detail": "<p>Less than a block from the Pueblo Convention Center is the Historic Arkansas Riverwalk of Pueblo. This 26 acre, urban, water based, multigenerational recreational environmental education park is publicly owned and free of charge to all populations within the region. In the past the Arkansas River was the dividing line between the US territory and Mexico and the Riverwalk has the flags of five nations which have flown over the area (France, Spain, Mexico, Texas and US).. For a small fee excursion boats are available with a boat captain who will point out many of the  the sculptures, some out in the open and others which are hidden away, as you learn more about Pueblo.</p><p>101 S. Union Avenue 81003<br/>719-595-0242</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/17ukYGapa9JPAk5S9",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": true,
       "featured": true,
       "featured_name": "Historic Arkansas Riverwalk of Pueblo",
@@ -1141,13 +1179,16 @@
       ]
     },
     {
-      "id": 3, 
+      "id": 3,
       "name": "Sangre de Cristo Arts and Conference Center",
-      "descptn" : "This three building complex is located in the heart of downtown ...",
+      "descptn": "This three building complex is located in the heart of downtown ...",
       "detail": "<p>This three building complex is located in the heart of downtown Pueblo. It is dedicated to the dissemination of art and culture in this part of Colorado. The center was founded in 1972 and in the past 50 years has been a major driving force in development of art and dance. The structures inside the complex comprises a theater which has a seating capacity for 500 spectators, Buell Children’s Museum and art galleries. Besides hosting cultural events and national and international art exhibits, the center also conducts classes and programs all through the year. </p><p>210 N. Santa Fe Avenue<br/>719-283-3623</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://g.page/puebloartscenter?share",
-      "types":["Arts & Culture", "Museums"],
+      "types": [
+        "Arts & Culture",
+        "Museums"
+      ],
       "walkable": true,
       "featured": true,
       "featured_name": "Sangre de Cristo Arts Center",
@@ -1177,13 +1218,15 @@
       ]
     },
     {
-      "id": 4, 
+      "id": 4,
       "name": "El Pueblo History Museum",
-      "descptn" : "The El Pueblo History Museum is one block from the Convention Center ...",
+      "descptn": "The El Pueblo History Museum is one block from the Convention Center ...",
       "detail": "<p>The El Pueblo History Museum is one block from the Convention Center and the  Riverwalk. Fort Pueblo was founded  in 1842 on the Arkansas River - which divided the United States from Mexico. El Pueblo was an important cultural crossroads of the Southwest. Here lived Anglo, French, and African-American trappers and traders; Mexican settlers and their families; and Plains, Iroquois, Delaware, and Cherokee Indians. The occupants traded, farmed, and ranched in and around this combination trading post and settlement. Made of adobe, the post and its living quarters, were built around a secure interior plaza.</p><p>301 N. Union Avenue 81003<br/>719- 583-0453</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://g.page/ElPuebloHistoryMuseum?share",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": true,
       "featured": true,
       "featured_name": "El Pueblo History Museum",
@@ -1233,13 +1276,15 @@
       ]
     },
     {
-      "id": 5, 
+      "id": 5,
       "name": "Pueblo Heritage Museum",
-      "descptn" : "The Southeastern Colorado Heritage Center preserves and furthers ...",
+      "descptn": "The Southeastern Colorado Heritage Center preserves and furthers ...",
       "detail": "<p>The Southeastern Colorado Heritage Center preserves and furthers the local culture, while keeping the history of the place alive. They have on display, memorabilia from the city's history and culture leading up to the present day. Exhibits include, Pueblo's 1921 Flood, Early Coloradoans, Depression Era, Telephones through the years, Sewing machines, Pueblo Saddles, just to name a few.</p><p>201 W. B Street 81003<br/>719-295-1517</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/nppsrw49LMdvhAybA",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": true,
       "featured": true,
       "featured_name": "Pueblo Heritage Museum",
@@ -1293,13 +1338,15 @@
       ]
     },
     {
-      "id": 6, 
+      "id": 6,
       "name": "Military Monuments and Memorials",
-      "descptn" : "Pueblo has many unique monuments, memorials, attractions, and ...",
+      "descptn": "Pueblo has many unique monuments, memorials, attractions, and ...",
       "detail": "<p>Pueblo has many unique monuments, memorials, attractions, and recreation areas you will enjoy. Through the years, Veterans from every era have been honored in some way in the Pueblo area.  Unique monuments, memorials, plaques, cannons, signs, parkways, parks, and sculptures dot the landscape. Added in more recent times are highway welcoming signs, the Medal of Honor Plaza, Weisbrod Aircraft Museum, Veterans Bridge, Walk of Valor, and Center for American Values. Pride in our veterans helps make Pueblo the Home of Heroes.</p>",
-      "qrcode_label":"",
+      "qrcode_label": "",
       "qrcode": "",
-      "types":["Military Attractions"],
+      "types": [
+        "Military Attractions"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1469,13 +1516,15 @@
       ]
     },
     {
-      "id": 7, 
+      "id": 7,
       "name": "Charles Goodnight Barn",
-      "descptn" : "The original barn of cattleman legend Charles Goodnight has been ...",
+      "descptn": "The original barn of cattleman legend Charles Goodnight has been ...",
       "detail": "<p>The original barn of cattleman legend Charles Goodnight has been renovated to show what life on the early frontier was like. Taking cattle from Texas to the Dakotas in the 1800's was hard work. Goodnight, along with partner Oliver Loving made many trips. Goodnight  established a ranch here in the Pueblo area. The cattle barn is the only piece of that ranch that is left. Over the last few years it has been refurbished and is available for special uses by appointment only. Bronze sculptures of both Goodnight and Loving can be found along the Pueblo Riverwalk in downtown Pueblo.</p><p>5475 W. State Hwy 96 81005</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/6tnEZwgT1pFwiGLH9",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1505,13 +1554,15 @@
       ]
     },
     {
-      "id": 8, 
+      "id": 8,
       "name": "Lake Pueblo State Park",
-      "descptn" : "Lake Pueblo (also known as Pueblo Reservoir) has a maximum depth of ...",
+      "descptn": "Lake Pueblo (also known as Pueblo Reservoir) has a maximum depth of ...",
       "detail": "<p>Lake Pueblo (also known as Pueblo Reservoir) has a maximum depth of 135 feet (41 m) and is impounded by Pueblo Dam. It includes 60 miles (97 km) of shoreline and 10,000 acres (40 km2) of land. Activities it offers include two full-service marinas, recreational fishing, hiking, camping and swimming at a special swim beach. Lake Pueblo is host to many water recreation activities including sailing, motor-boating, waterskiing, wakeboarding, wake-surfing, river tubing and prime fishing.</p><p>640 Pueblo Reservoir Road  81005<br/>719-561-9320</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/YJk1rT1qF5tnkzFn8",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1545,13 +1596,15 @@
       ]
     },
     {
-      "id": 9, 
+      "id": 9,
       "name": "Nature & Wildlife Discovery Center Mountain Campus",
-      "descptn" : "The Nature and Wildlife Discovery Center is a multi-campus nature ...",
+      "descptn": "The Nature and Wildlife Discovery Center is a multi-campus nature ...",
       "detail": "<p>The Nature and Wildlife Discovery Center is a multi-campus nature preserve and educational center in Pueblo County. The NWDC  which includes a 611 acres (247 ha) mountain park, lodge, gift shop, and museum in Beulah, a small museum and educational center, as well as an open-space park on the Arkansas River in Pueblo and an adjacent raptor education and rehabilitation facility.</p><p><b>Nature and Wildlife Discovery Center:</b><br/>5200 Nature Center Drive 81005, 719-549-2414</p><p><b>Pueblo Mountain Park:</b><br/>9112 Mountain Park Drive, Beulah, 719-485-4444</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/myFZhUGXQg1WM4M18",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1593,13 +1646,15 @@
       ]
     },
     {
-      "id": 10, 
+      "id": 10,
       "name": "Nature & Wildlife Discovery Center River Campus",
-      "descptn" : "The Nature and Wildlife Discovery Center is a multi-campus nature ...",
+      "descptn": "The Nature and Wildlife Discovery Center is a multi-campus nature ...",
       "detail": "<p>The Nature and Wildlife Discovery Center is a multi-campus nature preserve and educational center in Pueblo County. The NWDC  which includes a 611 acres (247 ha) mountain park, lodge, gift shop, and museum in Beulah, a small museum and educational center, as well as an open-space park on the Arkansas River in Pueblo and an adjacent raptor education and rehabilitation facility.</p><p><b>Nature and Wildlife Discovery Center:</b><br/>5200 Nature Center Drive 81005, 719-549-2414</p><p><b>Pueblo Mountain Park:</b><br/>9112 Mountain Park Drive, Beulah, 719-485-4444</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/G6XW1GJq24abeLGh9",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1637,13 +1692,15 @@
       ]
     },
     {
-      "id": 11, 
+      "id": 11,
       "name": "Pueblo City Park and Zoo",
-      "descptn" : "Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 ...",
+      "descptn": "Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 ...",
       "detail": "<p>Located in the City Park in Pueblo, the Pueblo Zoo houses about 420 animals of 140 species. The areas of the park are divided into different parts based on the animals housed like the Serengeti Safari,  North American Grasslands and many more. City park has fountains, a lake, tennis courts, a skate park, frisbee golf, a dog park, and acres of grass and trees for picnic area as well as a swimming pool.</p><p>3455 Nuckolls Ave. Pueblo, CO 81005<br/>719-549-2414</p></p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/Pun2taaDpkSkux8dA",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1693,13 +1750,15 @@
       ]
     },
     {
-      "id": 12, 
+      "id": 12,
       "name": "Union Avenue Historic District",
-      "descptn" : "The Union Avenue Historic Commercial District was placed on the ...",
+      "descptn": "The Union Avenue Historic Commercial District was placed on the ...",
       "detail": "<p>The Union Avenue Historic Commercial District was placed on the  National Register on December 28, 1982.  The district consists of a group of business structures located to the northwest of the Arkansas River in Pueblo’s old business district. Of the original 87 properties that were within the boundaries, 70 contributed to the historic and architectural importance of the district. Unique shops for antiques, clothing, food, jewelry and many other goods and services offer their wares in the District.</p><p>300 blocks of Union Avenue 81003</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/7tmTLqGXxdpy6DtS9",
-      "types":["Outdoor Attractions & Parks"],
+      "types": [
+        "Outdoor Attractions & Parks"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1733,13 +1792,15 @@
       ]
     },
     {
-      "id": 13, 
+      "id": 13,
       "name": "Historic Union Train Depot",
-      "descptn" : "Initially the station was served by the Denver & Rio Grande Western ...",
+      "descptn": "Initially the station was served by the Denver & Rio Grande Western ...",
       "detail": "<p>Initially the station was served by the Denver & Rio Grande Western Railroad, the Atchison, Topeka and Santa Fe Railway, the Colorado & Southern Railway (which was acquired by the Chicago, Burlington and Quincy Railroad in 1908), the Missouri Pacific Railroad, and the Chicago Rock Island & Pacific Railroad. Today the Union Pacific Railroad and the BNSF Railroad share use of the tracks, and the depot is privately owned. Regular passenger train service no longer exists.</p><p>132 B. Street 81003<br/>719-544-0020</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/7pCjVGpifBWrsDFC6",
-      "types":["Arts & Culture"],
+      "types": [
+        "Arts & Culture"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1765,13 +1826,15 @@
       ]
     },
     {
-      "id": 14, 
+      "id": 14,
       "name": "Hose Company #3 Fire Museum",
-      "descptn" : "The Fire Museum is owned by the City of Pueblo and operated by ...",
+      "descptn": "The Fire Museum is owned by the City of Pueblo and operated by ...",
       "detail": "<p>The Fire Museum is owned by the City of Pueblo and operated by volunteers from the Pueblo Firefighters Historical Society. It is located in Pueblo’s historic Mesa Junction Business District that serves as a gateway between south Pueblo and the downtown area. The building has a dentilled cornice and large front door for easy entry and exit of the fire engines and includes a pyramidal metal roof and original hose tower and fire pole. The building witnessed the transition in firefighting technology from horse-drawn wagons to motorized fire engines as well as the advent of unionization among professional firefighters. Open by appointment only.</p><p>116 Broadway Ave, 81004<br/>719- 821-1273</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/N9TPExA6EpVypaxF6",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1809,13 +1872,15 @@
       ]
     },
     {
-      "id": 15, 
+      "id": 15,
       "name": "InfoZone News Museum at Rawlings Public Library",
-      "descptn" : "This is a one-of-a- kind museum that aims to propagate knowledge ...",
+      "descptn": "This is a one-of-a- kind museum that aims to propagate knowledge ...",
       "detail": "<p>This is a one-of-a- kind museum that aims to propagate knowledge about American rights to freedom of speech, press and disseminate local history and culture. The museum, housed in the Robert Hoag Rawlings Public Library, in the historic Mesa Junction business district.  Exhibit information about the American rights, history and other social aspects can be viewed anytime the Library is open. You can also find chronicles of how newspapers were made throughout the ages as well as copies of some of the nearly 100 newspapers which helped Pueblo’s many immigrants learn the news of the day. Apart from the regular exhibits a number of fun events for children are held here as well.</p><p>100 E. Abriendo, Avenue 81004<br/>719-562-5600</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/v3D11Zx6PHRmkC1h6",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1829,13 +1894,15 @@
       ]
     },
     {
-      "id": 16, 
+      "id": 16,
       "name": "The Pueblo Railway Foundation and Museum",
-      "descptn" : "It was formed in 2003 to continue and expand the collection and ...",
+      "descptn": "It was formed in 2003 to continue and expand the collection and ...",
       "detail": "<p>It was formed in 2003 to continue and expand the collection and activities of the Pueblo Locomotive & Railroad Historical Society. The mission of the Foundation is to operate, preserve, and display railroad equipment and history. The goal is to promote interest in railroading, and the preservation and study of its history, for the education and satisfaction of all. The Foundation makes this history come alive by operating rail equipment during public events behind the Pueblo Union Depot, where visitors can come and ride the trains.</p><p>201 W. B Street 81003  (next to Union Train Depot)<br/>719-544-1773</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/wmRH8D8tF4zEBJr78",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1865,13 +1932,15 @@
       ]
     },
     {
-      "id": 17, 
+      "id": 17,
       "name": "Rosemount Victorian House Museum",
-      "descptn" : "The grandeur of a bygone era awaits you at Rosemount. Built between ...",
+      "descptn": "The grandeur of a bygone era awaits you at Rosemount. Built between ...",
       "detail": "<p>The grandeur of a bygone era awaits you at Rosemount. Built between 1891 and 1893 this 37 room, 24,000 square-foot mansion was the family home of prominent Pueblo businessman John A. Thatcher and his wife Margaret.  This museum is unique because nearly all the furnishings, wall and window treatments, decorative arts and paintings on view are original to the home.</p><p>415 W. 14th Street 81003<br/>719-545-5296</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://g.page/RosemountMuseum?share",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1933,13 +2002,15 @@
       ]
     },
     {
-      "id": 18, 
+      "id": 18,
       "name": "Steelworks Museum Center of the West",
-      "descptn" : "This is the first building opened in a series of buildings which ...",
+      "descptn": "This is the first building opened in a series of buildings which ...",
       "detail": "<p>This is the first building opened in a series of buildings which once housed the Colorado Fuel and Iron Steel Mill offices for over 100 years. The steel mill, still operating, has several buildings which eventually will all house exhibits dedicated to the mining and steel industry in the west. Often called the Pittsburgh of the West, Pueblo’s long time steel mill once had over 9,000 people working at the Mill and mines throughout Colorado and Wyoming which were owned by the mill. This museum is open in the Medical Dispensary Building. No other collection of records for mining and steel works exists in such massive quantities and this museum is one of the most important industry related museums in the United States. Several displays are outside in their park area. A MUST see in Pueblo!</p><p>213 Canal Street 81004<br/>719-564-9086</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/ExX9gSkYExbJp6o38",
-      "types":["Museums"],
+      "types": [
+        "Museums"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -1973,13 +2044,15 @@
       ]
     },
     {
-      "id": 19, 
+      "id": 19,
       "name": "Pueblo Arkansas River Kayak Park",
-      "descptn" : "Amazing wave action (Late June early July). Each drop has a sizable ...",
+      "descptn": "Amazing wave action (Late June early July). Each drop has a sizable ...",
       "detail": "<p>Amazing wave action (Late June early July). Each drop has a sizable eddy (pool) beneath it with plenty of room. The facility was designed by Gary Lacy. It can be a great place for beginners and also a good place to go for some of the warmest water in the state as it sits in Lake Pueblo before being released downstream through a dam.</p><p>Between the 4th Street and Main Street bridges</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/oxRyPMTVYA47amaRA",
-      "types":["Sports"],
+      "types": [
+        "Sports"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -1993,13 +2066,16 @@
       ]
     },
     {
-      "id": 20, 
+      "id": 20,
       "name": "Colorado State University and Thunderbowl Football Stadium",
-      "descptn" : "",
+      "descptn": "",
       "detail": "<p>Pueblo 2200 Bonforte Blvd. 81001<br/>719-549-2100 </p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/32VW1MAq2ZqGE8sF7",
-      "types":["Sports","Education"],
+      "types": [
+        "Sports",
+        "Education"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -2033,13 +2109,15 @@
       ]
     },
     {
-      "id": 22, 
+      "id": 22,
       "name": "Pueblo Ice Arena",
-      "descptn" : "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
+      "descptn": "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
       "detail": "<p>This arena is home of the Pueblo Bulls Hockey team. Opened in fall of 1975, the arena is a year-round indoor first-class facility at 39,800 square ft. with a single NHL size rink 200’x 85’, four locker rooms, ref room, all with showers. The arena also has a fully stocked concession area with birthday party rooms and open skating. It has two electric Zamboni’s and electric edger emitting zero carbon monoxide. The arena stays at a cool 50-54 degrees.</p><p>100 N. Grand Avenue<br/>719-553-2730</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/gjooeUcMjrU2aboe7",
-      "types":["Sports"],
+      "types": [
+        "Sports"
+      ],
       "walkable": true,
       "featured": false,
       "featured_name": "",
@@ -2069,13 +2147,15 @@
       ]
     },
     {
-      "id": 23, 
+      "id": 23,
       "name": "Pueblo Motorsports Park",
-      "descptn" : "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
+      "descptn": "This arena is home of the Pueblo Bulls Hockey team. Opened in fall ...",
       "detail": "<p>Pueblo's long time motorsports complex featuring drag racing and road racing. Racing is seasonal.</p><p>3733 N. Pueblo Blvd. 81005<br/>719-641-7736</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/X4Fiu17BBPnfSFRE6",
-      "types":["Sports"],
+      "types": [
+        "Sports"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -2093,13 +2173,15 @@
       ]
     },
     {
-      "id": 24, 
+      "id": 24,
       "name": "Runyon Field Sports Complex",
-      "descptn" : "",
+      "descptn": "",
       "detail": "<p>400 Stanton Ave. 81003</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/fzgy3hrAUJDMLbzKA",
-      "types":["Sports"],
+      "types": [
+        "Sports"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -2129,13 +2211,15 @@
       ]
     },
     {
-      "id": 25, 
+      "id": 25,
       "name": "Pueblo Community College",
-      "descptn" : "This lovely campus offers real-world know-how and skills in the ...",
+      "descptn": "This lovely campus offers real-world know-how and skills in the ...",
       "detail": "<p>This lovely campus offers real-world know-how and skills in the area’s top career growth areas including cyber security, health information technology, advanced manufacturing, health professions, business and more.</p><p>900 W. Orman Avenue 81004<br/>719-549-3200</p>",
-      "qrcode_label":"Scan QR code for map location",
+      "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://goo.gl/maps/vcviXcVX56bFtPHAA",
-      "types":["Education"],
+      "types": [
+        "Education"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",
@@ -2161,13 +2245,15 @@
       ]
     },
     {
-      "id": 26, 
+      "id": 26,
       "name": "Golf Courses",
-      "descptn" : "",
+      "descptn": "",
       "detail": "<p><b>Elmwood Golf Course</b><br/>www.pueblo.us/721/Municipal-Golf-Courses</p><p><b>Desert Hawk Pueblo West Golf Course</b><br/>www.deserthawkgolfcourse.com</p><p><b>Walking Stick Golf Course</b><br/>www.pueblo.us/721/Municipal-Golf-Courses</p><p><b>Hollydot Golf Club - Colorado City</b><br/>www.hollydotgolf.com<br/></p>",
-      "qrcode_label":"Scan QR code for more info",
+      "qrcode_label": "Scan QR code for more info",
       "qrcode": "https://www.pueblo.us/721/Municipal-Golf-Courses",
-      "types":["Sports"],
+      "types": [
+        "Sports"
+      ],
       "walkable": false,
       "featured": false,
       "featured_name": "",

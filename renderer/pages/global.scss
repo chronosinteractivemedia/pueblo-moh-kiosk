@@ -12,7 +12,7 @@ html{
     overflow: hidden;
     scroll-behavior: smooth;
     background-color: #fff;
-    &, *{cursor: none !important;}
+    //&, *{cursor: none !important;}
     &.show-cursor{
         &, *{cursor: default !important;}
     }
@@ -54,4 +54,15 @@ body{
 #modal1{
   position: relative;
   z-index: 110000;
+}
+
+.display-image{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1080px;
+    img{
+        border: 30px solid #3E6CB3;
+    }
 }

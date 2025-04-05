@@ -1,21 +1,31 @@
-@import '../../styles/include';
-.dropdown{
- height: 50px;
- width:100%;
+@import "../../styles/include";
+.dropdown {
+  height: 50px;
+  width: 100%;
 }
-.controls{
- height: 50px;
- padding-top: 15px !important;
- padding-left: 20px !important;
- width:100%;
- background-color: rgba(255,255,255,0.5) !important;
- border: 0 !important;
- border-radius: 0 !important;
- color: $black !important;
-
+.controls {
+  height: 50px;
+  padding-top: 15px !important;
+  padding-left: 20px !important;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: $black !important;
 }
-.arrow{
- top: 21px !important;
- right: 15px !important;
- border-color: #666 transparent transparent !important;
+.arrowOpen, .arrowClosed {
+  top: 17px !important;
+  right: 15px !important;
+  border-color: #3e6cb3 transparent transparent !important;
+  border-style: solid;
+  border-width: 15px 7.55px 0;
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  width: 0;
+}
+.arrowOpen {
+  transform: rotate(180deg);
 }
