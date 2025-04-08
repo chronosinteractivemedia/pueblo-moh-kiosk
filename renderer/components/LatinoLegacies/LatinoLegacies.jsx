@@ -193,7 +193,7 @@ function List({ items, onSetRecipient }) {
       <div className={styles.listContainer}>
         <div className={styles.listWrapper}>
           <div className={styles.noResults}>
-            No Results. Please try a different name.
+            NO RESULTS. PLEASE TRY ANOTHER SEARCH
           </div>
         </div>
       </div>
@@ -247,7 +247,7 @@ function Details({ item, onClose }) {
           <div className={styles.stats}>
             <Scroller>
               <div className={styles.detailName}>
-                {item.FirstName} {item.MiddleInitial} {item.LastName}
+                {item.FirstName} {item.MiddleInitial} {item.LastName}{!!item.Suffix && `, ${item.Suffix}`}
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
               <ul>
@@ -261,7 +261,7 @@ function Details({ item, onClose }) {
               {!!item.Biography && (
                 <>
                   <div className={styles.detailHeading}>BIOGRAPHY</div>
-                  <p>{item.Biography}</p>
+                  <p dangerouslySetInnerHTML={{ __html: item.Biography }} />
                 </>
               )}
             </Scroller>
