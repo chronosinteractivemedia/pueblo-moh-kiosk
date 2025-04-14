@@ -204,20 +204,20 @@ function Details({ item, onClose }) {
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
               <ul>
-                <li>BORN: {item.BirthDate}</li>
-                <li>BRANCH: {item.Branch}</li>
-                <li>AWARDS: {item.Awards}</li>
-                <li>DEATH: {item.DateDiceased}</li>
-                <li>WAR: {item.War}</li>
-                <li>DATE OF SERVICE: {item.DateAct}</li>
+                <li><strong>BORN:</strong> {item.BirthDate}</li>
+                <li><strong>BRANCH:</strong> {item.Branch}</li>
+                <li><strong>AWARDS:</strong> {item.Awards}</li>
+                <li><strong>DEATH:</strong> {item.DateDiceased}</li>
+                <li><strong>WAR:</strong> {item.War}</li>
+                <li><strong>DATE OF SERVICE:</strong> {item.DateAct}</li>
               </ul>
               <div className={styles.detailHeading}>
                 INDEX LOCATION ON BRIDGE
               </div>
               <ul>
-                <li>Plaque: {item.IndexPlaque}</li>
-                <li>Column: {item.IndexColumn}</li>
-                <li>Row: {item.IndexRow}</li>
+                <li><strong>Plaque:</strong> {item.IndexPlaque}</li>
+                <li><strong>Column:</strong> {item.IndexColumn}</li>
+                <li><strong>Row:</strong> {item.IndexRow}</li>
               </ul>
               {!!item.Biography && (
                 <>

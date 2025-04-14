@@ -251,12 +251,13 @@ function Details({ item, onClose }) {
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
               <ul>
-                <li>BORN: {item.Birthdate}</li>
-                <li>BRANCH: {item.Branch}</li>
-                <li>AWARDS: {item.Awards}</li>
-                <li>DEATH: {item.DateDiceased}</li>
-                <li>WAR: {item.WarsServed}</li>
-                <li>DATE OF SERVICE: {item.DateService}</li>
+                <li><strong>BORN:</strong> {item.Birthdate}</li>
+                <li><strong>BRANCH:</strong> {item.Branch}</li>
+                <li><strong>AWARDS:</strong> {item.Awards}</li>
+                <li><strong>DEATH:</strong> {item.DateDiceased}</li>
+                <li><strong>WAR:</strong> {item.WarsServed}</li>
+                <li><strong>DATE OF SERVICE:</strong> {item.DateService}</li>
+                <li><strong>INDUCTED INTO PUEBLO LATINO LEGACIES OF COURAGE:</strong> {item.YearInducted}</li>
               </ul>
               {!!item.Biography && (
                 <>
