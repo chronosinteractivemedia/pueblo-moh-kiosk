@@ -6,7 +6,6 @@ import List from "../components/Attractions/List"
 import AttractionPopup from "../components/Attractions/AttractionPopup"
 import MultipleAttractionPopup from "../components/Attractions/MultipleAttractionPopup"
 import database from "../../database.json"
-import { isRegExp } from "lodash"
 
 function AreaAttractions ({areaAttractions, attractionsLanding}) {
   const [currentAttraction, setCurrentAttraction] = useState();

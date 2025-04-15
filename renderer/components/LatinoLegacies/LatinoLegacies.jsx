@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Modal } from "../Modal/Modal";
-import styles from "./VetBridge.module.scss";
-// import Dropdown from "../Dropdown/Dropdown";
+import styles from "./LatinoLegacies.module.scss";
+import Dropdown from "../Dropdown/Dropdown";
 import Fuse from "fuse.js";
 
 import "react-dropdown/style.css";
@@ -18,7 +18,8 @@ export default function VetBridge({ allVets }) {
   const [filteredSet, setFilteredSet] = useState([]);
   const [pageCount, setPageCount] = useState(1);
   const [currentPage, setCurrentPage] = useState(0);
-  useEffect(() => {window.trackEvent(`view-bridge-search`)}, []);
+
+  useEffect(() => { window.trackEvent(`view-bridge-search`) }, []);
 
   useEffect(() => {
     const offset = (currentPage * itemsPerPage) % filteredSet.length;
@@ -66,9 +67,33 @@ export default function VetBridge({ allVets }) {
 }
 
 function Filters({ allVets, onFilter }) {
+  const wars = allVets.reduce((acc, recipient) => {
+    const wars = recipient.WarsServed.split(",").map((w) => w.trim());
+    wars.forEach((w) => {
+      if (!acc.some((item) => item.value === w)) {
+        acc.push({ value: w, label: w });
+      }
+    });
+    return acc;
+  }, []);
+
+  const branches = allVets.reduce((acc, recipient) => {
+    const branches = recipient.Branch.split(",").map((w) => w.trim());
+    branches.forEach((b) => {
+      if (!acc.some((item) => item.value === b)) {
+        acc.push({ value: b, label: b });
+      }
+    });
+    return acc;
+  }, []);
+
   const [searchText, setSearchText] = useState("");
+  const [warFilter, setWarFilter] = useState(null);
+  const [branchFilter, setBranchFilter] = useState(null);
   const [showKeyboard, setShowKeyboard] = useState(false);
   const fuseInstance = useRef();
+
+
 
   useEffect(() => {
     if (!fuseInstance.current) {
@@ -89,8 +114,18 @@ function Filters({ allVets, onFilter }) {
     } else {
       filteredSet = allVets;
     }
+    if (warFilter) {
+      filteredSet = filteredSet.filter((recipient) =>
+        recipient.WarsServed.includes(warFilter)
+      );
+    }
+    if (branchFilter) {
+      filteredSet = filteredSet.filter(
+        (recipient) => recipient.Branch.includes(branchFilter)
+      );
+    }
     onFilter(filteredSet);
-  }, [allVets, searchText]);
+  }, [allVets, searchText, warFilter, branchFilter, onFilter]);
 
   return (
     <div className={styles.filters}>
@@ -104,11 +139,30 @@ function Filters({ allVets, onFilter }) {
           onClick={() => setShowKeyboard(true)}
         />
       </div>
-      {!!searchText && (
-        <div className={styles.clear} onClick={() => { setSearchText(""); }} > CLEAR </div>
+      <div className={styles.searchDrops}>
+        <Dropdown
+          className={styles.dropdown}
+          items={wars}
+          value={warFilter}
+          onChange={(val) => {
+            setWarFilter(val);
+          }}
+          placeholder="War"
+        />
+        <Dropdown
+          className={styles.dropdown}
+          items={branches}
+          value={branchFilter}
+          onChange={(val) => {
+            setBranchFilter(val);
+          }}
+          placeholder="Service Branch"
+        />
+
+      </div>
+      {(!!searchText || !!warFilter || !!branchFilter) && (
+        <div className={styles.clear} onClick={() => { setSearchText(""); setWarFilter(null); setBranchFilter(null) }} > CLEAR </div>
       )}
-      {/*<Dropdown className={styles.wars} items={filterSets.wars} onChange={val => setWarFilter(val)} placeholder="War"/>*/}
-      {/*<Dropdown className={styles.branches} items={filterSets.branches} onChange={val => setBranchFilter(val)} placeholder="Service Branch" />*/}
       {!!showKeyboard && (
         <Keyboard
           onChange={(input) => {
@@ -134,21 +188,12 @@ function List({ items, onSetRecipient }) {
     }
   }, [items]);
 
-  // if (loading) {
-  //   return (
-  //     <div className={styles.listContainer}>
-  //       <div className={styles.listWrapper}>
-  //         <div className={styles.loader}>Loading</div>
-  //       </div>
-  //     </div>
-  //   );
-  // } else
   if (!items?.length) {
     return (
       <div className={styles.listContainer}>
         <div className={styles.listWrapper}>
           <div className={styles.noResults}>
-            No Results. Please try a different name.
+            NO RESULTS. PLEASE TRY ANOTHER SEARCH
           </div>
         </div>
       </div>
@@ -164,29 +209,31 @@ function List({ items, onSetRecipient }) {
               <th>Last Name</th>
               <th>Branch</th>
               <th>War</th>
-              <th>Dates Active</th>
+              <th>Active</th>
+              <th>Inducted</th>
               <th></th>
             </tr>
           </thead>
         </table>
-          <table className={styles.list}>
-            <tbody>
-              {items.map((item) => (
-                <tr
-                  key={item.ID}
-                  className={styles.item}
-                  onClick={() => onSetRecipient(item)}
-                >
-                  <td>{item.FirstName}</td>
-                  <td>{item.LastName}</td>
-                  <td>{item.Branch}</td>
-                  <td>{item.War ? item.War : "-"}</td>
-                  <td>{item.DateAct}</td>
-                  <td className={styles.itemLink}>Details</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <table className={styles.list}>
+          <tbody>
+            {items.map((item) => (
+              <tr
+                key={item.ID}
+                className={styles.item}
+                onClick={() => onSetRecipient(item)}
+              >
+                <td>{item.FirstName}</td>
+                <td>{item.LastName}</td>
+                <td>{item.Branch}</td>
+                <td>{item.WarsServed ? item.WarsServed : "-"}</td>
+                <td>{item.DateService}</td>
+                <td>{item.YearInducted}</td>
+                <td className={styles.itemLink}>Details</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
@@ -200,29 +247,22 @@ function Details({ item, onClose }) {
           <div className={styles.stats}>
             <Scroller>
               <div className={styles.detailName}>
-                {item.FirstName} {item.MiddleInitial} {item.LastName}
+                {item.FirstName} {item.MiddleInitial} {item.LastName}{!!item.Suffix && `, ${item.Suffix}`}
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
               <ul>
-                <li><strong>BORN:</strong> {item.BirthDate}</li>
+                <li><strong>BORN:</strong> {item.Birthdate}</li>
                 <li><strong>BRANCH:</strong> {item.Branch}</li>
                 <li><strong>AWARDS:</strong> {item.Awards}</li>
                 <li><strong>DEATH:</strong> {item.DateDiceased}</li>
-                <li><strong>WAR:</strong> {item.War}</li>
-                <li><strong>DATE OF SERVICE:</strong> {item.DateAct}</li>
-              </ul>
-              <div className={styles.detailHeading}>
-                INDEX LOCATION ON BRIDGE
-              </div>
-              <ul>
-                <li><strong>Plaque:</strong> {item.IndexPlaque}</li>
-                <li><strong>Column:</strong> {item.IndexColumn}</li>
-                <li><strong>Row:</strong> {item.IndexRow}</li>
+                <li><strong>WAR:</strong> {item.WarsServed}</li>
+                <li><strong>DATE OF SERVICE:</strong> {item.DateService}</li>
+                <li><strong>INDUCTED INTO PUEBLO LATINO LEGACIES OF COURAGE:</strong> {item.YearInducted}</li>
               </ul>
               {!!item.Biography && (
                 <>
                   <div className={styles.detailHeading}>BIOGRAPHY</div>
-                  <p>{item.Biography}</p>
+                  <p dangerouslySetInnerHTML={{ __html: item.Biography }} />
                 </>
               )}
             </Scroller>
@@ -230,7 +270,7 @@ function Details({ item, onClose }) {
         </div>
         <div className={styles.rightDetails}>
           {item.ImageFile !== "NOIMAGE" ? (
-            <img src={`/vet-images/${item.ImageFile}.jpg`} alt={""} />
+            <img src={`/images/latino/${item.PhotoFile}`} alt={""} />
           ) : (
             <img src={`/images/no-photo.png`} alt={""} />
           )}

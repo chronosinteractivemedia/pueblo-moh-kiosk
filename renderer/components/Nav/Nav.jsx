@@ -39,6 +39,7 @@ export default function Nav({ items = [] }) {
       <div
         className={`${styles.navToggle} nav`}
         onClick={() => setIsOpen(!isOpen)}
+        data-open={isOpen}
       >
         {!isOpen ? (
           <>
@@ -81,6 +82,11 @@ export default function Nav({ items = [] }) {
             <Link href="/3">
               <li data-active={router.asPath === "/3"}>
                 Veterans' Bridge <FiArrowRight />
+              </li>
+            </Link>
+            <Link href="/4">
+              <li data-active={router.asPath === "/4"}>
+                Pueblo Latino Legacies of Courage <FiArrowRight />
               </li>
             </Link>
             <Link href="/area-attractions">
