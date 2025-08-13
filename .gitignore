@@ -7,3 +7,4 @@ out
 .history
 renderer/public/uploads/*
 !renderer/public/uploads/.gitkeep
+.DS_Store
