@@ -194,7 +194,7 @@ function List({ items, onSetRecipient }) {
                   <td>{item.FirstName}</td>
                   <td>{item.LastName}</td>
                   <td>{item.Branch}</td>
-                  <td>{item.War ? item.War : "-"}</td>
+                  <td>{typeof item.War === "object" ? (item.War.label || item.War.value || null) : (item.War || null)}</td>
                   <td>{item.DateAct}</td>
                   <td className={styles.itemLink}>Details</td>
                 </tr>
@@ -222,7 +222,7 @@ function Details({ item, onClose }) {
                 <li><strong>BRANCH:</strong> {item.Branch}</li>
                 <li><strong>AWARDS:</strong> {item.Awards}</li>
                 <li><strong>DEATH:</strong> {item.DateDiceased}</li>
-                <li><strong>WAR:</strong> {item.War}</li>
+                <li><strong>WAR:</strong> {typeof item.War === "object" ? (item.War.label || item.War.value || "-") : (item.War || "-")}</li>
                 <li><strong>DATE OF SERVICE:</strong> {item.DateAct}</li>
               </ul>
               <div className={styles.detailHeading}>
