@@ -6,9 +6,9 @@ import database from "../../../database.json"
 import AudioPlayer from "../MediaPlayer/AudioPlayer"
 import VideoPlayer from "../MediaPlayer/VideoPlayer"
 import Link from "next/link";
+import QRCode from "react-qr-code";
 
-
-function IntroBox({logo, city, title, description, button, audio, audioAutoplay, video}) {
+function IntroBox({logo, city, title, description, button, audio, audioAutoplay, video, qrCode}) {
   return (
     <div className={style.wrapper} key={Math.random()}>
       <div className={!!logo ? style.content : style.content_logo}>
@@ -30,6 +30,7 @@ function IntroBox({logo, city, title, description, button, audio, audioAutoplay,
             <div dangerouslySetInnerHTML={{__html: description}}/>
           {/*</Scroller>*/}
         </div>
+        {!!qrCode && <div className={style.qrCode}><QRCode value={qrCode} size={150} /></div>}
         {!!button && <Link href={button.href}><a className={style.buttonLink}>{button.title}</a></Link>}
         {!!audio && <div className={style.mediaLink}> <AudioPlayer file={audio} autoPlay={audioAutoplay} /> </div>}
         {!!video && <div className={style.mediaLink}> <VideoPlayer file={video} /> </div>}

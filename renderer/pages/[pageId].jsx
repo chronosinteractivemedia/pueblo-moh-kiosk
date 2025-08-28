@@ -10,20 +10,23 @@ const galleryLayoutMap = {
   2: 'two'
 }
 function PageId({ pageData }) {
-  const { logo, city, title, description, button, audio, audioAutoplay, media, displayImage } = pageData;
+  const { logo, city, title, description, button, audio, audioAutoplay, media, displayImage, logoOverlay, qrCode } = pageData;
   useEffect(() => { window.trackEvent(`view-internal-page: ${title}`) }, [title]);
 
   let rightDisplay = null;
   if (media && media.length > 0) {
     rightDisplay = <GalleryDisplay layout={galleryLayoutMap[media.length]} medias={media} />
   } else if (displayImage) {
-    rightDisplay = <div className="display-image"><img src={displayImage} alt="Display" /></div>
+    rightDisplay = <div className="display-image">
+      <img src={displayImage} alt="Display" />
+      {!!logoOverlay && <img className="logo-overlay" src={logoOverlay} alt="Logo Overlay" />}
+    </div>
   } else rightDisplay = null;
 
   return (
-    <div className="page-flex-row">
+    <div className="page-flex-row land-layout">
       <SectionLeft>
-        <IntroBox {...({ logo, city, title, description, button, audio, audioAutoplay })} />
+        <IntroBox {...({ logo, city, title, description, button, audio, audioAutoplay, qrCode })} />
       </SectionLeft>
       <SectionRight>
         { rightDisplay }

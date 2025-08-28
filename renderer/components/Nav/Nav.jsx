@@ -89,6 +89,11 @@ export default function Nav({ items = [] }) {
                 Pueblo Latino Legacies of Courage <FiArrowRight />
               </li>
             </Link>
+            <Link href="/5">
+              <li data-active={router.asPath === "/5"}>
+                Fallen Peace Officers <FiArrowRight />
+              </li>
+            </Link>
             <Link href="/area-attractions">
               <li data-active={router.asPath === "/area-attractions"}>
                 Pueblo Attractions <FiArrowRight />
