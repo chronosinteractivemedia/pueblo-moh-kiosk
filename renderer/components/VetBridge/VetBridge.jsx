@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import { Modal } from "../Modal/Modal";
 import styles from "./VetBridge.module.scss";
 // import Dropdown from "../Dropdown/Dropdown";
@@ -18,7 +18,21 @@ export default function VetBridge({ allVets }) {
   const [filteredSet, setFilteredSet] = useState([]);
   const [pageCount, setPageCount] = useState(1);
   const [currentPage, setCurrentPage] = useState(0);
+
+
+  const sortedAllVets = useMemo(() => {
+    if (!allVets) return [];
+    return [...allVets].sort((a, b) => {
+      const lastNameA = a.LastName.toLowerCase();
+      const lastNameB = b.LastName.toLowerCase();
+      if (lastNameA < lastNameB) return -1;
+      if (lastNameA > lastNameB) return 1;
+      return 0
+    });
+  }, [allVets]);
+
   useEffect(() => {window.trackEvent(`view-bridge-search`)}, []);
+
 
   useEffect(() => {
     const offset = (currentPage * itemsPerPage) % filteredSet.length;
@@ -35,7 +49,7 @@ export default function VetBridge({ allVets }) {
   return (
     <div className={styles.component}>
       <Filters
-        allVets={allVets}
+        allVets={sortedAllVets}
         onFilter={(filtered) => setFilteredSet(filtered)}
       />
       <List
@@ -180,7 +194,7 @@ function List({ items, onSetRecipient }) {
                   <td>{item.FirstName}</td>
                   <td>{item.LastName}</td>
                   <td>{item.Branch}</td>
-                  <td>{item.War ? item.War : "-"}</td>
+                  <td>{typeof item.War === "object" ? (item.War.label || item.War.value || null) : (item.War || null)}</td>
                   <td>{item.DateAct}</td>
                   <td className={styles.itemLink}>Details</td>
                 </tr>
@@ -208,7 +222,7 @@ function Details({ item, onClose }) {
                 <li><strong>BRANCH:</strong> {item.Branch}</li>
                 <li><strong>AWARDS:</strong> {item.Awards}</li>
                 <li><strong>DEATH:</strong> {item.DateDiceased}</li>
-                <li><strong>WAR:</strong> {item.War}</li>
+                <li><strong>WAR:</strong> {typeof item.War === "object" ? (item.War.label || item.War.value || "-") : (item.War || "-")}</li>
                 <li><strong>DATE OF SERVICE:</strong> {item.DateAct}</li>
               </ul>
               <div className={styles.detailHeading}>

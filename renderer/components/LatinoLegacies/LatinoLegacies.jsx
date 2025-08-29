@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import { Modal } from "../Modal/Modal";
 import styles from "./LatinoLegacies.module.scss";
 import Dropdown from "../Dropdown/Dropdown";
@@ -19,6 +19,17 @@ export default function VetBridge({ allVets }) {
   const [pageCount, setPageCount] = useState(1);
   const [currentPage, setCurrentPage] = useState(0);
 
+  const sortedAllVets = useMemo(() => {
+    if (!allVets) return [];
+    return [...allVets].sort((a, b) => {
+      const lastNameA = a.LastName.toLowerCase();
+      const lastNameB = b.LastName.toLowerCase();
+      if (lastNameA < lastNameB) return -1;
+      if (lastNameA > lastNameB) return 1;
+      return 0
+    });
+  }, [allVets]);
+
   useEffect(() => { window.trackEvent(`view-bridge-search`) }, []);
 
   useEffect(() => {
@@ -36,7 +47,7 @@ export default function VetBridge({ allVets }) {
   return (
     <div className={styles.component}>
       <Filters
-        allVets={allVets}
+        allVets={sortedAllVets}
         onFilter={(filtered) => setFilteredSet(filtered)}
       />
       <List
@@ -77,6 +88,9 @@ function Filters({ allVets, onFilter }) {
     return acc;
   }, []);
 
+  //sort wars alphabetically
+  wars.sort((a, b) => a.label.localeCompare(b.label));
+
   const branches = allVets.reduce((acc, recipient) => {
     const branches = recipient.Branch.split(",").map((w) => w.trim());
     branches.forEach((b) => {
@@ -86,6 +100,9 @@ function Filters({ allVets, onFilter }) {
     });
     return acc;
   }, []);
+
+  //sort branches alphabetically
+  branches.sort((a, b) => a.label.localeCompare(b.label));
 
   const [searchText, setSearchText] = useState("");
   const [warFilter, setWarFilter] = useState(null);
@@ -116,7 +133,7 @@ function Filters({ allVets, onFilter }) {
     }
     if (warFilter) {
       filteredSet = filteredSet.filter((recipient) =>
-        recipient.WarsServed.includes(warFilter)
+        recipient.WarsServed && recipient.WarsServed.includes?.(warFilter)
       );
     }
     if (branchFilter) {
@@ -250,7 +267,7 @@ function Details({ item, onClose }) {
                 {item.FirstName} {item.MiddleInitial} {item.LastName}{!!item.Suffix && `, ${item.Suffix}`}
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
-              <ul>
+              <ul className={styles.statList}>
                 <li><strong>BORN:</strong> {item.Birthdate}</li>
                 <li><strong>BRANCH:</strong> {item.Branch}</li>
                 <li><strong>AWARDS:</strong> {item.Awards}</li>
@@ -269,7 +286,7 @@ function Details({ item, onClose }) {
           </div>
         </div>
         <div className={styles.rightDetails}>
-          {item.ImageFile !== "NOIMAGE" ? (
+          {(item.PhotoFile !== "NOIMAGE" && item.PhotoFile) ? (
             <img src={`/images/latino/${item.PhotoFile}`} alt={""} />
           ) : (
             <img src={`/images/no-photo.png`} alt={""} />

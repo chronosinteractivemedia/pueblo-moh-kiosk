@@ -56,13 +56,35 @@ body{
   z-index: 110000;
 }
 
+.land-layout{
+    > &:first-child{
+        width: calc(100% - 1200px) !important;
+    }
+    > &:last-child{
+        width: 1200px !important;
+    }
+
+}
 .display-image{
+    position: relative;
     width: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 1080px;
-    img{
+    > img:first-child{
+        max-width: 800px;
         border: 30px solid #3E6CB3;
     }
+}
+
+.logo-overlay{
+  width: 280px;
+  height: auto;
+  position: relative;
+  top: 100px;
+  left: 180px;
+  margin-top: -300px;
+  z-index: 10;
 }
