@@ -256,8 +256,6 @@ function List({ items, onSetRecipient }) {
               <th>Last Name</th>
               <th>Department</th>
               <th>Dates of Service</th>
-              <th>Date of Death</th>
-              <th></th>
             </tr>
           </thead>
         </table>
@@ -273,7 +271,6 @@ function List({ items, onSetRecipient }) {
                 <td>{item.LastName}</td>
                 <td>{item.Department}</td>
                 <td>{item.DatesOfService}</td>
-                <td>{item.DateOfDeath}</td>
                 <td className={styles.itemLink}>Details</td>
               </tr>
             ))}
@@ -311,10 +308,10 @@ function Details({ item, onClose }) {
                   <strong>BORN:</strong> {item.Birthdate}
                 </li>
                 <li>
-                  <strong>DEPARTMENT:</strong> {item.Department}
+                  <strong>DEATH:</strong> {item.DateOfDeath}
                 </li>
                 <li>
-                  <strong>DATE OF DEATH:</strong> {item.DateOfDeath}
+                  <strong>DEPARTMENT WORKING FOR AT TIME OF DEATH:</strong> {item.Department}
                 </li>
                 <li>
                   <strong>DATES OF SERVICE:</strong> {item.DatesOfService}
