@@ -7,7 +7,7 @@ function PuebloRecipients({recipients, branches, wars}) {
   const router = useRouter();
   return (
     <div className="page">
-      <div className={styles.title}>Pueblo latino legacies of courage</div>
+      <div className={styles.title}>Pueblo Fallen Peace Officers Memorial</div>
       <div className={styles.back} onClick={() => router.back()}>&lt; Back</div>
       <FallenOfficers allVets={recipients} branches={branches} wars={wars} />
     </div>

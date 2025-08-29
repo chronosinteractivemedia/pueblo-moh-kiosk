@@ -5,10 +5,16 @@ import Dropdown from "../Dropdown/Dropdown";
 import Fuse from "fuse.js";
 
 import "react-dropdown/style.css";
-import { BsArrowLeftShort, BsArrowRightShort, BsChevronLeft, BsChevronRight, BsSearch } from "react-icons/bs";
+import {
+  BsArrowLeftShort,
+  BsArrowRightShort,
+  BsChevronLeft,
+  BsChevronRight,
+  BsSearch,
+} from "react-icons/bs";
 import Keyboard from "../Keyboard/Keyboard";
 import Scroller from "../Scroller/Scroller";
-import ReactPaginate from 'react-paginate';
+import ReactPaginate from "react-paginate";
 
 const itemsPerPage = 10;
 
@@ -26,11 +32,13 @@ export default function VetBridge({ allVets }) {
       const lastNameB = b.LastName.toLowerCase();
       if (lastNameA < lastNameB) return -1;
       if (lastNameA > lastNameB) return 1;
-      return 0
+      return 0;
     });
   }, [allVets]);
 
-  useEffect(() => { window.trackEvent(`view-bridge-search`) }, []);
+  useEffect(() => {
+    window.trackEvent(`view-bridge-search`);
+  }, []);
 
   useEffect(() => {
     const offset = (currentPage * itemsPerPage) % filteredSet.length;
@@ -39,10 +47,9 @@ export default function VetBridge({ allVets }) {
     setDisplayList(filteredSet.slice(offset, end));
   }, [filteredSet, currentPage]);
 
-
   useEffect(() => {
     setCurrentPage(0);
-  }, [filteredSet])
+  }, [filteredSet]);
 
   return (
     <div className={styles.component}>
@@ -54,19 +61,29 @@ export default function VetBridge({ allVets }) {
         items={displayList}
         onSetRecipient={(recipient) => setCurrentRecipient(recipient)}
       />
-      {pageCount > 1 && <ReactPaginate
-        breakLabel="..."
-        onPageChange={e => setCurrentPage(e.selected)}
-        pageRangeDisplayed={5}
-        pageCount={pageCount}
-        renderOnZeroPageCount={null}
-        forcePage={currentPage}
-        className={styles.paginator}
-        pageClassName={styles.paginatorPage}
-        activeLinkClassName={styles.paginatorActive}
-        previousLabel={<div className={styles.paginatorPrev}><BsArrowLeftShort /> Prev </div>}
-        nextLabel={<div className={styles.paginatorNext}>Next <BsArrowRightShort /></div>}
-      />}
+      {pageCount > 1 && (
+        <ReactPaginate
+          breakLabel="..."
+          onPageChange={(e) => setCurrentPage(e.selected)}
+          pageRangeDisplayed={5}
+          pageCount={pageCount}
+          renderOnZeroPageCount={null}
+          forcePage={currentPage}
+          className={styles.paginator}
+          pageClassName={styles.paginatorPage}
+          activeLinkClassName={styles.paginatorActive}
+          previousLabel={
+            <div className={styles.paginatorPrev}>
+              <BsArrowLeftShort /> Prev{" "}
+            </div>
+          }
+          nextLabel={
+            <div className={styles.paginatorNext}>
+              Next <BsArrowRightShort />
+            </div>
+          }
+        />
+      )}
       {!!currentRecipient && (
         <Details
           item={currentRecipient}
@@ -79,7 +96,10 @@ export default function VetBridge({ allVets }) {
 
 function Filters({ allVets, onFilter }) {
   const departments = allVets.reduce((acc, recipient) => {
-    const depts = (recipient.Department || "").split(",").map((w) => w.trim()).filter(Boolean);
+    const depts = (recipient.Department || "")
+      .split(",")
+      .map((w) => w.trim())
+      .filter(Boolean);
     depts.forEach((d) => {
       if (!acc.some((item) => item.value === d)) {
         acc.push({ value: d, label: d });
@@ -92,7 +112,10 @@ function Filters({ allVets, onFilter }) {
   departments.sort((a, b) => a.label.localeCompare(b.label));
 
   const serviceRanges = allVets.reduce((acc, recipient) => {
-    const ranges = (recipient.DatesOfService || "").split(",").map((w) => w.trim()).filter(Boolean);
+    const ranges = (recipient.DatesOfService || "")
+      .split(",")
+      .map((w) => w.trim())
+      .filter(Boolean);
     ranges.forEach((r) => {
       if (!acc.some((item) => item.value === r)) {
         acc.push({ value: r, label: r });
@@ -110,8 +133,6 @@ function Filters({ allVets, onFilter }) {
   const [showKeyboard, setShowKeyboard] = useState(false);
   const fuseInstance = useRef();
 
-
-
   useEffect(() => {
     if (!fuseInstance.current) {
       const options = {
@@ -119,7 +140,7 @@ function Filters({ allVets, onFilter }) {
         threshold: 0.6,
         location: 0,
         ignoreLocation: true,
-        findAllMatches: true
+        findAllMatches: true,
       };
       fuseInstance.current = new Fuse(allVets, options);
     }
@@ -166,7 +187,7 @@ function Filters({ allVets, onFilter }) {
           }}
           placeholder="Department"
         />
-        <Dropdown
+        {/* <Dropdown
           className={styles.dropdown}
           items={serviceRanges}
           value={branchFilter}
@@ -174,11 +195,20 @@ function Filters({ allVets, onFilter }) {
             setBranchFilter(val);
           }}
           placeholder="Dates of Service"
-        />
-
+        /> */}
       </div>
       {(!!searchText || !!warFilter || !!branchFilter) && (
-        <div className={styles.clear} onClick={() => { setSearchText(""); setWarFilter(null); setBranchFilter(null) }} > CLEAR </div>
+        <div
+          className={styles.clear}
+          onClick={() => {
+            setSearchText("");
+            setWarFilter(null);
+            setBranchFilter(null);
+          }}
+        >
+          {" "}
+          CLEAR{" "}
+        </div>
       )}
       {!!showKeyboard && (
         <Keyboard
@@ -255,6 +285,16 @@ function List({ items, onSetRecipient }) {
 }
 
 function Details({ item, onClose }) {
+  const [activeSection, setActiveSection] = useState(null); // "bio" | "incident" | "sources" | null
+
+  function toggleSection(section) {
+    if (activeSection === section) {
+      setActiveSection(null);
+    } else {
+      setActiveSection(section);
+    }
+  }
+
   return (
     <Modal onClose={onClose} index={0}>
       <div className={styles.details}>
@@ -262,29 +302,62 @@ function Details({ item, onClose }) {
           <div className={styles.stats}>
             <Scroller>
               <div className={styles.detailName}>
-                {item.FirstName} {item.MiddleInitial} {item.LastName}{!!item.Suffix && `, ${item.Suffix}`}
+                {item.FirstName} {item.MiddleInitial} {item.LastName}
+                {!!item.Suffix && `, ${item.Suffix}`}
               </div>
               <div className={styles.detailHeading}>DETAILS</div>
               <ul className={styles.statList}>
-                <li><strong>BORN:</strong> {item.Birthdate}</li>
-                <li><strong>DEPARTMENT:</strong> {item.Department}</li>
-                <li><strong>DATE OF DEATH:</strong> {item.DateOfDeath}</li>
-                <li><strong>DATES OF SERVICE:</strong> {item.DatesOfService}</li>
-                <li><strong>INCIDENT:</strong> {item.Incident}</li>
-                <li><strong>SOURCES:</strong> {item.Sources}</li>
+                <li>
+                  <strong>BORN:</strong> {item.Birthdate}
+                </li>
+                <li>
+                  <strong>DEPARTMENT:</strong> {item.Department}
+                </li>
+                <li>
+                  <strong>DATE OF DEATH:</strong> {item.DateOfDeath}
+                </li>
+                <li>
+                  <strong>DATES OF SERVICE:</strong> {item.DatesOfService}
+                </li>
               </ul>
-              {!!item.Biography && (
-                <>
-                  <div className={styles.detailHeading}>BIOGRAPHY</div>
-                  <p dangerouslySetInnerHTML={{ __html: item.Biography }} />
-                </>
-              )}
+              <ul className={styles.statCollapseList}>
+                {!!item.Biography && (
+                  <li className={styles.statCollapse} data-active={activeSection === 'bio'}>
+                    <strong onClick={() => toggleSection('bio')}>Biography</strong>
+                    <div
+                      className={styles.statCollapseContent}
+                      dangerouslySetInnerHTML={{ __html: item.Biography }}
+                    />
+                  </li>
+                )}
+                {!!item.Incident && (
+                  <li className={styles.statCollapse} data-active={activeSection === 'incident'}>
+                    <strong onClick={() => toggleSection('incident')}>Incident Narrative</strong>
+                    <div
+                      className={styles.statCollapseContent}
+                      dangerouslySetInnerHTML={{ __html: item.Incident }}
+                    />
+                  </li>
+                )}
+                {!!item.Sources && (
+                  <li className={styles.statCollapse} data-active={activeSection === 'sources'}>
+                    <strong onClick={() => toggleSection('sources')}>Sources</strong>
+                    <div
+                      className={styles.statCollapseContent}
+                      dangerouslySetInnerHTML={{ __html: item.Sources }}
+                    />
+                  </li>
+                )}
+              </ul>
             </Scroller>
           </div>
         </div>
         <div className={styles.rightDetails}>
-          {(item.PhotoFile !== "NOIMAGE" && item.PhotoFile) ? (
-            <img src={`/images/fallen-peace-officers/${item.PhotoFile}`} alt={""} />
+          {item.PhotoFile !== "NOIMAGE" && item.PhotoFile ? (
+            <img
+              src={`/images/fallen-peace-officers/${item.PhotoFile}`}
+              alt={""}
+            />
           ) : (
             <img src={`/images/no-photo.png`} alt={""} />
           )}

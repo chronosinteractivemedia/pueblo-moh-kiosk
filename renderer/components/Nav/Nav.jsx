@@ -91,7 +91,7 @@ export default function Nav({ items = [] }) {
             </Link>
             <Link href="/5">
               <li data-active={router.asPath === "/5"}>
-                Fallen Peace Officers <FiArrowRight />
+                Pueblo Fallen Peace Officers Memorial <FiArrowRight />
               </li>
             </Link>
             <Link href="/area-attractions">
