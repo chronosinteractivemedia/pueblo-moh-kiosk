@@ -819,7 +819,7 @@
       "id": 6,
       "logo": "",
       "city": "Pueblo",
-      "title": "The Leonardo da vinci museum of north america",
+      "title": "The Leonardo da Vinci Museum of North America",
       "description": "<p>The Leonardo da Vinci Museum of North America invites visitors to explore the life, ideas, and inventions of one of history’s greatest innovators. Located on Pueblo’s Historic Arkansas Riverwalk, the museum is home to the only permanent collection of Leonardo da Vinci machines in North America, offering a unique opportunity to experience the genius of the Renaissance master through interactive exhibits and hands-on discovery.</p><p>At the heart of the museum are full-scale working models handcrafted by the renowned Artisans of Florence using designs drawn directly from Leonardo’s original notebooks and codices. From flying machines and engineering concepts to studies of anatomy, architecture, and mechanics, visitors can see how Leonardo’s ideas continue to inspire innovation more than 500 years later.</p><p>Designed for visitors of all ages, the museum blends art, science, technology, engineering, and creativity into an engaging experience that encourages curiosity and exploration. Whether you are discovering Leonardo’s work for the first time or taking a deeper look at his remarkable legacy, the museum offers an inspiring journey into the mind of one of history’s most extraordinary thinkers.</p>",
       "audio": "",
       "audioAutoplay": false,
@@ -2003,8 +2003,8 @@
       ],
       "walkable": true,
       "featured": false,
-      "featured_name": "",
-      "featured_image": "",
+      "featured_name": "InfoZone News Museum at Rawlings Public Library",
+      "featured_image": "/images/attractions/infozone/infozone-news-museum-featured.jpg",
       "slides": [
         {
           "id": 0,
@@ -2395,6 +2395,102 @@
         {
           "id": 3,
           "image": "/images/attractions/golf/DSC_0007.JPG"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "The Leonardo da Vinci Museum of North America",
+      "descptn": "The Leonardo da Vinci Museum of North America invites visitors to explore ...",
+      "detail": "<p>The Leonardo da Vinci Museum of North America invites visitors to explore the life, ideas, and inventions of one of history’s greatest innovators. Located on Pueblo’s Historic Arkansas Riverwalk, the museum is home to the only permanent collection of Leonardo da Vinci machines in North America, offering a unique opportunity to experience the genius of the Renaissance master through interactive exhibits and hands-on discovery.</p><p>At the heart of the museum are full-scale working models handcrafted by the renowned Artisans of Florence using designs drawn directly from Leonardo’s original notebooks and codices. From flying machines and engineering concepts to studies of anatomy, architecture, and mechanics, visitors can see how Leonardo’s ideas continue to inspire innovation more than 500 years later.</p><p>Designed for visitors of all ages, the museum blends art, science, technology, engineering, and creativity into an engaging experience that encourages curiosity and exploration. Whether you are discovering Leonardo’s work for the first time or taking a deeper look at his remarkable legacy, the museum offers an inspiring journey into the mind of one of history’s most extraordinary thinkers.</p>",
+      "qrcode_label": "Scan QR code for map location",
+      "qrcode": "https://maps.app.goo.gl/RdiSQsqDGbyGsHEv7",
+      "types": [
+        "Museums",
+        "Arts & Culture",
+        "Education"
+      ],
+      "walkable": true,
+      "featured": true,
+      "featured_name": "Leonardo da Vinci Museum of North America",
+      "featured_image": "/images/attractions/da-vinci-museum-featured.jpg",
+      "videos": [
+        {
+          "id": 0,
+          "title": "About the Museum",
+          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-about-the-museum-thumb.jpg",
+          "file": "/video/V1-DA-VINCI-SHORT-FILM-FINAL.mp4"
+        },
+        {
+          "id": 1,
+          "title": "Machine to Art Bicycle",
+          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-bike-art-thumb.jpg",
+          "file": "/video/openart-video_bicycle.mp4"
+        },
+        {
+          "id": 2,
+          "title": "Machine to Art Tank",
+          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-tank-art-thumb",
+          "file": "/video/openart-video_tank.mp4"
+        }
+      ],
+      "slides": [
+        {
+          "id": 0,
+          "track-id": "Leonardo da Vinci Museum of North America",
+          "image": "/images/attractions/da-vinci-museum/da-vinci-gallery-title-photo.jpg"
+        },
+        {
+          "id": 1,
+          "image": "/images/attractions/da-vinci-museum/dv1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/attractions/da-vinci-museum/dv2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/attractions/da-vinci-museum/dv3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/attractions/da-vinci-museum/dv4.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/images/attractions/da-vinci-museum/dv5.jpg"
+        },
+        {
+          "id": 6,
+          "image": "/images/attractions/da-vinci-museum/dv6.jpg"
+        },
+        {
+          "id": 7,
+          "image": "/images/attractions/da-vinci-museum/dv7.jpg"
+        },
+        {
+          "id": 8,
+          "image": "/images/attractions/da-vinci-museum/dv8.jpg"
+        },
+        {
+          "id": 9,
+          "image": "/images/attractions/da-vinci-museum/dv9.jpg"
+        },
+        {
+          "id": 10,
+          "image": "/images/attractions/da-vinci-museum/dv10.jpg"
+        },
+        {
+          "id": 11,
+          "image": "/images/attractions/da-vinci-museum/dv11.jpg"
+        },
+        {
+          "id": 12,
+          "image": "/images/attractions/da-vinci-museum/dv12.jpg"
+        },
+        {
+          "id": 13,
+          "image": "/images/attractions/da-vinci-museum/dv13.jpg"
         }
       ]
     }
