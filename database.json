@@ -2402,7 +2402,7 @@
       "id": 27,
       "name": "The Leonardo da Vinci Museum of North America",
       "descptn": "The Leonardo da Vinci Museum of North America invites visitors to explore ...",
-      "detail": "<p>The Leonardo da Vinci Museum of North America invites visitors to explore the life, ideas, and inventions of one of history’s greatest innovators. Located on Pueblo’s Historic Arkansas Riverwalk, the museum is home to the only permanent collection of Leonardo da Vinci machines in North America, offering a unique opportunity to experience the genius of the Renaissance master through interactive exhibits and hands-on discovery.</p><p>At the heart of the museum are full-scale working models handcrafted by the renowned Artisans of Florence using designs drawn directly from Leonardo’s original notebooks and codices. From flying machines and engineering concepts to studies of anatomy, architecture, and mechanics, visitors can see how Leonardo’s ideas continue to inspire innovation more than 500 years later.</p><p>Designed for visitors of all ages, the museum blends art, science, technology, engineering, and creativity into an engaging experience that encourages curiosity and exploration. Whether you are discovering Leonardo’s work for the first time or taking a deeper look at his remarkable legacy, the museum offers an inspiring journey into the mind of one of history’s most extraordinary thinkers.</p>",
+      "detail": "<p>The Leonardo da Vinci Museum of North America invites visitors to explore the life, ideas, and inventions of one of history’s greatest innovators. Located on Pueblo’s Historic Arkansas Riverwalk, the museum is home to the only permanent collection of Leonardo da Vinci machines in North America, offering a unique hands-on look at the genius of the Renaissance master.</p><p>At the heart of the museum are full-scale working models handcrafted by the renowned Artisans of Florence using designs drawn directly from Leonardo’s original notebooks and codices. Through interactive exhibits, multimedia displays, and hands-on discovery, visitors of all ages can experience how Leonardo’s ideas continue to inspire art, science, creativity, and innovation more than 500 years later.</p>",
       "qrcode_label": "Scan QR code for map location",
       "qrcode": "https://maps.app.goo.gl/RdiSQsqDGbyGsHEv7",
       "types": [
@@ -2430,7 +2430,7 @@
         {
           "id": 2,
           "title": "Machine to Art Tank",
-          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-tank-art-thumb",
+          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-tank-art-thumb.jpg",
           "file": "/video/openart-video_tank.mp4"
         }
       ],
