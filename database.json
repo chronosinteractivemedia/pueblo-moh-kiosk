@@ -814,6 +814,106 @@
       },
       "displayImage": "/images/fallen-landing-image.png",
       "logoOverlay": "/images/fallen-logo.png"
+    },
+    {
+      "id": 6,
+      "logo": "",
+      "city": "Pueblo",
+      "title": "The Leonardo da vinci museum of north america",
+      "description": "<p>The Leonardo da Vinci Museum of North America invites visitors to explore the life, ideas, and inventions of one of history’s greatest innovators. Located on Pueblo’s Historic Arkansas Riverwalk, the museum is home to the only permanent collection of Leonardo da Vinci machines in North America, offering a unique opportunity to experience the genius of the Renaissance master through interactive exhibits and hands-on discovery.</p><p>At the heart of the museum are full-scale working models handcrafted by the renowned Artisans of Florence using designs drawn directly from Leonardo’s original notebooks and codices. From flying machines and engineering concepts to studies of anatomy, architecture, and mechanics, visitors can see how Leonardo’s ideas continue to inspire innovation more than 500 years later.</p><p>Designed for visitors of all ages, the museum blends art, science, technology, engineering, and creativity into an engaging experience that encourages curiosity and exploration. Whether you are discovering Leonardo’s work for the first time or taking a deeper look at his remarkable legacy, the museum offers an inspiring journey into the mind of one of history’s most extraordinary thinkers.</p>",
+      "audio": "",
+      "audioAutoplay": false,
+      "button": null,
+      "media": [
+        {
+          "title": "About the Museum",
+          "type": "video",
+          "thumbnail": "/images/da-vinci-museum/da-vinci-museum-video-landing.jpg",
+          "thumbnail_caption": "",
+          "slides": [
+            {
+              "id": 1,
+              "image": "",
+              "video": "/video/V1-DA-VINCI-SHORT-FILM-FINAL.mp4",
+              "autoplay": true
+            }
+          ]
+        },
+        {
+          "title": "da Vinci's Genius",
+          "type": "gallery",
+          "thumbnail": "/images/da-vinci-museum/da-vinci-museum-gallery-landing.jpg",
+          "thumbnail_caption": "",
+          "slides": [
+            {
+              "id": 0,
+              "track-id": "da Vinci's Genius",
+              "image": "/images/da-vinci-museum/gallery/dv1.jpg",
+              "caption": ""
+            },
+            {
+              "id": 1,
+              "image": "/images/da-vinci-museum/gallery/dv2.jpg",
+              "caption": ""
+            },
+            {
+              "id": 2,
+              "image": "/images/da-vinci-museum/gallery/dv3.jpg",
+              "caption": ""
+            },
+            {
+              "id": 3,
+              "image": "/images/da-vinci-museum/gallery/dv4.jpg",
+              "caption": ""
+            },
+            {
+              "id": 4,
+              "image": "/images/da-vinci-museum/gallery/dv5.jpg",
+              "caption": ""
+            },
+            {
+              "id": 5,
+              "image": "/images/da-vinci-museum/gallery/dv6.jpg",
+              "caption": ""
+            },
+            {
+              "id": 6,
+              "image": "/images/da-vinci-museum/gallery/dv7.jpg",
+              "caption": ""
+            },
+            {
+              "id": 7,
+              "image": "/images/da-vinci-museum/gallery/dv8.jpg",
+              "caption": ""
+            },
+            {
+              "id": 8,
+              "image": "/images/da-vinci-museum/gallery/dv9.jpg",
+              "caption": ""
+            },
+            {
+              "id": 9,
+              "image": "/images/da-vinci-museum/gallery/dv10.jpg",
+              "caption": ""
+            },
+            {
+              "id": 10,
+              "image": "/images/da-vinci-museum/gallery/dv11.jpg",
+              "caption": ""
+            },
+            {
+              "id": 11,
+              "image": "/images/da-vinci-museum/gallery/dv12.jpg",
+              "caption": ""
+            },
+            {
+              "id": 12,
+              "image": "/images/da-vinci-museum/gallery/dv13.jpg",
+              "caption": ""
+            }
+          ]
+        }
+      ]
     }
   ],
   "attractionsLanding": {
