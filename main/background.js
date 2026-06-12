@@ -1,10 +1,13 @@
 import { app } from "electron";
 import serve from "electron-serve";
 import { createWindow } from "./helpers";
-const { ipcMain, BrowserView } = require("electron");
+const { ipcMain, BrowserView, globalShortcut } = require("electron");
 const isProd = process.env.NODE_ENV === "production";
 import { SerialPort } from "serialport";
 const checkInternetConnected = require("check-internet-connected");
+
+let mainWindow;
+let lastLightingCommand = "X0401";
 
 if (isProd) {
   serve({ directory: "app" });
@@ -15,7 +18,7 @@ if (isProd) {
 (async () => {
   await app.whenReady();
 
-  const mainWindow = createWindow("main", {
+  mainWindow = createWindow("main", {
     width: 1080,
     height: 1920,
     kiosk: true,
@@ -31,6 +34,39 @@ if (isProd) {
     await mainWindow.loadURL(`http://localhost:${port}/`);
     mainWindow.webContents.openDevTools();
   }
+
+  const cursorToggleRegistered = globalShortcut.register("CommandOrControl+Shift+C", () => {
+    mainWindow.webContents.executeJavaScript(`
+      (() => {
+        const root = document.documentElement;
+        const showCursor = !root.classList.contains('show-cursor');
+
+        root.classList.toggle('show-cursor', showCursor);
+
+        if (showCursor) {
+          if (document.pointerLockElement && document.exitPointerLock) document.exitPointerLock();
+        } else if (document.body && document.body.requestPointerLock) {
+          const pointerLockRequest = document.body.requestPointerLock();
+          if (pointerLockRequest && pointerLockRequest.catch) pointerLockRequest.catch(() => {});
+        }
+
+        return showCursor;
+      })();
+    `, true).catch((err) => console.error("Failed to toggle cursor visibility", err));
+  });
+
+  if (!cursorToggleRegistered) {
+    console.warn("Failed to register cursor toggle shortcut CommandOrControl+Shift+C");
+  }
+
+  const lightOverlayToggleRegistered = globalShortcut.register("CommandOrControl+Shift+L", () => {
+    mainWindow.webContents.send("toggle-light-overlay", lastLightingCommand);
+  });
+
+  if (!lightOverlayToggleRegistered) {
+    console.warn("Failed to register light overlay shortcut CommandOrControl+Shift+L");
+  }
+
   const externalFrame = new BrowserView();
 
   externalFrame.webContents.on("did-navigate", () => mainWindow.webContents.send("interrupt-timer"));
@@ -74,6 +110,11 @@ app.on("window-all-closed", () => {
   app.quit();
 });
 
+app.on("will-quit", () => {
+  globalShortcut.unregister("CommandOrControl+Shift+C");
+  globalShortcut.unregister("CommandOrControl+Shift+L");
+});
+
 ipcMain.on("close-me", (event, arg) => {
   app.quit();
 });
@@ -89,6 +130,8 @@ let serialport;
 ipcMain.on("send-serial-command", (event, code) => {
   async function sendSerialCommand(code) {
     console.log("sending code: ", code);
+    lastLightingCommand = code;
+    if (mainWindow) mainWindow.webContents.send("lighting-command", code);
     if (serialport) {
       serialport.write(code, (err) => {
         if (err) console.error(err);

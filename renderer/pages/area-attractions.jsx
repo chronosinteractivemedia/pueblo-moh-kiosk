@@ -5,6 +5,7 @@ import Features from "../components/Attractions/Features"
 import List from "../components/Attractions/List"
 import AttractionPopup from "../components/Attractions/AttractionPopup"
 import MultipleAttractionPopup from "../components/Attractions/MultipleAttractionPopup"
+import ThreeOverOneAttractionPopup from "../components/Attractions/ThreeOverOneAttractionPopup"
 import database from "../../database.json"
 
 function AreaAttractions ({areaAttractions, attractionsLanding}) {
@@ -12,6 +13,8 @@ function AreaAttractions ({areaAttractions, attractionsLanding}) {
   const [filterWalkable, setFilterWalkable] = useState(false);
   const [filterType, setFilterType] = useState('All');
   const [displayList, setDisplayList] = useState([]);
+  const currentAttractionHasVideos = currentAttraction?.videos?.length > 0;
+  const useThreeOverOnePopup = currentAttractionHasVideos && currentAttraction.use_3_over_1 === true;
 
   useEffect(() => {window.trackEvent('view-attractions')}, []);
 
@@ -32,8 +35,9 @@ function AreaAttractions ({areaAttractions, attractionsLanding}) {
 
   return(
     <div>
-      {!!currentAttraction && !currentAttraction.videos && <AttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
-      {!!currentAttraction && !!currentAttraction.videos && <MultipleAttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
+      {!!currentAttraction && !currentAttractionHasVideos && <AttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
+      {!!currentAttraction && currentAttractionHasVideos && !useThreeOverOnePopup && <MultipleAttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
+      {!!currentAttraction && useThreeOverOnePopup && <ThreeOverOneAttractionPopup attraction={currentAttraction} onClose={() => setCurrentAttraction(null)} />}
       <div>
         <Header attractionsLanding={attractionsLanding} />
         <SearchBar onSetWalkable={setFilterWalkable} onSetType={setFilterType}/>

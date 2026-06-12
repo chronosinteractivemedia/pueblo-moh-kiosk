@@ -81,7 +81,7 @@ export default function Nav({ items = [] }) {
             </Link>
             <Link href="/3">
               <li data-active={router.asPath === "/3"}>
-                Veterans' Bridge <FiArrowRight />
+                Veterans Bridge <FiArrowRight />
               </li>
             </Link>
             <Link href="/4">
@@ -94,15 +94,22 @@ export default function Nav({ items = [] }) {
                 Pueblo Fallen Peace Officers Memorial <FiArrowRight />
               </li>
             </Link>
+            <Link href="/6">
+              <li data-active={router.asPath === "/6"}>
+                Leonardo da Vinci Museum of North America <FiArrowRight />
+              </li>
+            </Link>
             <Link href="/area-attractions">
               <li data-active={router.asPath === "/area-attractions"}>
                 Pueblo Attractions <FiArrowRight />
               </li>
             </Link>
           </ul>
-          <MedalRotate playing={true} />
+          <div className={styles.medalWrap}>
+            <MedalRotate playing={true} />
+          </div>
           <div className={styles.sponsorSection}>
-            <h2>Sponsored By:</h2>
+            <h2>Sponsored by:</h2>
             <ul className={styles.sponsors}>
               <li>Pueblo Home of Heroes Association</li>
               <li>El Pomar Foundation</li>

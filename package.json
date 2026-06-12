@@ -22,7 +22,8 @@
     "build:mac": "nextron build --mac --x64",
     "build:linux": "nextron build --linux",
     "postinstall": "electron-builder install-app-deps",
-    "listports": "serialport-list -f jsonline"
+    "listports": "serialport-list -f jsonline",
+    "devapp:nix": "nix-shell -p glib nss nspr atk at-spi2-atk dbus libdrm gdk-pixbuf gtk3 pango cairo libx11 libxcomposite libxdamage libxext libxfixes libxrandr expat libxcb libxkbcommon mesa libgbm alsa-lib cups at-spi2-core libxshmfence --run 'export LD_LIBRARY_PATH=$(printf \"%s\" \"$NIX_LDFLAGS\" | tr \" \" \"\\n\" | sed -n \"s/^-L//p\" | paste -sd:); real_node=$(command -v node); tmp=$(mktemp -d); printf \"#!/bin/sh\\nexec \\\"$real_node\\\" --openssl-legacy-provider \\\"\\$@\\\"\\n\" > \"$tmp/node\"; chmod +x \"$tmp/node\"; PATH=\"$tmp:$PWD/node_modules/.bin:$PATH\" nextron'"
   },
   "dependencies": {
     "@serialport/list": "^10.4.0",

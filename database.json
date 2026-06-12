@@ -2001,10 +2001,10 @@
       "types": [
         "Museums"
       ],
-      "walkable": true,
-      "featured": false,
+      "walkable": false,
+      "featured": true,
       "featured_name": "InfoZone News Museum at Rawlings Public Library",
-      "featured_image": "/images/attractions/infozone/infozone-news-museum-featured.jpg",
+      "featured_image": "/images/attractions/infozone-news-museum-featured.jpg",
       "slides": [
         {
           "id": 0,
@@ -2414,6 +2414,7 @@
       "featured": true,
       "featured_name": "Leonardo da Vinci Museum of North America",
       "featured_image": "/images/attractions/da-vinci-museum-featured.jpg",
+      "use_3_over_1": true,
       "videos": [
         {
           "id": 0,
@@ -2430,7 +2431,7 @@
         {
           "id": 2,
           "title": "Machine to Art Tank",
-          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-tank-art-thumb",
+          "thumbnail": "/images/attractions/da-vinci-museum/da-vinci-tank-art-thumb.jpg",
           "file": "/video/openart-video_tank.mp4"
         }
       ],
