@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import style from "../Attractions/Attractions.module.scss";
 import Image from "../Image/Image";
 import ImageSlider from "../ImageSlider/ImageSlider";
+import QrDisplay from "../QrDisplay/QrDisplay";
 import { Modal } from "../Modal/Modal";
 
 export default function ThreeOverOneAttractionPopup ({attraction, onClose}){
@@ -25,6 +26,14 @@ export default function ThreeOverOneAttractionPopup ({attraction, onClose}){
             <h1>{attraction.name}</h1>
             <div dangerouslySetInnerHTML={{__html: attraction.detail}}/>
           </div>
+          {!!attraction.qrcode && <div className={style.threeOverOne_qr}>
+            <QrDisplay
+              url={attraction.qrcode}
+              description={attraction.qrcode_label}
+              isWhite={false}
+              size={87}
+            />
+          </div>}
           <div className={style.threeOverOne_media}>
             {videos.map(item => (
               <div key={item.id} className={style.threeOverOne_video} onClick={() => setVideoToShow(item)}>

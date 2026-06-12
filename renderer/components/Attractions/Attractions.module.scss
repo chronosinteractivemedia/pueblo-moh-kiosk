@@ -423,6 +423,11 @@
     }
   }
 
+  &_qr{
+    @extend .popup_qr;
+    left: 46px;
+  }
+
   &_media{
     position: absolute;
     top: 83px;
